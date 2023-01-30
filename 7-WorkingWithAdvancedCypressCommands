@@ -1,0 +1,187 @@
+In this video, I'll be talking about working with the most common Cyprus commands.
+Once again, this is going to be kind of continuation of our previous video, but just that this time
+we are going to be working with some different Cyprus commands.
+So today we are going to be discussing some of the common commands, something like a visit, get wrap.
+Patent find and filter and eat, etc., so you can see that this visit and get are pretty much something
+that we have already discussed in our previous video, like visit is used for navigating to the euro
+and get is used to get an element from the UI or maybe to get an element variable or an object using
+Alia's again.
+And that is something that we'll be discussing in our upcoming videos of this course.
+But as of now, just be informed that it is not just used to get the UI element, rather, it is even
+used to get Alia's and request header and a sponsored or something like that.
+So you can do a lot of things with the get method.
+And similarly, there is a drop method.
+Again, the wrap is a kind of little complex information, but I don't really want to reveal today in
+this video, but rather we were discussing about that in our next video.
+But as of now, I've just been informed that there is a method called wrap, and this is really, really
+helpful as well.
+And there are some methods like parent, which is used to get or obtain the patent element from the
+present element, let's say you have a button, and if you want to get its patent, you can just use
+the parent method to get its patent, something like that, somebody that is a find and filter methods.
+Again, these are something that you can used to find element and it can filter the element.
+And there is a each method which is used to atria to all the elements.
+So these are some of the methods that we'll be discussing in this video.
+So in order to make use of these commands, I have just created a simple scenario by using or maybe
+working with the tables.
+So this is one of the most common scenarios, like people ask, like how to work with TABOR and how
+to collect the benefits or edit or delete button.
+If you want to work with these kinds of UI where there is no common name for the benefits, edit and
+delete.
+So you can see that there is a name that Karthick, you have benefits there and there is an edit and
+delete.
+But again, this is exactly the same for Prashanth the romance of John, something like that.
+Right.
+So how do you click exactly that particular benefit in here.
+So in order to work with the tables we need to identify the following elements, something like identify
+the table and then we need to identify the exact role that we are going to perform the operation.
+And then we need to identify the element to perform the operation, which is nothing but the benefit,
+and then to click the link, which has benefit since there is no unique identifier for the benefits.
+Right.
+So we have to do all these pseudo stuff if it's in the table.
+So these things we can do using this particular Hamdam object, as you can see in here.
+So as you can see, the benefit is something which is over here in the trough of benefit, as you did
+in the score, one for this particular guy.
+But as you can see, the TR with the TD of Karthick four thousand two, three, four one.
+And the email address is actually sitting in a tree, whereas the benefit is sitting under an.
+So you somehow need to identify its parent because if you see the Karthick, then you have to somehow
+identify its pattern, which is nothing but the R, so that you can then find the element like benefit
+from there.
+So if you are going to be working directly within the tree, you can see the tree is already over here
+and you cannot find this particular benefit out from this.
+Right.
+So you have to somehow navigate out from this tree to find its parent and then you can find the element,
+which is nothing but this tree to perform the operation.
+So we are going to be using the following methods in here.
+So we are going to use the filter and find a method to perform this operation.
+But what is the difference between both of these methods?
+Well, filter method as it names gets the DOM element that matches a specific selector so you can specify
+the selector in here and then it is going to match the exact DOM element for that particular selector.
+Versus the find method is something which gets the descendant of the DOM element of a specific selector
+more like a query behavior of the equity.
+So you can just specify the fine to find the DOM element of that particular locator and then you can
+get all the descendant dom elements from there.
+So this is very helpful because you're getting the whole DOMS and descendant from this find method.
+So the code that we're going to be writing today is going to look something like this.
+As you can see, we have the Seida get off the table that we can find.
+And then within this table, I'm going to find that TR or all the rows off the table and then I'm going
+to check for the John and get its pattern because the pattern is apparently going to return MITRO,
+which is nothing but the TR.
+And using this pattern, I'm going to do a contains of benefits.
+That's the link which I'm going to click and then I'm going to click using the click method.
+You can see the so super simple pseudocode in here, but we are making use of all the methods that we
+have to discuss in this video quickly, see everything in action and understand how things work so far
+that I'm not flip to my associate code ID.
+All right.
+So this is my video studio called Idee.
+And as I discussed before, I'm just going to make use of maybe I'm just going to run this particular
+Cyprus to see how the test is actually going to look like.
+So I'm going to run the aspect.
+Dargis, this file.
+And as you can see, it is going to open the test running for me.
+And this time it is running actually in the electron browser instead of the Chrome browser.
+All right, it seems like it Carindale to find the login, OK, so it's because it was actually logged
+in.
+So let me do it again so you can see it's currently running and it's hitting the login center in the
+username and password.
+So now you click the login and then it has to click the employee list link here so that it can perform
+an operation on this particular table.
+Right.
+So as we say in their discussion before, so if you want to use this particular table, actually you
+need to have this TR and feed information.
+So once again, the table name of this guy is actually Dhat Dayboro.
+So if you go here to the employee list of the employee app, you can see this particular benefits.
+So if I inspect.
+You can see for this particular table, the class name is Table, and then there is a tiara and there
+is a TD for this particular steps for taking this operation.
+Right.
+So in order to use I mean, we work with this guy, what I'm going to do is I'm going to slowly go through
+each and every step.
+So the first thing I'm going to do is click the employee list so far, clicking the employee list.
+I'm going to do Siwy dot contains.
+I'm going to click the employee list, dot click.
+So if I do this and once I save instantly, you can see the test is currently running and it has clicked
+the employee list for US court.
+And I have to find this particular table and to see whether that identifier that I'm using is actually
+correct or not.
+So in order for that to be seen, what I'm going to do is I'm going to go here.
+So for cable, I'm just going to do say dot get.
+Dr. David.
+And if I could save, you can instantly see whether the selecter that you have used to identify the
+table is correct or not, so you can see the table is correct.
+So once I go near to this table, it matches that particular stuff, which is really, really cool.
+Right.
+So it highlights that thing for me.
+And I'm with the table.
+I need to let us find all the D-R are the rows off the table.
+So if I just do like this dard, you can see there is a context coming, which is kind of very, very
+helpful, almost pretty much like whatever that you require for the Hesterman files is coming in for
+you or here.
+Right.
+So you can just do the D.R, which is cool though, brings you all the TR and within this TR if you
+want to filter all the BD, you can do that as well.
+So I'm just going to save this.
+I will quickly show you how the filter and find is going to look like this time.
+So you can see this is the D-R.
+So it seems like there is a timer.
+The reason is because there is no directory for this particular RTR, which is fine.
+And the reason I will tell you how and why it is actually doing it, etc..
+So you can see this is that here and this is the TD, right.
+So it says like that here is like 11.
+So there are 11 rows in here and T is zero.
+The reason is because you're actually identifying not within this year, rather, you're going out of
+this TR and then you are filtering it.
+So in order to find within this D-R, you can use what is called us a greater than the symbol.
+And then TR and TD.
+You mentioned that you can see that this time.
+It's going to show you exactly 80 degrees available for this particular year, so it's not like you
+can just filter down further and further, you can keep on changing it.
+Similarly, finding and finding and finding and finding, and you can change it.
+No, it's not like that.
+You have to specifically tell that how you have to identify this particular element of Cyprus so that
+it can easily find things for you.
+Right.
+So this is one way of getting all the letters and for you.
+But now our quest is to see if I could able to find within D-R, let's say I want to find shammed out
+from there.
+So versioned.
+So if I say it now, you can see it is going to verify if that particular RTR contains Prashanth in
+there.
+And you can see that this time the president has got past and you can see it has been highlighting the
+over there, which means for some reason it is able to identify the name Prashanth from this particular
+period.
+So our cost is almost very easy to find right now.
+So we have found Prashanth or here.
+But the next thing which I'm going to do is I need to exactly click prashanth but if I click Prashanth
+it doesn't make any sense or here because if I click this hand you can see nothing's going to happen
+because basically I click this benefit, but in order to click this particular benefit you have to somehow
+identify its pattern to go on the top so that I can get this particular row.
+And then again I find or filter for benefits so that I can perform an operation so that I can filter
+or maybe I can even do what it's called as contained for that.
+So I'm just going to use patent and then I can even use containers because for contains you can use
+it for hyperlinks.
+I can just do that DA.
+ClipArt.
+If I save this.
+You can see that this has got to pass this time, so it could be able to find that here with Prashanth
+and then incredible to find its patent, as you can see it once I hover, it is showing you the exact
+thing that it has did.
+And then it finally found the benefits and then it perform a click operation on the benefit and then
+it loaded another page, which is really, really cool.
+So this is how I can perform the operation of finding and filtering using Cyprus.
+So the next quest we have is to work with Rob and also how we can make use of rap to identify certain
+element.
+But again, to work with rap, we need to have a good understanding of how to work with variables and
+thens so that we can make use of the rap much efficiently.
+So in order for working with rap, I'm going to show you how to work with different variables.
+Dennes within our Cyprus.
+And again, then method is something to resolve the promise.
+And once again, the promise is something which is already discussed in many of the JavaScript based
+courses, not for automation at least, but in our protractive, because I have already discussed about
+it.
+The promise is something that is going to be used to resolve the truth of the method or the callback
+of the method.
+That's exactly how you can resolve that then method.
+So that's exactly is required for us to understand how things work.
+And in order for that to be understood, we need to have a good understanding of all the variables.
+So we are going to be discussing about all these variables in our next video.
+Thank you.
