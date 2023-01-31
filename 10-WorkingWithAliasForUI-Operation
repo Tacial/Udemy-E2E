@@ -1,0 +1,47 @@
+And the next operation that we doing in this particular video is we are going to be working with the
+Alia's for the U.S. operation so far, working with the UAE operation.
+And I'm going to do this.
+I'm just going to store the PR.
+In a alias, Carl Rose, and then I'm going to be clicking all the rules this time, so it's like a
+cheat where I'm going to be clicking all the rows of this particular employee list.
+So you can see there are playlists with many different rules.
+So I want to click all the leverne rows that I have.
+I want to click that.
+So if I want to do that, I can very easily do using this particular card.
+So maybe I can just copy this card over here and then I want to store this into an alias of rows.
+And then I'm just going to do exactly the same thing, like add rows and I'm going to be calling that
+then.
+But this time, guys, I will show you another cool feature that we have never discussed.
+And this is something which we'll be discussing in our next video, which is nothing but the rap method.
+So you will see the taste of rap even before we're actually discussing that.
+But you will see the potential of using rap in this particular video.
+It's very, very handy and much easy to use with.
+So I'm just going to be calling this rap.
+So once I call this rap, what happens is it is going to bring all the objects off this particular row
+in here.
+And now I can click all the arrows, guys, if I want to click all the rows in an arbitration, if I
+just use one click, what happens in selenium is it is just going to click only one element.
+But if I want to click all the multiple elements of the rows, how do I do that?
+And you can see there is something called multiple.
+Well, there is a property called multiple where we can specify it has.
+True.
+And if I save this.
+You can see that it is running the whole test and it is also going to click all the rows for us in here.
+But you can see that it is clicking each and every rose for us, but for some reason I think it has
+successfully completed these things here.
+But the intention for me is not to do this operation.
+So I'm just going to come and this here.
+I want to click all the rows of there in the front page so you can see that now it's going to perform
+the click operation for each and every rose, something like this.
+And this was also very cool, so if I just save this, you can see it could be able to find a table
+within the another page, the next page of this particular benefit over here.
+And then it clicked each and every operation over here, like hospital, gym, dental car and driver
+here.
+So you can see even these things are being clicked using this particular operation.
+It's very, very cool, guys.
+This is how you can work with areas to perform many different operation.
+So it'll be using this areas.
+A lot will be discussed about, etc. while working with very different testings and things of that nature.
+But as of now, that's all, guys.
+This is how we can work with in much efficient fashion.
+So once again, thank you very much for watching this video and have a great day.
