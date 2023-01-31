@@ -1,0 +1,97 @@
+So today we are going to be working with areas of Cyprus in our last video, we discussed variables
+and we saw there were some problems with variables to access them from outside the then method of the
+promise to be resolved.
+So Eleazar had a very special construct in Cyprus, but has many different applications, something
+like accessing variables outside of the den hulks of more and things of that nature.
+And once again, the hoax is something that we'll be discussing in our upcoming release of this course.
+But as of now, stay informed.
+That hoax is something like a block of code like before or after, Hulk, after and before.
+So these are the holes pretty much like testing or you or maybe spec flow.
+So all these languages has their own hooks to perform such an operation before a test to happen.
+So where these matters can be written and we can access even those variables from the Alia's and then
+working with the UI elements, we can use Alias and then working with Sadaat fixture method for error
+driven testing.
+Well, Fixture is a special kind of method created by Cyprus, which is mainly used to read the media
+from outside, something like a jasen file or an image file under different types of files being supported
+by Cyprus.
+So you can use the site that fixture to access or read those information from outside world, and then
+you can perform an action from there.
+And again, we'll be discussing about that in this later of this course.
+But as of now, this is something that is very, very interesting as well.
+And then working with droughts for and API testing, again, while you use areas using these situations,
+you can perform different sort of operations and you can use the response and request body for many
+different operations for testing those stuffs.
+And again, these are something that we'll be discussing later in our course.
+But as of now, today, we'll be discussing the first two points so far that I'm gonna flip to essentially
+a code I.D..
+All right.
+In a previous video, we saw that this guy is creating some problems.
+Every time I run the site, it is going to be throwing us in message saying the link text is undefined
+and of course, it is undefined.
+The reason is because it is not going to be getting that value out from it.
+Right.
+So in order to get rid of this problem, we are going to be using a different approach, which is nothing.
+But we can make use of what is called us alias.
+So Alias is very, very cool because you can directly store the value within it.
+So I'm just going to be doing something like this.
+So this text link text over here instead of the link text, I'm just going to be removing these guys
+from here.
+And then even they expect the commander value from here, and I'm just going to put a return on their.
+And in order to work with Alia's, as I said, we need to use what is called as an as method.
+So this asymmetry, especially for Alia's, so you can see that assigning an alias for later use the
+references and alias that everything does not get outside outweight command and use the act prefix for
+that particular element that you are offering in here.
+Right.
+So what I'm going to do is I'm just going to use what is called as a link text here.
+So now this particular text is being written.
+So there is a string being written from this particular value, the linked text, and it is stored within
+in here.
+So this value of the linked text value is resolved by the promise and it is stored within this link
+text wherever that we have in the areas.
+And then we can now verify this particular value, not using this way that we have written before.
+I'm just going to be removing that guy completely and I will be using what is called as a side dart
+get method, as it was mentioned in the documentation.
+And I'm using the at symbol or the hair symbol to.
+Access this link text, and then here I'm going to be using what is called ask our then method.
+So as you know, that method is used to be something which can resolve the value out from it.
+So I'm just going to be calling that.
+So just for God's daughter, I I'm just going to specify an X for now.
+And then we can now call our expected method that we just removed the aspect of.
+Daughter X, the one which you just wrote or did, is.
+Equal to logging.
+So this way I can actually verify if the logging actually exist and then I need to click that particular
+link.
+So I'm just going to be calling that Trish.
+Or maybe I can use a contains login dot click because I also need to click.
+As you can see, I can only use the click in conjunction here because this resolves the text for us.
+So let's see what's really happening right now.
+So as you can see, the tests are successfully completed here and I could be able to see that the things
+are actually clicking.
+So let me just run this again, because it is so fast.
+So you can see it has navigated and now we can see that the lagoon is deeply equal to Log-in.
+So this guy, the lagoon is currently verified.
+So we now use the areas to store the link text and then we also verify if that particular link text
+is correct.
+Using this particular here symbol of this link text using the get method, we can go to the alias.
+So this is really, really cool that we could able to perform such an operation much easily using the
+alias of Cyprus.
+And the next thing I'm going to do is I will show you a quick cheat of how we can try to reduce this
+particular piece of code that you are seeing here in a more minimalistic shorthand fashion.
+So there is a shorthand way of doing this particular options that you are seeing here, because as you
+can see, this is a den and there is this particular parameter that you're passing in and then it returns
+this particular text instead of doing this way.
+Let me just copy these values based on here so that you can have a clear understanding of what I'm doing
+instead of this whole stuff.
+As you can see here, I'm just going to remove and I'm going to invoke.
+So this is a different method.
+This time you're using the Cyprus inbuilt method where I can invoke what is called asset text.
+And you can see that we are trying to work with the text here, so I'm just invoking the text.
+And then I'm performing the test operation, I'm just storing that in the link text here.
+So this is a long way of doing promise the closure operation.
+And this is a shorthand way, right?
+It's exactly the same thing.
+There is no change.
+So if I just save this, you can see what's going to happen.
+So this is going to do exactly the same thing that it happened before, but just that it is going to
+be using the invoke method to perform this operation.
+It's very, very simple and it's super handy.
