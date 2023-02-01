@@ -4,8 +4,8 @@ It can be anything.
 It can be asserting the UAE validation can be asserting the response validation or it can be asserting
 anything that you are performing within the application.
 And you can get the output only if you do the assertions in the testing world.
-So in order for that to be done, Cyprus bundles the popular TCHI Assertion Library, as well as some
-helpful extensions for Synon and Jaquie, bringing you dozens of powerful assertions for free.
+So in order for that to be done, Cyprus bundles the popular <TCHI> Chai Assertion Library, as well as some
+helpful extensions for Synon and <Jaquie> jQuery, bringing you dozens of powerful assertions for free.
 So basically all the different assertion libraries that is required for any JavaScript based applications
 are JavaScript based automation testing tool.
 Like in my other course in Udemy and YouTube protractor, we used to have these kind of libraries like
