@@ -1,0 +1,70 @@
+In this video, we'll be working with <Hoke's> Hooks of <Cyprus> Cypress.
+So, as you know that there are different hooks available in many different programming languages and
+many different tools are maybe the best execution tools like inspect flow.
+We have something called us before scenario after scenario, before step after step before test after
+test, before and after something like that.
+Similarly, in Java, the world for testing, we have something like that before and after and similarly
+in the JavaScript world for the framework that we are going to be using the Mocca framework.
+We have something called us before all and before and after all and after.
+So this is the hook that we'll be using here.
+So as it names is kind of pretty straightforward and simple, like before or something before all the
+it blocks this particular code is going to be executed and before means it is going to be executed for
+a specific ID block solely for the after all, and after.
+So let's quickly see everything in action and understand how things work so far that I'm going to flip
+to.
+This is truly a code I.D..
+All right.
+In our last video, we were discussing about the assertions here and now I'm going to be using what
+is called as the before and before and after an awful hoax.
+So I'm just going to cut this bigger piece of code this time.
+And instead of running the test over here, I'm just going to be calling this before you consider something
+us before or here.
+And I'm going to say call for.
+Of particular block, and then I'm going to piss this guy over here, right?
+And I'm just going to say this.
+And now you can see for the test, it is going to pass this particular visit and then it is going to
+perform an assertion for us, like waiting for this particular operation to happen.
+Cool.
+And now I'm just going to call before all but just that, I'm going to be creating two it blocks here
+and this guy is going to be like testing each side for a session with.
+Hoax, and I'm just going to remove this one live from here because I actually need to run to test,
+so maybe I can just come on this book, a piece of code.
+I'm just going to say it.
+And you can see that, too.
+The star running this time.
+And you can see that before all has been executed for this particular test, it is currently executing.
+That's it.
+So you can see that it has passed this particular before method only for one method, testing the site
+for assertion this guy, but it has not passed the visit.
+You are all for this particular cord, but at this point, it has got to pass.
+The reason is because the element actually exists and that someone has successfully completed their
+which.
+OK.
+But in our case, we actually have to navigate for each and every website.
+So if you want to navigate for each and every time for this particular test how to use what is called
+s before.
+Each.
+So it's not like before all, but it's before each, so far, each and every test I have to navigate.
+So you can see that this time I have just saved it.
+So it is executing the test for me.
+So I just visiting the site and now you can see even for this blog, it is actually visiting the site
+and then it is performing the assertion.
+So the visit operation has happened for each and every eight blocks, whereas in our earlier case it
+was only for onely one eight block.
+So that's the major difference between before and before each.
+Right.
+So similarly, we have something called after and after each occasion.
+It's pretty much the same thing.
+So just that you have to pass the after and after each so that it will perform after the test has been
+successfully completed or something like that.
+So this is how we can perform an operation using the hooks of the Cyprus and again, the before and
+after.
+So something that we use for performing certain operations, like visiting the site, performing a very
+common operation, like setting up the databases, read the data from the Jasen file or something like
+that, and then perform certain Stubing of data within the application.
+So all those things we can do within the before are before each.
+And similarly, after the testing successfully completed.
+Let's say if I want to log off from the app or maybe close the application or something like that,
+I can use it after and after each.
+So that's how we can do our work with hooks in Cyprus.
+Thank you.
