@@ -1,0 +1,123 @@
+Today, we are going to work with custom commands of Cypress and we are going to understand how we can
+extend the existing command, as well as adding a new command within our Cyperus so that we can leverage
+the power of Cyprus to work with commands within Cyprus itself.
+So Cyprus comes with its own API for creating custom commands and overriding existing commands.
+The built in Cyprus Command uses the very same API that is defined below.
+So the command that we're going to be looking in this particular video is actually the exact same command
+with Cyprus team itself uses to create a new command that we are seeing something like the visit command
+or open or whatever command that we have seen so far is all created using this particular library that
+we're going to see.
+Custom commands are a great place to define or override commands anywhere.
+Cyprus support command our jazz file since it is loaded before any test files are evaluated by an import
+statement in Cyprus.
+Slash Support Slash Index Dages.
+So if you write any command, the custom commands.
+We have tried everything in what is called as a command start JS file.
+So this is a great place where we can actually write all our code like custom code within our text.
+So in order to work with the Cyprus Custom Command, we have to use these syntax.
+Cyprus commands don't add like name and callback function and similarly Cyprus DOD Command, Artaud,
+name of options with callback function and or write off the callback function and option a name with
+a callback of what it functions.
+So you can either add a new command or you can work with the existing command by using the right method.
+But in this video we are going to be discussing just about creating a new command instead of really
+working with the warhead command itself, because most of the time we may either be just using the existing
+commands or maybe we'll just add a new command to work with.
+So here's the creating a new custom command looks like.
+So as you can see, I'm just going to use the Cyprus.
+Please see the capital C, there is not small C, it's a capital C and it's a Cyprus that commands DOT.
+And where I'm just going to add a command like login and where I'm passing the username and password
+as email password and I'm clicking a log in there and then I'm going to enter the username and password
+value in there and then I'm just clicking the button.
+So this is the basic login operation.
+I've just wrapped up everything within a small command so that I can just call this login.
+So I'm going to do all those magical operation for us.
+So this is exactly what we're going to be doing in this video.
+Let's quickly see everything in action and understand how things work so far that I'm going to flip
+to this whole studio code I.D..
+All right.
+As mentioned in the documentation, we have to write the custom component in the file.
+But the best place, right, is actually within the support of the Commander JS file.
+As you can see, once I click this command, our despite it shows me an example.
+So this example, Commander Gere's file shows you how to create various custom commands and override
+the existing commands.
+So basically it also shows you something.
+And you can see that is by default a good skeleton of what core that you're going to be writing.
+So I'm just going to cheat.
+Just copy some of the code over here and then I'm just going to start working from here.
+So this is the login method and here it enters the username and password and within that we can perform
+the operation.
+So basically, all I'm going to do is this.
+I'm just going to pass the C.
+Why?
+So I'm just gonna write a custom command very, very specific for my test case.
+So I'm just going to copy and paste some of the value from the existing code that I have written.
+Copy this whole thing.
+I'm going to pass it over here.
+And because login also expects to click the logging link and then click the login button.
+So I'm just going to copy some of the other cards from this particular code as well as you can see here.
+So I'm just going to copy and paste it over here and it's going to click the login button as well.
+So I'm just going to copy or maybe grab cut this code because I don't really require this anymore.
+And I'm going to paste over here for form log in, click and then enter the username and password.
+This is going to be username.
+I'm just going to copy paste over here.
+And this is basically going to be password.
+All right, so that's it.
+So the command has been successfully added right now and then I'm going to call this particular log-in
+within my corridor here.
+Right.
+So, as you know, we are using that area and testing.
+I'm just going to remove this particular piece of code from here and also this particular code, because
+it doesn't really matter right now.
+And I'm going to paste maybe I'm going to call Sadaat.
+So in order for our custom command to be called out, I'm going to do is call the I say dot and you
+can see that this time.
+If I call the login for sure, it is not going to show us anything like Intellisense, which is fine.
+And then here I'm just going to pass the user dot username Qamar user dot password to perform the login
+operation for us.
+Right.
+So this way it performs the username and password, the entry within the login method.
+And again, this lagom that is going to be coming from the command where it is going to enter the user
+name and password over here.
+And then it's performed the login button.
+Right.
+So I'm just going to save this card.
+And now if I go to the execution, you can see that it has came here.
+Oops.
+I think it has not clicked that login button.
+And before that, we are actually doing the assertions here and that's the reason it is not working
+that thing.
+So what I'm going to do is I'm just going to cut this pasted ambassador here.
+This is after logging and then I'm going to discard this complete code and I'm going to pass it over
+here.
+And since the logging is going to happen for our application every time, I'm just going to cut this
+code as well.
+I'm not bestor here.
+So it seems like there are so many things happening here and maybe this particular card is better to
+go within the login code or here, the reason is because this card is something which is which we were
+using for verifying the login link.
+Right.
+So I'm just going to put this big over here.
+I think everything looks good.
+So I was going to visit and then it's going to read the data and then it's going to enter the username
+and password, which is all good.
+Yep, so now it enters the username and password and then it's going to perform the rest of the operation.
+All right.
+It seems to be failing.
+So I'm just going to say it once again and I'm going to run that.
+So let's see where the error is actually happening.
+So we're verifying.
+Yeah, better for me to include account slash login, which is something I'm doing, maybe I'm doing
+something wrong here so I'm doing here, which is not correct.
+So I just have to remove this guy from here.
+And once I click this login, I have to verify that.
+So I should be doing that particular assertion after I click this particular login.
+So I should be doing it here, not or there.
+Yep, seems like everything is good now, so you can see they're using this particular custom methods
+and the hooks, we can reduce the amount of code that we are writing tremendously.
+And right now, the code that was so big before has been reduced so small because all the most commonly
+called methods are moved into this particular custom commands so that we can directly use only those
+command, which are very, very helpful for us, know as a method, rather directly writing everything
+within this particular ID block itself.
+So this is one of the ways of organizing your code using custom command in Cyprus.
+So to disguise this, how we can work for Cyprus Command and custom commands.
+Starting on next video, we'll be discussing about a different way of configuring Cyprus framework.
