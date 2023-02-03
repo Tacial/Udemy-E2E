@@ -1,0 +1,81 @@
+So today we are going to talk about working with plug ins of Cyprus, so in this video, we are going
+to really create an implosion.
+Rather, we are going to be using some of the most popular plugins available for Cyprus, something
+like dark theme or cucumber plug in for Cyprus and all those jobs we've been discussing within this
+video.
+And once again, who can plug in this like a separate section, guys?
+It's not something which is just fitting into a plug in section.
+It's like a separate section.
+And it's the most requested feature as well.
+Like a lot of people are talking like how we can work with Cyprus and Cyprus with cucumber in much greater
+detail.
+So we are going to be talking about that plugging in this video as well.
+So let's quickly jump into the plug in section and start working with how we can leverage the power
+of community driven plug ins, and maybe if you want to develop your own plug in, you can still do
+that.
+But you're not going to be discussing about that in this video.
+So for that, I'm going to flip to Safari browser.
+So as you can see, there are something called us plug ins.
+So if I hear the plug ins, you can see Cyprus provide a number of plug ins available.
+So some of the plug in types is like preprocessor.
+So in preprocessor, we have something like Browsr Wi-Fi cucumber and Cypress Aperture preprocessor
+BIPAC Watch and excellent.
+And similarly for development tools.
+You have something like here and this one, the Cyprus dog team was kind of very, very interesting
+for me, because if you see the Cyprus dog team, it brings you some of the dog team operation.
+The one which we have right now is like a white theme.
+So every time you execute the test, it is going to be kind of very, very white and it is not as beautiful
+as this one.
+So this dog team is really, really cool.
+So we'll be exploring about that.
+And also we'll be talking about the Cypress cucumber plugin, which is also very, very handy.
+And you can see that just kind of checked in most of the time and is contributed to by like 19 contributors.
+But the plugin itself is very, very simple.
+But just that the way it has been designed is really, really cool.
+So we'll be talking about how to configure and work with the cucumber with Cyprus in this video series.
+But as of now, let's work with the DART team and see how it works.
+So what I'm basically going to do is I'm going to install this particular DART team within my project
+or here.
+So NPM install hyphen, hyphen, safehaven of Cyprus dog.
+So once I do that, it is going to start installing the plug in for me within this particular project.
+And then it says that you can use the Halloween theme, which is really cool.
+So maybe we can just use the Cyprus dog for now and then we can talk with this Halloween theme.
+But as of now, I'm just going to copy this and you can see that it has they mentioned that we need
+to add this line in the Cyprus Support Index Dargis file.
+So we have this indexed Dargis by here.
+So I'm going to be importing this particular file like require Cyprus dark and that's it.
+That's the only change I have to made.
+And once I make that change, you're going to probably see all those stuffs coming in.
+So I'm just going to go to the Cyprus runner and.
+I guess I can just run that, but for some reason, the test has been stopped here, so.
+I just have to, uh, open the Cyprus, uh, silly little slash.
+All right, so now we have this idea, our suspect, our James files, I'm just going to open that.
+So I expect this white color to be black.
+There you go.
+So now we can see this is like a dark team, just kind of really cool.
+But you can see that the text is kind of not that visible as like the white color.
+But it's really cool to see that it is black because my Mac itself, like, uses the black team and
+this team is aligning with my Mac, which is really cool.
+So you can see that the community can keep on extending the test, the drone or even any point of time.
+So if I just use the Halloween theme, it's kind of funny that the Halloween theme has all these colorful
+caused and all the stuff.
+So probably my daughter would really like this.
+But as of now, I'm just going to be using this and I will show you how it looks like.
+So I just change that Halloween theme.
+And now if I just execute this card, maybe I just have to.
+Stop.
+And stop, Akane.
+I just call this.
+So now this is the Halloween theme and you can see all these ghosts coming in here like skeleton and
+caused here, and this is what the pumpkin, you know, just really cool.
+So it's like an orange color.
+And the good thing is, like, if you just go near to the visitor or something like that, you can see
+there is a blurred blood with the syringe coming in for each and every steps kind of frenzy.
+But yeah, this is how you can work with the different sort of community driven plugins available within
+Cypress.
+And again, if you want to create your own plug ins, you can see there is something called a plugin
+guide where it has mentioned very clearly that you can start working with your own plugins, like something
+like how you can do that.
+Using this model to export and all those stuffs, but again, this is not the scope of this cause I'm
+not going to be discussing about that so we can discuss about that later in the course.
+But as of now, this is how we can use the third party plug ins.
