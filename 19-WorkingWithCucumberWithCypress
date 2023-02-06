@@ -1,0 +1,108 @@
+//Section 4: Behavioural Driven Development (BDD) Testing with Cucumber
+
+So today we are going to work with cucumber, with Cyprus, plug in, and once again, this is one of
+the most requested feature from community regarding how we can use cucumber within Cyprus to get the
+all awesome features that Cyprus has actually got.
+So we are going to be discussing about that in this particular video.
+All right.
+So let's get started.
+Cucumber with Cyprus preprocessor helps to leverage the power of cucumber in Cyprus.
+So in order to work with this cucumber, preprocessor, all we have to do is this.
+We have to do this NPM install of Salvado of Cyprus cucumber preprocessor.
+We just have to do that.
+And once the insulation is done, as we did in the previous video regarding the Halloween theme, black
+team insulation, we have to call the preprocessor in the support index darte.
+Just file something like this.
+We have to export this particular preprocessor.
+And once we have exported this, we also have to map our digital disturbed definition files as like
+how we do with Java or C Sharp or maybe another JS file libraries.
+So we have to do this Cyprus Cocomo preprocessor of Globalstar definitions Asatru.
+So we have to set this no Globalstar definitions as true in the package dot jasen file.
+So if you specify that we will have all these settings ready.
+So this particular settings that you can see here is going to be by default in upcoming release.
+But as of now, this is something that we need to add for the package.
+Dages on file and then the features and step definition folder structure.
+So the features and folders is a little different then compared to other languages there in other languages
+will have like a features folder and then we'll have something like a folder and then we create all
+the steps.
+But here we have something called as a feature like here to start feature.
+And in order to map this definition, we have to create a folder called Year Test.
+And within that folder we need to create this year to start JS file.
+So this is considered as one of the best practices, but you can already do this as well.
+Maybe you can create the Janus file in a common folder or maybe in a separate folder where you have
+to work with that step definition files.
+You can do all those jobs.
+But this is one of the most recommended folder structure by the by the author that he has mentioned
+that we have to only work with this kind of structure to map the step definition's with the feature
+file.
+So this is how things are created in this, a little bit different compared to the other toolset.
+But but, yes, this is how we have to work with.
+So we are going to see everything in action like insulation and getting started in this video.
+And then the next video will start really creating the feature files.
+And in the following video will also work with the data tables and see how we can leverage the power
+of Google in much efficient way.
+So for that, I'm gonna flip to this studio called Idee.
+All right.
+So this is the plugin that we were working on, our previous video.
+And in this video, we are going to be working with this particular guy, the cucumber preprocessor
+plugin.
+So I'm just going to copy this guy and let's stop this particular execution and I'm going to paste this
+preprocessor installation.
+So while this is happening, you can see that within this.
+Cyprus plug ins of index start jazz file, we have the copy paste these lines, so pretty much like
+how we did before, but just at this time, we are going to be doing that in the plug in, rather,
+in the supports.
+So I'm just going to be putting that.
+So as you see, this time, we are using the plug ins, which is something not that before.
+So I'm going to remove the existing structure, which it had.
+So the insulation is done.
+And then we have to add this particular Cypress convert preprocessor of Itano global step definition's
+as true in the package JSON file.
+So I'm going to be adding that here because this is where all these settings are actually sitting.
+So I'm just going to add this plug in settings basically over here.
+All right, so this is the basic, very, very basic insulation part as of now we have and now what
+I'm going to do is I'm going to create a feature file.
+So I'm just going to create a feature file within.
+The integration folder, not within the exemplars folder, because example folder has all the spec files.
+So maybe this time I'm going to create all of them within this integration folder, or maybe I can create
+another folder within this integration.
+Let's call this as.
+Cucumber and within this cucumber, we can create the
+test folder.
+This is where the step definition is going to sit, but within this cucumber, I'm going to create a
+file.
+I'm going to call this as it test start.
+Feature.
+So this is the feature file basically, and this is the definition file, which is going to be sitting
+within it.
+So for that, I'm going to create a new file and I'm going to call that as.
+A test doesn't just fail, right, so this is the definition fail and this is the feature file and this
+is the folder which actually has that thing.
+Right.
+So that's it.
+So this is the very, very super simple operation that we had we're doing here.
+So within this feature, I'm going to start writing the feature name and all those stuff.
+Again, the features and all the stuff is pretty much like how we do with other languages.
+And you can see the ones I typed a feature just brings me up the intelligence and you can expect like
+how this thing is actually coming.
+So I have installed a plugin called Cucumber Gurkin full support plugin.
+So if you install that, you'll also get all these features.
+But again, this is very, very compatible with protractors and other languages because that has this
+kind of structure like test our features folder and then step definitions folder.
+But as of now, since we are going to be dealing with our this folder structure, you cannot really
+enhance or get the enhanced power of this plugin itself.
+Just that you can see the other companies are going to be happening for you automatically so you can
+do all those jobs in here.
+But as of now, we cannot get the full potential of this particular plugin without having that right.
+So I'm just going to say, like.
+That's.
+So it's going to be like a test feature, something like that, and then I'm going to say.
+Best feature, and then I'm going to write the scenario so you can see automatically, it brings me
+up the scenario and scenario outline so I can write the scenario here, something like this log in feature,
+and then I can type like given I visit the site.
+Oops.
+And then I can say, given I click login link and I.
+Login, so user with admin and password, something like that, so it makes more readable because it's
+kind of bigger, let's say this is the scenario and now we know how to implement this particular scenario.
+And we have tried all the step definitions within this particular darce files.
+So these things will be doing our next video.
