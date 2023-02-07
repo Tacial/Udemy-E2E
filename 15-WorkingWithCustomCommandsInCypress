@@ -1,3 +1,5 @@
+// Section 3: Working with Advanced features of Cypress
+
 Today, we are going to work with custom commands of Cypress and we are going to understand how we can
 extend the existing command, as well as adding a new command within our Cyperus so that we can leverage
 the power of Cyprus to work with commands within Cyprus itself.
