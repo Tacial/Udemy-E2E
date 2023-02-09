@@ -1,0 +1,193 @@
+Well, in our last video, we saw how we can actually work with the Lamda Test website, like how on
+there we are actually going to do an assertion of the XIKAR and in this video and start working with
+it.
+So for the sake of some time, actually created a file like this, which are dark, our Gere's.
+And here I'm actually going to start writing my test scenarios.
+So I'm going to say like test lamda test.
+Website, and then I'm going write on it blog here, where I'll be saying Perform Login and verify X
+Hatchard.
+So far, the login operation I have already received the username and password object, so I'm just
+going to pay Izidor here.
+But since the username is OK, you can see that password is kind of sensitive.
+I'm actually going to be putting the password in the JS on file and what I ship this particular call
+to the udemy.
+You will not see my password over there, so probably you have to replace that with the password that
+you have the username and password.
+Right.
+So I'm just going to copy and paste some of the cards that I have identified that the e-mail and the
+user name and for the type, I'm actually going to just log this as file so that you don't even see
+that in my UI.
+Once this is done, I'm actually going to create a JS on file in the fixture folder and I'm going to
+call this JS and file as Lambda User and here I'm going to fill my username and password.
+So the user name is going to be this one, as you already know.
+And the password I'll be filling in over here and here.
+I'm actually going to be reading the data from how we did the relevant testing.
+If I remember in our previous videos, we did the data driven testing.
+And if you saw the previous code that I have used, like how I read the data, something like this.
+So I'm just going to be cheating by copying some of the code from here and I'm just going to be pasting
+it here instead of E user.
+It is going to be.
+Lambda user Schlamme browser is not lambda right anyways, and this is going to be saved in the lambda
+user and I'm just going to be calling that over here and for the username, if I remember in our previous
+video, we just passed the user off username and use it a password.
+So I'm just going to be using exactly the same thing even this time.
+So type.
+User, that user name and type.
+User Don Password.
+Right, so I'm just going to say this, so this will actually run the test for me for entering the user
+name and password.
+So once this is done, probably our test should be good.
+But I also have to navigate to my lamda test Yooralla, which is nothing but that you are allowed that
+you just saw the accounts of something like that.
+So probably if I log out, you can see that it is actually navigating the district where you are.
+So I can write that in the before.
+So I can see that it's like a quick recap of how we did all these days and to find that once again,
+as I said, Windows should be our command should be to foment that.
+And you can forward the alignments here.
+No, I can go to my questioner.
+Uh, right.
+OK, it seems like our files are missing because in our last video hidden all those options.
+So I'm just going to go to the Cyprus Jasen and remove these guys, save it.
+And now, if you can see, it just brings me up all of these guys here and now I can just go to the
+best XIKAR, this one.
+And if I run this, it should probably Log-in.
+And of course, it won't click that particular login button, so probably I actually have to do that
+click as well.
+I completely forgot that so far.
+The login button clicking I am just going to be doing this particular operation like, say, doget of
+this particular button and that I'm going to be hitting that click.
+So this is the operation for clicking the login button.
+And also I have noticed that for the lambda fixture lambda user fixture, I actually have to use at
+Lambda User here and this is going to be Lambda User as well.
+Oops.
+Somehow I missed all of them.
+Now the code looks OK.
+I'm just going to save it and now let's see what's really happening.
+So now it should navigate to the application to enter the username and password and then click the login
+button.
+So once it click the login button there, it seems like the password is not correct.
+So let me change that password in the in the design file.
+All right.
+I made the changes.
+I'm just going to save it and run it again.
+So you should see this time it is logging in, hopefully.
+There you go.
+It just logged in and I'm just waiting for the dashboard to appear.
+And you can see that by the time of loading the dashboard.
+It also showed me some of the exits are here.
+And this is the first time that we are seeing in this particular cause, like the X Hatchard, we have
+seen something like before all and test and also something like page law forms of made or something
+like that.
+We are also seeing like a new you are but not this exact.
+You are so excited is something which we completely do not see in this course.
+But this is something very, very handy and very, very useful.
+And as I said before, this is an intrinsic part of the Cyprus itself.
+And we can do a lot of verification from this.
+So as you can see for verifying this particular team this time, of course, we can't see anything there.
+Even if you see the response, you won't see anything coming in for the response at least.
+But actually, we can see what is this particular API is actually doing.
+So now I'm actually going to work with this particular API, as I showed you in this particular Chrome
+browser, that this is the API that I'm interested in.
+So this time I'm actually going to be working with one of such API and I will see, like, how we can
+make use of that in order for that to be done.
+The first API that I'm using is going to be the login button.
+I will show you which API so you can see that one such API as I'm planning to use this time is going
+to be this organization and team.
+And there is something called US Automation Test Summary.
+So we probably can verify these to Exeter and see how we can make use of our Cyperus to verify the value
+which we're getting is correct or not.
+So as I said before, in order to do this, the first thing we need to do is to call what is called
+a that site, our server.
+Right.
+So far that I'm just going to be starting the site, our server here.
+So start the server.
+I'm going to call this a Seida server.
+So this will initiate the server.
+And once again, as you note here, this is the server, which means it is just going to listen an external
+application.
+But if you have an server within your own machine or within your own local environment or something
+like that, you can also specify the server detail here.
+So if I just had control space, you can see there are so many different options available within the
+server method, something like eval escape, encoder UI.
+You are all component focus furch and things of that nature that are so many different methods available.
+Guys, we can make use of this story a lot so far.
+Stubing and mocking the server and all those steps.
+This particular server is very, very important and this is the one that we are going to see is very,
+very small feature, but even that are further enhanced feature available within Cyprus.
+And again, these are not the scope of this particular cause.
+So I'm just going to be calling the server as it is and then I'm going to be calling this aroud method.
+So this round method is the hero of this particular whole section.
+The reason is because this is where we are going to be playing around with the Cyprus itself.
+So if you just click this particular route, I quickly show you how it looks like.
+So as you can see, the road managers, the behavior of that network request.
+So basically it says that they are assuming us to know the core concept of network request.
+But again, this is one of the most important method that we use for performing operation.
+So here you can see that you can pass the you are you can pass the response, you can pass the method
+and the you are a callback functions and options.
+And you can probably go through all of these details if you have time.
+It's very, very easy.
+And maybe this document will be upgraded while there is a new feature coming in.
+But we are going to see some of the essential part of this particular documentation.
+I guess we'll cover most of them as well.
+So I'm just going to open this particular request, the route, and then I'm just going to be writing
+a method here.
+So this time I will be performing a method which is going to be a get request.
+Let's get out and then I'm going to pass the you are on so that you are told that I'm passing in is
+going to be not like an exact you are rather it can be a relative.
+You are an absolute zero.
+So I can just pass the API slash user slash organization slash.
+Let me see.
+What is that.
+I guess it's team.
+Right.
+So you can see that I'm just getting that particular URL here and I'm going to use our most important
+function, just nothing but the Alia's function to store all the details of the team.
+So this is where I'm going to be storing all the responses coming from this particular from this particular
+request, which is the request of the team.
+And I would be storing this particular team, alias.
+And once the whole operation is done, I can do an assertion here.
+So basically I'm going to be doing an assertion in this area and I will see, like, how we can perform
+an operation from that.
+So in order for that to be done and I'm going to do is this I'm just going to be calling this psi dot
+get.
+And as you know, we have this particular area right now called Kadeem.
+I can just call that.
+And from there I can just call maybe Accenture again.
+It's pretty much the same syntax like how we discussed before.
+And I'll go through one by one.
+So as I said, we have so many different methods available with the XIKAR, something like a status.
+So I'm just going to call that to equal two hundred.
+So I just want to verify because I know that this is going to be returning me two hundred for sure.
+I'm just going to be doing that so I don't see what's going to happen.
+And you can see that this time we're going to verify this guy.
+The team, that's why there is a team here and it got the response of 200.
+So they expected two hundred is equal to two.
+So it got passed, which is really, really cool.
+Right.
+And similarly, if I want to see if I get some other options out from it.
+So let me just logging in and let's say if I want to verify maybe the name and the role for this particular
+stuff that the name and the role, both of them.
+So I can directly go in here and I can just expect XIKAR dot response because it's going to be a response.
+Right.
+So response dot bardy dot.
+And because you can just expect like this is a body, but it is not just a body guys.
+It actually if you just see the response a little bit, it has something called as a data as well.
+Right.
+So this is the body and it has a data tag.
+So I just have to use the data.
+And within this data, I'm just going to get the first one zero, like how I'm just going to navigate
+like this particular jasen I want this to be or to have.
+A property you can see that assertion is really, really handy this time to have a property on them.
+I'm just going to save that and I'll see whether I have a proper legal name.
+And once if I find that what I'm doing is correct, then probably I can verify if this particular property
+name has Kartikeya in.
+It doesn't like that.
+There you go, it could be able to verify that, so there is a property, Kaname.
+So what we are traversing right now is correct.
+And then I can just go do something like this.
+I have saved it so you can see that it is currently going to run.
+And it found the property name of Kadee K.K, which is pretty cool, so we could able to FaceTime perform
+an operation on the property of an ex, which are much simpler, much efficiently and effortlessly using
+Cyprus.
+So I will continue the same operation.
+Our next video and I will show you how we can expand this particular operation even further.
