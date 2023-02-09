@@ -1,0 +1,120 @@
+Hi, guys, my name is Karthick, and I am from another automation dotcom, and welcome to another section
+of our course into Web automation testing with Cyprus.
+And in this area we're talking about working with XIKAR or Zagar.
+XDR stands, for example, has JDP request is an API in the form of an object whose method transfers
+data between a Web browser and a Web server.
+So the object is provided by the browsers.
+JavaScript environment, particularly retrieval of data from XIKAR for a purpose of continually modifying
+a loaded webpage is underlaying concept of Ajax design.
+And despite the name ichthyosaur can be used with protocols other than his HTTP and data can be in the
+form of not only XML, but also jasen his HTML and our plain text.
+So as you can see, this text is something I have taken from Wikipedia and it really makes a lot of
+sense because it's very, very precise and very, very clear to actually understand what this chart
+is all about.
+And you can see that it is something most of the people know already.
+And now people are actually using windows that Fritsche to perform the operation instead of XIKAR and
+this window dart, which is something an upcoming feature of Cyprus, which Cyprus team are currently
+working on, because a lot of developers are now using the window that furch rather FSR to work with,
+because it seems like that window that fetches even more faster, more asynchronous and it is very easy
+to play around with the objects.
+That's why people are moving towards the window that first rather XIKAR.
+But this chart is there for a long time and a lot of browsers currently support exaggerated.
+But Vindolanda, which is something which is not supported by all the browsers.
+So probably it's going to take a lot of time for the browsers to implement.
+And at the same time, Cyprus is already working on it to release the support in the near future.
+So it's going to be coming very soon as well.
+But as that said, can be achieved XIKAR in selenium.
+Well, of course, yes, we can achieve this.
+Using that in proxy server running and grabbing in Hodda files for retrieving the value of the popular
+tool.
+Is the browser more proxy?
+But it's really hard since you have to manually manipulate the higher file, read and parse it and also
+need to assert the value after you read the value from the file and then you do sort of operations in
+there.
+Again, it's kind of an external Jodha file.
+Keep on running as a proxy to listen like what's happening between your Web server and your Web browser.
+And then you need to retrieve the value and then you have to do a search.
+It's kind of a pain in the butt because they don't have an out-of-the-box support of XIKAR.
+Rather, you have to do it using some third party data files and things of that nature.
+But XIKAR is built in the core of Cyprus.
+Cyprus makes it easy to test the entire life cycle of Ajax and XIKAR request.
+Within your application, Cyprus provides you direct access to the XIKAR object, enabling you to make
+assertions about properties.
+Additionally, you can even Stubbe and market a response that's really, really cool and again, marking
+off the Stubbe and request and response to something that will not be discussing in this particular
+season, at least season one.
+The reason is because the season one is more focused towards getting you understand how to work with
+Cyprus and how to get things done in Cyprus.
+So we have been talking about Cyprus like more basic concepts, like Cyprus works and things of that
+nature.
+But there are some advanced concept on Cyprus where you can also work with the integration.
+And, you know, there are some places where you have to mark the requestion responses.
+So those things we'll be discussing in our upcoming seasons, maybe before mid of this year or something
+like that.
+But as of now, this is what it is.
+But these are the things that we can achieve in Cyprus.
+Already so long, the common testing scenarios with Cyprus requirements are like asserting on a request,
+a body request.
+You CRL request header response body and request status call response header and responses and response
+to happens and things of that nature.
+So you can do all sorts of jobs using the Cyprus on building features and they call it as road.
+So basically that is a method called Seida drought.
+So using Seida drought, we can perform all this operation well as we know that there is something called
+us proxy's been coming in.
+Picture SPEL how to start the same operation XIKAR, even though it's kind of in the heart and soul
+of Cyprus, like there should be some set up already, right?
+Well, it's very, very simple and straightforward.
+All you have to do is just start the server using Seida server.
+That's it.
+And once you start that, then you can start routing and the routing is going to be looking very, very
+simple.
+And that will be discussing in this video.
+But if you see the assertion of the broader value which is stored in the Alia's can be done something
+like this, as you can see, I can verify the status and its response and response and its body, and
+we can verify if that particular property has a max cue and things of that nature.
+So we were discussing all sorts of things in this particular video.
+So let's quickly see everything in action and understand how things work so far that I'm not flip to
+my Chrome browser.
+All right.
+To this is my Chrome browser and I'm going to start working with the Exeter.
+But this time I'm actually not going to use our E.A. app.
+Rather, I'm going to be using the LAMDA Test website.
+Guys, this is going to be something very, very real time.
+So I just want to make sure that you already know some of the concept of how to debug using Chrome developer
+tool.
+So all I'm going to do is this.
+I'm going to be working with this lambda test application and I'm going to verify and see how I can
+actually perform such an operation, which I cannot able to perform using selenium and also some other
+tools available in the market.
+So I'm going to do is this I am going to verify certain XIKAR requests and responses coming from the
+server and going through the browser.
+So if I just do and if Tyrrell's I can open up this particular Chrome developer console and if I hit
+login, you can see that it is going to bring me such an operation over here.
+It's going to show me all the different kinds of stuff that is happening behind the scenes.
+So if I hit this login, you probably will see my password.
+So I'm not going to show you that.
+Rather, the one which I will be verifying this time is going to be on the.
+Decide.
+So, as you can see, it shows me the graph on the here and it shows me the team.
+So it's like a like you are actually running through.
+And if you go to the preview and if you see what's really happening, so it shows me the e-mail and
+it shows me the name and he shows me the role.
+So basically, I'm the admin of this particular portal.
+So you can also do some sort of role testing using this.
+So you can see that there is a role of admin and there's a username of to.
+So this is from an ad from there and this brings me up the username there.
+So I just want to verify that if I use this username and password combination login to my lambdas website
+and I have to verify if that this user is actually has a role of admin and whether the server returns
+me, what is the user name and what is it last logged in and something last logged in and things of
+that nature.
+Right.
+You can also see that the last in is going to be something which is kind of changing, I guess.
+So every time you just refresh, the last log in will be updated.
+I'm just going to be coming from the server.
+And if you go here, you can see that it's saying that the last logging is like one minute ago.
+So you can verify these kinds of stuffs using the XIKAR.
+So which are something it's not related to UI, but it's also not an API.
+It's actually an exchange is happening behind the scene between your Web browser and within your Web
+server.
+So we'll be verifying this sort of operation in our Cyprus feature Essential Feature of Cyprus, which
+I'll be discussing in our next video.
