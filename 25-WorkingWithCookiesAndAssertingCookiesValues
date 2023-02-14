@@ -1,0 +1,65 @@
+In our last video, we discussed how to work with Accenture and how we can deal with all these great
+options of reading from exercise and things of that nature.
+We also do a lot of assertions available and also bizarre, like how we can assert things much easily
+and simply.
+And today we are going to work with cookies of Cyprus and we'll see how we can read cookies much, much
+easier than ever before.
+And it's very easy to do in Cyprus because it's spelled like that.
+So as you can see, to read the cookies information, you actually have to go to somewhere called as
+applications where you have something called cookies options.
+And if you see for the account dot, dot, dot, dot, dot com, you have this cookies information stored
+in here.
+You can verify whether your cookie has this SRF token being available or there is an access token created
+for you, or if you want to verify whether this particular user ID is for, to, for or something like
+that.
+So I can probably verify this for one to four because it's kind of very interesting, very small, and
+it's very easy for me to verify as well.
+So I can just verify whether this user I.D. cookie has the property of value.
+As for one to two for something like that.
+Right.
+So if I want to verify this is kind of very, very simple, guys, all I would do is this.
+I can just go over here and I can just write another ID block.
+So I'm just going to say verify.
+LAMDA test coquis login to the application, so I guess it's going to visit the site at least, but
+it is not going to login for me, so maybe I can just copy paste all these values over there as a cheat
+or maybe just to have a login.
+So for that I can just copy paste this card or here and this is going to be logging in for me and once
+it logs in then I'm actually going to be doing the cookie operation so far, cookie operation.
+I'm just going to use the Seida, a method called get cookie.
+So this is one that is responsible for getting the cookie value.
+So if I remember, I'm going to be getting the user ID, which has the property.
+As the values and I'm going to verify whether it has the value as to double for it.
+Right.
+So if I just do this, if I just save this, you will see that I'm getting an error and the cost is
+actually coming from this guy, basically, because it actually throws me an error and just sounds like
+a cost.
+So probably that's the problem.
+Well, that's not the problem.
+The problem is because we actually have to make these ads before each so that it runs for each and every
+test.
+So now I just save this and hopefully this time the code will work fine.
+So you can see that it is running this guy the fastest that it perform Log-in.
+All right.
+So this one is running, which is completed, I guess, yet.
+So this test is fully completed and it is running the second test and hopefully this should pass as
+well.
+All right, seems like the site is getting very slow.
+There you go.
+Oops, we got some error here.
+It's because of my typo, so the propertied has is four one two four four.
+But I just put like four.
+One, two, two four.
+Oh, my God, it's four.
+One, two, four four.
+So for one, for one, two, two, four, two, four.
+All right, so once I say this, you can see that this is going on fine without any problem.
+So this is how we can work with cookies and we can verify different properties of cookies and verify
+and work with the XIKAR much easily.
+And this is one of the most interesting part of Cyprus itself, because this makes Cyprus even more
+fascinating and more available and even more testable in many different aspect of our application,
+which we have never did this in selenium, ever.
+So these are some of the great things that we can achieve in Cyprus, guys, and it's really, really
+cool.
+So once again, thank you very much.
+Watching this section starting on next section, we are going to be talking about API testing with Cyprus.
+Thank you.
