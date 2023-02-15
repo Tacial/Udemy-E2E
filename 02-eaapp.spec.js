@@ -11,12 +11,10 @@ describe("Testing of EA App", () => {
             expect(linkText).is.eql('Login');
         }).click();
 
-        /*
-        cy.get("#loginLink").then(($link) => {
+        /* cy.get("#loginLink").then(($link) => {
             const linkText = $link.text();
             expect(linkText)is.eql('Login);
-        }).click();
-        */
+        }).click();  */
 
         cy.url().should("include","/Account/Login");
 
