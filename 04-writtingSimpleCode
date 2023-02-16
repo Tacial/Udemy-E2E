@@ -1,3 +1,4 @@
+
 So today we are going to write a very super simple chord with Cyprus and understand how things work.
 So until our last video, we discussed how we can do the installation.
 And also we saw a complete introduction of Cyprus.
@@ -18,6 +19,7 @@ And again, don't worry too much about how the more Carti framework is actually d
 works is very simple.
 All you have to do is you have to use that described block, which is like a context where it has like
 a scenario.
+
 And within this scenario you can have like multiple scenarios grouped something like an ID block.
 So it here is like perform log-in.
 It's like a scenario where it's going to perform this operation.
