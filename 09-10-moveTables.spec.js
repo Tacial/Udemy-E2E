@@ -31,7 +31,5 @@ describe("Testing of EA App", () => {
         cy.get("@rows").then(($row) => {
             cy.wrap($row).click({multiple:true});
         })
-
-        
     })
 })
