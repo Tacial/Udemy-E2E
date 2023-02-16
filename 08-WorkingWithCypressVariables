@@ -10,7 +10,7 @@ So then method is mainly used to resolve the promises so that it can execute the
 then before it starts working with the another set command.
 So it is very, very important to understand how the commands are being executed within Cyprus.
 So in order for that, I will show you quickly how the command execution order is been happening within
-Cyprus.
+<Cyprus> Cypress.
 So as you can see in our last video, we were executing this card like visiting the website.
 And then Siwy contains the login and clicking the login link and then verifying if that includes this
 particular euro.
