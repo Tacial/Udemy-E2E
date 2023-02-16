@@ -5,7 +5,6 @@ describe("Testing of EA App", () => {
     it("Login application", () => {
         //visiting website
         cy.visit("http://eaapp.somee.com/");
-
         cy.contains("Login").click();
 
         cy.url().should("include","/Account/Login");
