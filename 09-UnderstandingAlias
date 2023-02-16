@@ -14,6 +14,7 @@ driven testing.
 Well, Fixture is a special kind of method created by Cyprus, which is mainly used to read the media
 from outside, something like a jasen file or an image file under different types of files being supported
 by Cyprus.
+
 So you can use the site that fixture to access or read those information from outside world, and then
 you can perform an action from there.
 And again, we'll be discussing about that in this later of this course.
