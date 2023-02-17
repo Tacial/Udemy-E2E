@@ -15,8 +15,7 @@ that.
 So I can probably verify this for one to four because it's kind of very interesting, very small, and
 it's very easy for me to verify as well.
 So I can just verify whether this user I.D. cookie has the property of value.
-As for one to two for something like that.
-Right.
+As for one to two for something like that. Right.
 So if I want to verify this is kind of very, very simple, guys, all I would do is this.
 I can just go over here and I can just write another ID block.
 So I'm just going to say verify.
@@ -28,8 +27,7 @@ it logs in then I'm actually going to be doing the cookie operation so far, cook
 I'm just going to use the Seida, a method called get cookie.
 So this is one that is responsible for getting the cookie value.
 So if I remember, I'm going to be getting the user ID, which has the property.
-As the values and I'm going to verify whether it has the value as to double for it.
-Right.
+As the values and I'm going to verify whether it has the value as to double for it. Right.
 So if I just do this, if I just save this, you will see that I'm getting an error and the cost is
 actually coming from this guy, basically, because it actually throws me an error and just sounds like
 a cost.
