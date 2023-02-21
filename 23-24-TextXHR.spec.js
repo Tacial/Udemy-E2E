@@ -33,6 +33,7 @@ describe("Test LambdaTest Website XHR", () => {
         cy.get("@team").then((xhr) => {
             expect(xhr.status).to.eq(200);
             expect(xhr.response.body.data[0]).to.have.property("name","Karthik KK");
+            expect(xhr.response.body.data[0]).to.have.property("role","Admin");
         })
 
         //traffic interseption - Explicit Assertion
