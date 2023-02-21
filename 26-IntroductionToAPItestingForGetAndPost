@@ -1,0 +1,166 @@
+//Sextion 6: API Testing with Cypress
+
+Welcome to our next section of Indian automation testing with Cypress Course, and in this section,
+we're going to talk about EPA testing in Cyprus.
+And today we're going to talk about working with API testing using Cyprus.
+So EPA testing of Cyprus is very, very easy and it's going to be pretty much similar, like how we
+discussed the extra and cookies.
+So we are going to use a method called Tracklist or Seida Tracklist method, which can do a lot of operation,
+pretty much like how you can achieve the same operation with different tools.
+And again, this is going to be like a complete replacement of the automation testing tools like Resta
+Shield, Arrest Sharp, or you can also use Katlin Studio or some other tools for performing an API
+testing.
+You can do all sort of Abia testing very, very easily and effortlessly using Cyprus because it does
+support proposed delete, get past Tray's hit connect operation out of the box within itself.
+It's very, very easy.
+And once again, the syntax is going to be pretty much the same, like how we sign the site, our drought,
+which is going to be the exact same syntax that we'd be using in here.
+And we're going to use the exact same assertion libraries to perform the operation.
+So which makes things more easier to use.
+And it's going to be very, very handy as well.
+So let's quickly see everything in action and understand how things work so far that I'm not flip to
+this studio called Idy.
+All right.
+Until the last video, we discussed everything in this particular file.
+And now I'm going to create a new file.
+I'm going to call this as API that starts Spec Dargis.
+And this is the place where I'm going to be discussing everything about the API testing.
+So I'm just going to be copy pasting some of the codes from here.
+I'm going to say that test API from the fake Jayton server.
+And again, this is the fake design server that it will be using in this course.
+So if you have already saw my free video course available on YouTube as well as in Udemy regarding rest,
+Surendra Sharp, I discussed about this figures on server a lot.
+So it's kind of very, very easy as an institution as well.
+So I'll quickly show you how it looks like.
+So if you go to the if you go to the school and just type something like fake Jasen server, you'll
+see there is something called as a type code slash jasen server.
+So it's very, very easy and handy to use actually.
+So we are going to be using this server in this in this video.
+I'm just going to be installing this particular Jason server.
+And again, the NPM installation, it's very, very handy.
+So you can directly go ahead and install this guy, just install that in the global scope.
+It doesn't really matter.
+And then you just create so it's already inside.
+So don't worry about the problems that I have right now.
+Doesn't matter at all.
+The next thing they're going to do is to have this particular DV Dargis on file somewhere in my machine.
+So I just have to copy this whole thing and maybe just create a file in and of the folder I have actually
+created out of this in the in a folder called Fake Jasen Server.
+And if you see how files, I can just show you how it looks like you can see that this looks something
+like this.
+I just started this whole thing or here from their website that get up right.
+And I'm just going to be using that.
+And then we need to use this command, Jayson's server watch debarkation.
+Jason, this will start running the things for us.
+As you can see, that it is going to be running this particular date, answering this particular YORO.
+I can directly access this from either postman or even from my own browser.
+So you can see that if I just do I get it should be like this personally.
+If I want to delete something, I can do that as well.
+But as of now, I don't really have values.
+I don't really have to delete that as well.
+Right.
+So it's very, very simple.
+You can do a post patch and things of that nature using this particular using this particular command.
+You can see here they have so many options available here and we can try out all of these for our testing
+purposes.
+Right.
+So it's very, very handy and it's like a fake design server.
+There are so many contributor's available to many cameras that are happening.
+There are so many releases happening, which is really, really cool.
+So I will just be using this guy right now.
+So I'm just going to quit this lamplighters because we are going to use this anymore and we're going
+to focus that on the Jasen server right now.
+So here I'm just going to be calling our it once again and I'm going to say like test get functionality
+and or here I'm just going to be starting to work with this particular server.
+So once again, it's very, very simple.
+You don't really have to set up a server.
+You don't have to set up all the stuffs here.
+It is something like.
+All you have to do is excite our request.
+That's it, and then within this request, do you have to pass the method if you want, if you don't
+really specify any method, it basically you get?
+So I'm just going to be passing this guy, this particular YORO.
+I'd say if I want to get the first post, then I can either do something like should have a Prop. 80,
+something like that.
+Right.
+So let's see if this really runs.
+So I'm just going to save this guy and go to the test.
+So this time we're not going to be dealing with this guy anymore.
+So it's going to be the API testing.
+There you go.
+It says, like expected, there is an object, but it wouldn't actually be able to find the idee object
+or there, which is fine because it seems like there is like an array of value.
+It's not directly an IT, because if you even if you get that, it seems like it has this body.
+So I could probably give some like its body.
+If I remember in our previous video, we did that.
+So now it seems like it is getting passed, right, so we actually have to get the body and then if
+we perform, I should have the property of Heidi.
+It just works fine without any problem.
+So this is how we can perform a great operation if you don't pass anything on the request.
+It's basically a good operation.
+So if I want to perform, let's say, post operation so I can do that over here, something like just
+post functionality of Jaylon and or here, I'm just going to be creating a site request.
+And until this request, I'm actually going to be parsing in some of the stuff other than what we have
+to do for.
+So it is a property called matter where I can specify what operation I'm going to be performing is anything
+but a post operation.
+And then I'm going to pass the Yooralla property so that you are that I'm reporting in is going to be
+this guy.
+Right, so I will just put that over here.
+And the next property I'm going to pass is the body property, so if I had control space, you will
+see that the different properties that that is available over here just appears for me.
+So I'm just going to use that body property and then this body and passing the body, which I actually
+need to pass.
+So I'm just going to pass the idea as to maybe title automation and arthroscope kick in something like
+this.
+So once I do this post, I can then verify how its response is going to look like.
+So I can just type like a response.
+You can see, guys, these are pretty much like same Hogwood it before in our previous videos.
+And I'm going to let's say I'm going to use the explicit assertion this time not implicit.
+So the response Dart Bardy has a property of maybe title that I entered Execute Automation, this one.
+So I'm just going to pass that over here.
+We'll save it and I see what's going to happen.
+Oh, it says for not one error, so maybe I can just run this one early, something like that.
+So let's go to the postman and see what's really happening.
+So if I just go into a post, right.
+So nothing is happening is because of this.
+Oh, my God.
+I don't really have to do a slash one for the post.
+I think that's the reason it was throwing me there.
+Yeah, there you go.
+It has successfully completed.
+And now if I go to the postman and if I do, I get you can see that I have the second ID as well.
+So now if I run, the test is really going to fail.
+The reason is because there is one more.
+It's time to enter the duplicate value.
+Actually, you can see all these things happening behind the scene in the watch of or Jason's server.
+I can see it says that duplicate, it's been inserted and that's why we're getting a five hundred error.
+So basically, I need to delete our values before I actually interests and values.
+I need to do before I enter any value.
+When you do, I deleted something like that.
+Right.
+So if I want to do that, I can probably just write.
+And before, uh, before here and within this.
+Before now, the house is very, very handy.
+Right.
+So now I can perform delete before creating a new value.
+So now this makes more sense this time.
+In this delete, I'm going to be writing a delete operation again today that is going to be pretty much
+the same, like how it did.
+So I'm just going to copy paste some of the code I have already done.
+So it's like the method as delete and this is the you are all I just want to delete the second post
+that I have created.
+So it's kind of deleting before maybe all before each or something like that.
+And I'm going to stay with this and we'll see what's happening, so first time they did it successfully
+and then it created a pause, it performed the post operation.
+I trying to delete one thing, but it couldn't delete.
+The reason is because it doesn't really exist.
+Uh huh.
+Which is true.
+It's already not there.
+So I probably need to suppress this particular warning of throwing me a message, something like an
+error, because it says that while I was trying to delete that, it couldn't be able to delete.
+The reason is because it is something throwing me a 500 meseta, something that I found out for hours
+and thought that.
+So in order to suppress this kind of issues, we have a solution just mentioned here.
+I probably can discuss that in our next video and we'll see how we can resolve these kind of issues.
