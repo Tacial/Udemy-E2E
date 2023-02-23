@@ -1,0 +1,88 @@
+//Section 8: Page Object Models with Cypress
+
+So today we're going to work with the paid jobs models in Cyprus, so all these days we have been working
+in Cyprus and we know we've been very tough working with the page opposite model.
+And the reason is because page of that model is kind of an ad department to Cyprus, because Cyprus
+team strongly feels that the caller doesn't occur app action and they don't really support paid jobs
+at Payden.
+The reason is because they strongly think that page after model acts like a separate layer or a wrapper
+around the application object.
+And having another wrapper layer will create the complexity for the test.
+And it always makes things breaking.
+And it's really hard to maintain.
+And most of the time we don't even use that model to modify the element.
+Even if there is any change, you can still modify that even without having paid out separately within
+the Cyprus project.
+So by considering all this fact, Cyprus team feels that part of that model is like an antipodal.
+But still they have something called as a app action PADDON, which is something they feel that they
+can model the application to have all the heavy lifting steps for you, like creation of test data and
+iterating through the values and creating a sequence of data within the applications, the UI and even
+mocking the data, rather having a page up and model for performing the operation.
+So as that said, the model is going to be one of the pattern or maybe an antipodean.
+But still, it is very highly important to have this particular discussion in this cause.
+The reason is because most of you guys are including me.
+We have come from selenium background and in selenium paired with model is kind of very, very famous
+and we are kind of used to it all these days.
+And having a bit of the model within Cyprus is no harm.
+And again, designing the model within JavaScript based code is not a big deal at all because Jouster
+also has classes and it's very, very easy.
+And by the way, selenium has called something called a driver, and we have to manually maintain the
+driver context.
+When it moves around the classes, we use something that context injections and stuffs.
+But in this place, we don't really have to manage all those contest injections and stuff.
+The reason is because Cyprus size is so beautifully designed that you don't really have to maintain
+the state and it automatically maintains things for you, which is really, really cool.
+So let's quickly see everything in action by creating some pages and also will extend this video into
+the next video or next lecture and we'll see how we can improve our coding practices.
+So for that, I'm not flip to my studio code I.D. So as you can see, this is our code that we have
+discussed so far in our project and today.
+What are we going to do is I'm actually going to be creating a new page within my example's folder.
+And this is for the first time we're doing that right.
+So I'm going to create a folder called Pages in this pages.
+I'm going to create a new file.
+I'm a Callista's maybe a login page Dot.
+See, I'm just used to the CSO just file.
+Right.
+So as I said, we have to somehow add the reference for the Cyprus.
+I'm just going to add that triple dash reference type sequel to Cyprus and then I'm going to start working
+with the class.
+So the first thing I will do is a class of maybe I'm going to call this as a login page or maybe a login
+page.
+And within this class, I'm going to perform some sequence of operations, so it's in our E.A. application
+that year, app application, as you can see, that we actually have discussed within this particular
+guy the year test and our jazz file for this particular feature file.
+At least you can see we actually used this typing of the value of something like this, like seewhy
+doget of username type of this value and get a password like this.
+So instead of having these two elements and also this element within this particular card, like astep
+definition file, I'm going to move this operation from some definition of file into a page file.
+And within this page file, I'm going to be doing the entry of operation like performing log in and
+clicking the login button, and then I'm going to be calling the particular class within this guy and
+see how things are going to be working.
+Very, very super simple concept.
+And it's very simple.
+Touch us when all we have now is some basic programming knowledge on JavaScript, which makes things
+more easier.
+So perform login.
+That's the first function I'm going to be writing and we'll call this as user perform login and the
+password I'm going to be entering.
+So again, I'm going to just call the site and get off the username and password typing.
+So it's going to be pretty much like how we did all these days.
+So I'm just going to be doing that.
+And once this is done, we then have to perform, click the login button operations so that when I'm
+when I'm writing like one more method or something like this.
+So this is the button click operation and this is the performing logging operation.
+Right now, I actually have to call these people here login page so I can create something like a class
+and then I can use a new keyboard and then I can perform pretty much all the stuff that we can do.
+So instead of creating a new new off the login page, we can actually export the constant something
+like login page, the new of a login page from here itself, so that while I import this file, I can
+just call this login page dot com login satake that I can do that and also make sure that because we
+are exporting this particular class file, I have to use the export keyword.
+Seems like a lot of JavaScript isn't it.
+Yes it is, because we have never talked a lot of JavaScript in discourse yet.
+This is the only thing which I feel like we have a little knowledge required to work with this particular
+stuff because it is a lot of JavaScript at this time.
+There is a keyword like export syntax, there's a class syntax and there is a export can stop this login,
+which does the exploitation of the year login page using this particular variable.
+And now I have to import this guy within the.
+Up within the test and then I'm going to see how this is going to be running, which will be discussing
+in our next video.
