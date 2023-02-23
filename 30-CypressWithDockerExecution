@@ -1,0 +1,232 @@
+And in this video, we're going to talk about working with Cyprus Docker's, so Cyprus has its own darker
+images available in the outcome.
+So they have created so many different kinds of images.
+And there are some images which has a browser like Chrome in it, and there are images which has just
+electron in it.
+So there are different kinds of Dr Cyprus images available.
+So we are going to make use of one of the images available and then we'll see how we can run that test
+using the cyberstalker.
+So I'm actually going to cheat by copying some of the darker commands from the Cyprus example, which
+is available in their own GitHub repo.
+But they are not going to be basically using the whole thing, which they have got, because they are
+going to have our own application at this point of time because we are using all the applications which
+is available within our test.
+So we are using the public.
+You are facing applications.
+So probably we don't really even require those scenarios to be passed in.
+So we don't really have to have an application over there.
+So we are going to be making directly use off our test, using a few commands with Docker and then we'll
+see how we can run the Cyprus just within the Docker container.
+So let's quickly see everything in action and understand how things work so far that I'm to flip to
+my safari browser right now.
+All right.
+So as you can see in our last video, we're executing this test in our Cyprus dashboard.
+And I also promised that I'm going to show you how the test results are going to look like in the in
+the dashboard, as it turns out that most of our tests are failing.
+I don't know why.
+And it seems like this test has to get past, but for some reason it has not.
+It has failed in one point, but the second part is actually parsing this one is fully parsed and this
+one is fully fit as well.
+So we can see what's really happening in the video there to see what's really happening behind the scenes.
+So the app seems like the application has been opened and it's entering the user name and password.
+I guess it clicked the employee list and OK, so our test is actually wrong because we are just trying
+to understand on the source.
+Yes.
+Which is something we made intentionally to not test fail.
+And that's the reason that this test can't fail, which is OK.
+I think most of the tests, which means are actually working fine, thought any problem.
+So this is the cool thing about this whole dashboard itself, guys, we can see that it shows us like
+what's really happening with one machine, with all those different kinds of stuffs here.
+And then it also shows the graph like bar chart and all that stuff.
+So because we only have like one machine, it also shows all this information over here.
+Right.
+So instead of running the test on the dashboard service of Cyprus today, we are going to be executing
+the test, not the dashboard service, rather, using what is called a set docker images.
+So far, the Docker image.
+As I said, we are going to be making use of some of their own commands.
+So if we just type something like Cyperus Docker
+and you end up new pages here says like GitHub, dot com, cyperus docker images.
+So these are the different kinds of images which is available, something like Cyprus based column for
+which is not just for version been installed and there is not just six version and then Norges eight
+versions and things of that nature.
+And they have like logistic regression as well.
+There are so many different versions available and there are so many different browser versions available
+for the Chrome.
+Right.
+It just make sure that this is only Chrome.
+This is there is no Firefox or Safari or kinds of browser available.
+Right.
+So as I said, these are the images which is available.
+And they also have an example of the Cyprus docker.
+So if you just go here and if you just search for something like Cyberstalker example, which I guess
+I missed the track, probably I can just search with Google Cyperus.
+Darker example.
+There you go.
+So they have this particular piece of stuff, so I can just open this guy in here and if you see this,
+there is a darker, composed example so you can open this.
+OK, so this is Dr. Example, Cyprus example, Dr. Campos.
+OK, so this is the information they have got.
+So you can see there is a complete YAML file, which is kind of very, very important because it has
+all the commands within one single file.
+You can see here that they had a conversion, they have a service and they have like an end to end in
+here.
+And within this instant, they are actually calling the Cyprus folder and pretty much doing all these
+informations.
+Right.
+Again, we don't really have to worry about these things yet.
+And if you see it in this ETG, they have a docker file.
+Right.
+So these are the things that we need to worry about.
+So basically, I'm just going to use some of the information from here, some of the information from
+this Dr. Composable file.
+Then we're going to create this YAML file and then we can run the test and see how it basically works.
+Right.
+So as that said, the first thing to do is before actually getting started with the Cyprus dock itself
+is we need to have a darker installation within our machine.
+So I actually have a doctor installation my machine, so I don't really have to worry about installing
+all those stuff.
+But basically, I recommend you to install Docker for Mac or if you are going to be using Windows,
+then you should be installing docker for windows.
+And again, installing Docker and working with Docker is something completely not the scope of this
+course.
+But I have a lot of courses available in YouTube channel as well as in the Udemy for our Docker execute
+automation type that you can see.
+There are so many videos available in in YouTube, so you can just go over there and then you can search
+that.
+I also talked about like Sanim, great support and all those stuffs.
+Right.
+So please go and watch there.
+So that's of course that you should be looking for.
+But as of now, for working with this guy, the first thing to do is, as you can see, the documentation
+that they have mentioned is we need to start installing the Docker Cyprus and then we should get started
+again for installing all those things.
+Everything is there within this YAML file, guys, because it has the image, it has the container name
+and all the stuff.
+So everything is going to be coming from here.
+Right.
+So as it's starting, I'm going to start everything from a plain text so that you can have a clear understanding
+of what actually I'm going to be doing.
+So that makes your life more easier as well while you're trying to understand things.
+Right.
+So the first thing I'm going to do is I'm going to work with the Docker file.
+So the first thing Docker file creation is going to happen within this particular folder.
+So I'm going to be doing or here, so I'm going to create a file.
+McCole this as Docker file.
+And once I hear the doctor file, you can see that the real symbol comes in, which is pretty cool.
+So this studio idea knows that.
+And then I will start writing the base image from and then the base image is Cyprus and he can see that
+once I type it just and a query that for me maybe in future.
+But as of now I'm just going to type like Basten.
+So this is a different version of the.
+No, yes, and then the working directory, so I'm just going to put app that's still working directly,
+just live with me for now, like why I'm doing that and then I'm going to copy some of the files.
+So basically, I'm going to copy the package Dargis on file to this particular current directory.
+And then I'm also going to copy the package DOT package.
+I lock Dages on file to display particular current directory, and then I'm going to run the NPM installation
+and I'm going to do a verify and then I'm going to run the Cyprus itself.
+So that's the whole operation that we were doing all these days.
+So I'm going to be doing all these steps over here.
+So I'm going to run the installation of the Cyprus to install the Cyprus itself.
+And then I'm going to be running I'm going to verify the Cyprus installation and then I'm going to copy
+the Cyprus and adjacent file and then I'm going to be running in from there.
+So all these options have to do, that's the first step that we need to be taken care of.
+So once this is fully done, the next thing I'm going to do is I'm going to start working with the YAML
+file or the Dorkus Dr. Campos YAML file.
+So this Dr. Campos YAML file is basically like a file that you can think of, like a batch file or something
+like that in Windows environment or in a world of windows like a shell scripting in Mac, where it has
+all the commands that are going to be executing in a single shot using that particular file.
+So if you're going to call that particular stuff over here to be executed.
+Right.
+So the next thing, as I said, is going to be the YAML file.
+So I'm going to create the YAML file as well.
+So I'll says Dr. Campos YAML file.
+I can see that it has done into a little red color here because that's fine.
+So I'm supposed to give the version.
+So version number three and then I'm going to add the services.
+So basically the service this time I'm going to be adding is going to be like E to E, so you can give
+any name off your choice.
+So I'm just going to be following the documentation that they have got.
+So I'm just going to be doing that.
+And the major timeline we're taking is Cyprus.
+So once I hit that, you can see that it brings me up all the majors off to Cyprus this time just for.
+Very cool.
+So I'm just going to take that and I'm also going to be taking the boot.
+So the build is actually from here from dock, which is going to be from my current directory, and
+then I'm going to add the container name.
+So the container name is going to be Cyprus as well.
+And then I'm going to add the command.
+So the command I'm going to be adding is the Cyprus run.
+I'm going to say this guy and then I'm just going to run this command or the YAML file to see what's
+really going to be happening.
+That's it.
+So this is the only thing which I need to do to run this particular test.
+Right.
+So you can see that everything is or here now I can just do it like a docker compass.
+And then I going to give a file name and I'll say I like Docker
+Campo's Dot Yamal and then the command called up the up means it's going to start running the things
+for me.
+Oops.
+It seems like it wouldn't be able to find that unless I think I have to go inside the Cyprus folder,
+but I think I should not be inside the Cyprus folder.
+I should be in the Udemy Cyprus folder.
+So basically let me open Uttam in Cyprus and within the Cyprus I have this dogor compass file, which
+I probably have to put outside over here.
+Only then I can actually run that.
+All right.
+With that done now, I should be able to run that test.
+Hmm.
+It says that cannot create a container for service conflict.
+The container name Cyprus is already being used.
+OK, so it seems like I already have a name called Cyprus in my terminal.
+So if you go to the if you can go to the terminal and if you just type something like Docker images,
+I guess I already have that particular.
+Yet you can see that I actually have created an image with that name Cyprus.
+So I probably cannot do that.
+So I can just do like Cyprus.
+I want to save this guy and then now I can just run that.
+So I probably have to maybe remove this particular container, the Cyprus container, which is already
+there.
+So which is something you can see here.
+I have to remove this guy, just Docker or Cyprus.
+All right.
+There you go.
+And now, if I just do that, you may just I guess it has gone, but still it's showing me I don't know
+why, but now if I just run the particular command.
+You can see that this time it is creating the Cyprus for me, I don't know, for some reason if I just
+use the stock remains, it still shows me like Cyprus.
+I don't know why maybe I'm doing something wrong in this place.
+But as you can see this time, it is currently running the test year to start features for me within
+the Docker container.
+Guys, this is first time we are running a test within a container, not within our local machine,
+which is very, very cool.
+So all these days, we have been running our test within our local machine.
+But this time the test is actually running in the docker container, not within my local machine, which
+is really, really awesome.
+So you can see that with a few commands here, something like this, we could able to run Dakkar test
+very, very easily.
+And here with this Docker file, all I'm doing is whatever commands that we used so far in all these
+days.
+I just pasir that particular commands or hear the doctor feel pretty good to go.
+And then once we are running the test, it is pretty much running like how it is supposed to run for
+us.
+Right.
+So everything is running right now and the test is successfully going to be complete as well.
+So once that is done, I'm actually going to stop this test for now.
+So, you know, the next video, we'll see how we can actually see the video or the screenshot of the
+failures of our test being executed, because all these days we are executing our test.
+And you can see that it shows me that this is the video folder, which is actually which actually has
+that particular video, but actually don't.
+The reason is because that particular video file is not even being saved in the directory.
+So if you go to the user reports, you can see this going forward is kind of empty right now.
+So there is nothing being saved because it's actually storing everything within the particular container
+image.
+So we have to take this particular video or any screenshot from the particular container image out.
+And then we going to show that within our local machine so we can do something called a volume mapping
+or something like that within Docker, and then we can get the video out so that at least we can see
+what the test is actually happening behind the scene and how we can run that.
+And again, the full power of running the test in Docker's can be achieved only using the CIC, the
+integration, using circular or something like that.
+But what we are doing right now is just to see the power of running Cyprus within Docker container.
+So as that said, in the next video, we'll see how we can leverage the power of volume mapping to get
+the videos and screenshot out from the documentation within our local machine.
+And we can see how the test is actually being executed.
