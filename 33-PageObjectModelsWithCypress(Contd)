@@ -1,0 +1,45 @@
+In our last video, we created this particular year login page, and we saw how we can export this particular
+login page within our test.
+So I'm going to go to my test and I'm going to be using that particular page object model class within
+this particular test.
+And we'll see how we can leverage the power of our test execution.
+That's it.
+It's very, very super simple and it can be achieved very, very easily using a super simple concept
+of the actual test itself.
+So in order for that to be done, I'm going to come over here and then I'm going to do this import from
+and then I'm going to type the directory, which I was actually creating this particular page files,
+which is going to be a cucumber example, slash pages, slash year login page.
+Right.
+So this will give me the login page and now I can put the variable login page or here.
+Right.
+And I know I can use this guy login page instead of this typing of the the values, I can directly use
+the login page dot and he can see that I can get that from logging operation and then I can pass the
+roll off the user name again, these things we discussed in our previous video.
+So I'm just going to be copy pasting the code instead of actually writing the code over there.
+Right.
+And then I'm just going to be wanting this bigger piece of code because it doesn't really require as
+of now and instead of clicking this time.
+Instead of direct traffic, I'm actually going to use the page opposite model login page, dot click
+login button, right.
+I'm just going to say this guy.
+So this is the only change I have to make.
+And the ones I have all these options here.
+I can now run the test of the feature file test and see how it works.
+So it's more like a wrapper around the actual test itself.
+And we are just going to see like how we can execute that test using the page object models functionality.
+Again, guys, this is like a rapper.
+And this is once again, as I said, the team has not been very happy with this particular pattern.
+They always call it as an independent.
+But still, as you can see, we are from the selenium background and we actually are used to the pain
+of the model.
+And that's why I have added to this particular video as one of the important lecture within the scores.
+But again, it's up to you like how you want to take it.
+You can maintain everything in the pages or you can ignore having pages.
+But it is important that there is a way to work with the power of that model, even in Cyprus.
+And this is exactly the way that we can achieve this operation in Cyprus with page of the model.
+Right.
+As you can see, the test has successfully passed and these values are being typed using these particular
+operations that we have did.
+So that it guys is how we can work with page after models, even in Cyprus.
+And once again, thank you very much watching this video.
+Now, next video, we're talking about Cyprus expat plugin.
