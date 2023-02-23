@@ -1,0 +1,77 @@
+So in our last video in Working, we got this letter, which is kind of funny because it says that it
+couldn't be able to delete that particular operation, which is fine, even if it doesn't really delete.
+We don't really have a test to stop.
+So we have our test.
+But still it has to continue even if it fails.
+So in order for that to happen, if you see the error even more closer, it says that you do not want
+to have a status code to cause the failure to pass the option of failure or fail on status quo task
+force.
+So basically, it says that you can just pass and an option here, something like fail on a status card.
+So you can see there's a property coming in after a long time.
+And then if you just say, like, fails, something like that, probably.
+And if you say, oh, this guy.
+So this time it doesn't really complain you that error and test successfully runs without any problem.
+Superphosphate is.
+And you can see that it has been successfully created at this time, even though like there are two
+times a fall for error has came.
+The test really didn't complain any error for us, rather, it just successfully completed the test
+and the test has successfully executed the test for us.
+Right.
+So this is how we can perform a delicate operation for each and every each and every operation that
+you can do.
+So that's why this delete is something sitting on the before each so that I don't really have to have
+this kind of problem.
+So now we discussed about the delete the post and the.
+Get operation, the rest is like put and a patch again, these things are pretty straightforward, guys,
+you just have to change the record here and things are going to work pretty much like without any problem.
+I don't really see that is any problem for that.
+And the last option they can probably show you for the API testing and it seems like the API testing
+is pretty faster.
+And again, this is not the scope of the Cyprus cause.
+But I just want to show you, like, how Cyprus really does the EPA testing much, much more efficiently
+and much easily.
+That's why I'm just showing you all these options here.
+But, yes, there are so many things that you can explore for the EPA testing beyond something like
+what ID authentication and something like passing a body image and different kinds of stuffs on all
+those things we have not discussed here.
+But this is just like touching the actual tip of the iceberg.
+So the other stuff that I'm going to show you today is to show you, like if I pass an authentication
+for an application, which probably throws an error or things like that.
+So if you go to our website, so here at our Saami dot com and if you try to.
+See if our application really works best with the without Antifragile talking or something like that
+or with Andy Forgety token, I can also verify that with my application at this time.
+So actually, this application is built in such a way that it actually works with the Antifragile token.
+You can still decide.
+It's very, very easy to do that.
+But I'm just going to show you, like, how the side is a little bit secure then compared to the rest
+of a static website.
+So as you can see here, if I try to login to this application, so if I just do a login here and if
+I go to the network and let me clear this, preserve the log and here is some type like admin and pastoralist's
+password.
+And if I hit login, you can see it's trying to log in to the application here.
+So if I get hit this year, this particular login here and if I come down here, you can see this is
+the farm data that is being sent to our application.
+And you can see there is something like usernames and passwords, password, and remember me as false.
+And this is the request for verification token it has got.
+So I'd say if this is a situation and if you want to replicate without this verification, talk on its
+control, you an error or maybe if I just pass the same data just to cheat and see what's really going
+to happen.
+If I want to do that, I can probably do that as well.
+So let's say I just want to run a very, very super simple API testing for just for my website.
+So I'm just going to do that only.
+We're here, and I trust me, no exception, rather, says that expecting a 500 to equal 500, so which
+means it is five hundred.
+So it is past and then I'm expecting this record and a forgery kookie request verification token is
+not present.
+So this is the error that I'm expecting from my application, that if I try to pass something very,
+very like a dodgy value or there so it should throw me that error.
+So somehow toward me, that error and I could able to easily assert that particular value.
+These are some of the cool options which are available out of the box within Cyprus.
+And I have never seen that available in any other tool which is doing this kind of operation in selenium
+or maybe some of the tools which actually does this kind of operation for free.
+And again, these are some of the cool stuff that we can see that it is available within Cyprus and
+we have successfully able to achieve that with the minimal or very, very minimal coding practices.
+That's it, guys.
+This is how we can do the API testing in our next section.
+We'll talk about Dashboard's using Cyprus.
+Thank you.
