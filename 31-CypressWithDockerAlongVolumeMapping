@@ -1,0 +1,104 @@
+In our last video, we discussed how to work with Cyprus Docker and how we can run the test using Cyprus
+Docker.
+We also created the Docker file, Dr. Campos YAML file and bizarre how we can run the test using the
+doctors Cyprus, which is really, really cool as well.
+But in the last video, we also saw like it runs the test for us like a blind way, but it doesn't really
+shows us like what's really happening behind the scenes.
+So there is no way that I can actually see what's really happening in the test.
+And if I want to see the video or the screen shot of that execution, which is happening, I couldn't
+actually able to see that.
+So in order to do that, I actually have to use a cheat, what is called as a volume mapping or volume
+mounting of docker.
+So we are going to take advantage of all these doctors on volume mapping options where I can map the
+volume of the docker containing image within the local machine of my Mac operating system so that I
+can get the videos out using this particular option.
+So all you have to do is this with another doctor, Kompas YAML file.
+I just have to specify the volumes that I need to map in and then I can easily see how the tissue is
+actually going to be executing.
+We are going to do everything in this video and you see how we can leverage the power of volume mapping
+within our test.
+So for that, I'm gonna flip to my studio called EDEK.
+All right.
+So this is the one that you executing our previous video and this video, we are going to be using what
+is called as volume.
+So within this volumes, I actually can map our actual volume.
+So as you remember in our previous videos, while we're discussing, we actually store all the videos
+using the pad that we mentioned within the Cyprus Chazen file.
+So you can see that all the files and folders actually been sitting within this particular Cyprus videos
+folder or something like that.
+Right.
+So we are going to be making use of that particular folder or because we are going to be using our local
+folder this time, I'm actually going to be using the local folder structure.
+So I'm just going to give this user's lashkars the case last report examples or something like that.
+Or maybe I can even remove the examples.
+So this is the folder, and this is exactly the same folder that you can see in here within my machine,
+in my local machine.
+And this is where all the test folders and screenshots and videos are going to be sitting in.
+And I want to see you have this particular option.
+I can also volume around this particular option over to my local machine over here.
+And then I'm going to take all the videos, which is currently being exported from this particular folder
+into the same folder of my local machine.
+So basically, this is the host machine and this guy is the local machine.
+Right.
+So you can see that now.
+It's kind of a mapping that I have made.
+So this is the container image videos is going to be directly pulled into my local machine, into this
+picture directory.
+And then I can see the videos that it.
+This is kind of confusing if you don't really have an idea of what this really mapping is all about.
+But this is what it is.
+And now I can directly go to my terminal and this is the deficit we are running in our previous video.
+So I'm just going to run this again so you can see that it's going to recreate Cyprus image for me and
+then it is starting to run the test for me.
+So that year to start features is currently being executed.
+So you can see that test.
+E.A. features execution has started in here.
+And now I can go to my directory.
+You can see that currently it's just pulling in all the videos for me right away from the Cyprus Docker
+container image.
+So you can see that easier just to filter out before it's ready for me.
+And that is this example folder where it has this action spectate just before and this is the year to
+start chasing before.
+So all these relevant features and the test folders, videos are actually sitting in here for me.
+So if I just open the particular feature, right, maybe four or five, you can see what's really happening
+behind the scenes.
+So it also shows you that the test has been instructed to execute it in the in the container, which
+is very, very cool.
+So I can see what's really happening behind the scene.
+And if there is any failure, I can also see the screenshot being popped out from the container into
+my local machine.
+All right.
+Something has gone wrong over there.
+And this is like actions you can see for each and every action.
+I guess it would have completed all the recording.
+And you can see it's very, very cool.
+So now I can run my test within the Docker image and then I can get the videos out.
+Using the volume mounting option of the doctor, and then I can see what's really happening behind the
+scenes, so I don't really have to worry like what's really happening.
+But all these pain points of mounting the volumes and seeing the videos and maintaining all these steps
+can be easily removed.
+Using what is called as a continuous integration systems or other is called as different countries integration
+support, which is available within Cyprus.
+So if you go to the Cyprus website or here, they have something called as continuous integration support
+plug ins.
+So if you go to the continuous integration and you come all the way down, you can see they have many
+different CIA providers, supporters available.
+And one such is that they always insist is the Sarkozy guy.
+So if you see the Sarkozy, they actually has a very, very, very, very easy option to just give a
+very, very, super simple Cyprus configuration.
+Within that, you're going to mention pretty much like Cyprus Docker, compose a file and then you can
+to run the test.
+And automatically you can specify, like, how many machines you want and then you can spin up all the
+docker container.
+And you made this for you very, very easily.
+So all this heavy lifting things that you are seeing in here are going to be taken care by the by the
+so-called S.I and all the videos and all those different options are going to be coming in for you using
+this continuous integration option.
+But, yes, this is what it is, guys.
+Here's how we can run the whole test within the Docker image and we can also leverage the power of circus's
+and all those stuffs.
+Again, those are paid and I don't really have access to it.
+But you can just play around with the free version and see how it works.
+And once again, thank you very much watching this video.
+Now, next video, we're going to talk about the page that models of Cyprus.
+Thank you.
