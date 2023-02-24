@@ -8,8 +8,7 @@ It's very, very super simple and it can be achieved very, very easily using a su
 of the actual test itself.
 So in order for that to be done, I'm going to come over here and then I'm going to do this import from
 and then I'm going to type the directory, which I was actually creating this particular page files,
-which is going to be a cucumber example, slash pages, slash year login page.
-Right.
+which is going to be a cucumber example, slash pages, slash year login page. Right.
 So this will give me the login page and now I can put the variable login page or here.
 Right.
 And I know I can use this guy login page instead of this typing of the the values, I can directly use
@@ -20,8 +19,7 @@ Right.
 And then I'm just going to be wanting this bigger piece of code because it doesn't really require as
 of now and instead of clicking this time.
 Instead of direct traffic, I'm actually going to use the page opposite model login page, dot click
-login button, right.
-I'm just going to say this guy.
+login button, right. I'm just going to say this guy.
 So this is the only change I have to make.
 And the ones I have all these options here.
 I can now run the test of the feature file test and see how it works.
