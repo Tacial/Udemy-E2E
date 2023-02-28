@@ -1,0 +1,74 @@
+Today, we're going to work with Cyprus expat plug in, which is not something developed by the Cyprus
+team, but it is owned by the community to support expat option as well.
+So we are going to be discussing about the Cyprus expat plugging them and see how Cyprus can leverage
+the power of expat, which is something not available within the Cyprus.
+We have never discussed about it, but it is very, very handy right now that you can use the Cyprus
+expat out of the box using this particular plug in as well.
+So we'll quickly jump in the Safari browser and we'll see how we can install in Cyprus XPath plugin
+how to work with it.
+All right.
+So I'm just going to open Safari browser and I'm going to search for the Cyprus expat over here.
+And this is the Cyprus expat, as you can see, that is kind of very, very famous.
+And people are actually using it a lot.
+So you can see that it is there for like two months ago and it started two days ago, the return of
+something as well.
+So you can see this is the only basic command that you have to do.
+All you have to do is as NPM install hyphen D Cyprus expat will do things for you.
+So I'm basically going to stop this execution and I'm going to pass this command over here instead of
+the I am going to say this and the general dependency.
+All right.
+So it has been installed and once this is installed, you can now go to the documentation.
+You can see that we need to add the required Cyprus expat within our indexed Argyris file of support.
+It's pretty much like how we added the plug in for the Halloween theme.
+It's exactly the same thing that we're going to do in here as well.
+So I'm just going to go to the Cyprus support and there is this next hour.
+Just file so you can see this is the Halloween theme that we have been using all these days.
+So I'm just going to be pasting it over here.
+And now all I'm going to do is I'm just going to use it.
+But you can see that I can directly go to any and of the card, even the card that we worked on our
+previous video for the perform login.
+So I'm getting all the values using the ID.
+So in order to get from the XPath, I can just type Seida.
+Oops.
+For some reason the intelligence is not coming, but it actually works.
+You can see it's still in green color, which means it is identifying it.
+And then for the username you can actually write the XPath because I know that it is actually expired.
+So I can just type like input at I.D. is equal to username name.
+Right.
+So this is how we basically write the the expat here.
+Right.
+And similarly, I can do it for the password as well.
+I can just over here.
+That's it.
+So this is how we can change the existing value to the expat.
+And now if I just do the NPCs Cyprus open and if I run this particular card again, this is easier to
+start Geass.
+Again, this is something we are running from the feature file.
+So if I run this particular feature file, this court should hopefully run if it identifies the XPath
+correctly.
+There you go.
+It seems like it's working, which is pretty cool.
+So this is how we can work with the expat AI using this particular expat plugin.
+It's very, very easy and super simple and superfluid to work with that.
+Again, if you see the XPath actually has this changing of the option as well, you can change the type
+and you can change the click and all those operation that we usually get, everything is going to be
+coming in for some reason, the intelligence.
+There is a record, it is not recognizing this particular operation operation just fine, but you can
+see that the court is actually working.
+So this is the very, very super simple plug in for the expat.
+So if you are a fan of XPath and if you are a fan of XPath, then probably you should be installing
+this particular plug in to work with Cyprus expat.
+And that's the part of Cyprus itself.
+Guys like within Cyprus, you can see that there are so many different options available and you can
+the communities keep on extending the Cyprus in many different ways.
+And Cyprus team is also committed to how all these different options for us.
+And it's really, really awesome to see that there are many different plug ins and tools available.
+You can see Cyprus of that back that back pre processers is also available.
+And there is like doggers support and they also have support for many different options.
+Whichever is coming to the technology stream for testing all these things are going to be coming within
+the within the Cyprus.
+So just keep following this particular Cyprus repository and you will have all the latest and greatest
+updates, which is really, really cool to see that.
+And again, within this course, we are going to be keep on upgrading all the options, just going to
+be coming in within Cyprus as well.
+So, once again, thank you very much watching this video and have a great day.
