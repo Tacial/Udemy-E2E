@@ -1,0 +1,237 @@
+Hi, guys, my name is Karthik and I am from Misurata, you mentioned Dotcom, and welcome to our another
+video of Internet Web automation testing the Cyprus course.
+And in this video, we're talking about visual testing with Pursey and Cyprus.
+All right, let's get started.
+This testing with Percy, visible testing is an automated process of detecting and reviewing visual
+changes, teams are replacing manually testing with automation to ensure that websites and applications
+always looks exactly as indention.
+Well, as it said with Pasay make Cyprus more awesome, because since all these days testing graps visual
+changes in UI or even verifying any cosmetic alignments and application UI was harder.
+And Pursey makes the integration more smoother and easier right now.
+So as that said, the setup of the Cyprus with Pursey is also very, very easy because it's very, very
+fluent and much easier to perform all the operation in very, very few commands, something like this.
+The first thing we need to do is to install the pursey using this command NPM install hyphen, hyphen,
+SafeHaven DoAt per of Cyprus and then begin to import the persons of Cyprus in over Cyprus support last
+command.
+So this is exactly the same file that we used to install a lot of plug ins and custom commands that
+we created in our previous videos of this course.
+And then we need to call the Saïd Pursley snapshot method to consume or take a snapshot.
+And we can also parse the name if you want.
+And again, these are all optional.
+If you even if you don't pass the name, it is going to take the it blocks name by itself.
+And finally, to run the Pasay, we have to do this.
+Pearcey easy hyphen hyphen Cyprus run will make your code run using this Pursey command.
+So let's quickly see everything in action and understand how things work so far that I'm not flip to
+my record idee.
+All right.
+So this is the same product that we were working on previous video up this course.
+And as you can see in our previous videos, we were trying to execute our code using the API test,
+E.A. Specter, Gere's, Yap's, Roger's file upload and test as a child psychologist.
+And we have discussed about Roukema and all those stuffs.
+So today what we're going to do is we are going to be working with the perceived not able to see the
+visual testing power as well along with our course.
+So what we want to do is actually going to be installing the pursey within our project and then I'll
+be getting started with all those stuffs.
+So the first thing is I'm going to open the item terminal over here and then I'm going to be installing
+the pursey.
+So for installing, all we have to do is just put the NPM install hyphen hyphens and add Percy Sledge
+Cyprus.
+So this will install Pursey within our project.
+So as you can see you the package of ideas, you will have this pursey Cyprus over here and you can
+see that it is installing everything for us.
+And it's also installing the node model of puppeteer within our project because it actually uses puppeteer
+to take a screen shot behind the scene.
+All right.
+That's it.
+So it seems like the installation has been successfully completed and the next thing to do is to import
+the person to Cyprus within our command are just fine.
+And the commander, just pilot sitting under our Cyprus support and command are just fine.
+So as you can see, this is the file that we are using all these days for file, upload and all the
+stuff.
+So I'm just going to be using that as well.
+I'm gonna save it.
+And then we need to use the silent Pursey snapshot method within our code.
+So what I'm going to do is I'm going to go to our integration folder here.
+Within the examples, you can see that we have many different cores that we have written.
+So we're not just try to use them.
+So just try to avoid using the Sadaat Percy Snapshot in the before each method.
+Rather, you can directly use it all here.
+So I'm just trying to import the opposite snapshot and then I'm just going to start using that particular
+code.
+So as you can see, Cidade, first the snapshot.
+Expect the intelligence to work here because that won't really work.
+So I'm just going to be putting it over here for this.
+And then I also need to take a scan snapshot for the assertion of the code.
+So I'm just going to put that or here and then in the app.
+I think I can use that over here as well.
+So let's see.
+Before clicking the benefit, I need to take a snapshot.
+And then once it is done, I also need to take a snapshot right over here.
+And then for the file upload.
+I don't really think we need to do that because we have not did a lot or there.
+But I'm just going to be putting it just for our sake of our test execution and tests, which are for
+sure.
+I don't really require that to be dead because I cannot change anything in the library's website.
+So I'm just going to leave that as it is.
+And finally, we need to execute this particular code within our pursey.
+So what I want to do is for executing this particular card.
+If I just go over here with this terminal and let's do this control, see, and I'm just going to do
+this.
+NPCs
+Pursey, easy as we saw in the slide.
+I'm just going to use that here.
+And then if I try to run this little command, you can see that it is going to say that skipping this
+will test Pursey Tolkien was not provided.
+So let me just stop this particular stuff here and I will show you what's really happening here.
+So basically, in order to communicate with the person, you need to have a authentication with the
+person itself.
+So basically, I have already created and Percy Token within my test here so I can quickly show you
+that.
+So it's Pursey that I wrote website.
+So you need to go here first.
+That I will.
+This is the website which is responsible for storing all your visual testing.
+You need to sign up with a free account with the Pasay so that you can have all your tests there.
+So I have already signed up and I actually have nine days left for my trial to end.
+So now if I go to the project settings and you can see that you need to enable this particular stuff
+if you want, I just enabled the crown.
+And if you come down within the project name, this is the project that you will be creating by default
+while you are trying to create a Pursey project for the first time.
+That's exactly what I have given here.
+And then if you come down here, you have this particular pursey token.
+So this is the thing that you need to be using for sitting within your environment variable.
+So you do export this particular pursey token for your environment variable.
+So I'm just going to copy this guy and then I'm going to go to this terminal.
+And then if I say export.
+First, the underscore token is equal to this guy, and if I hit enter now you can see that the person
+has been exported for me and you can do the exact same thing even in the individuals to the terminal
+if you want.
+Right.
+So something like export policy, underscore token is equal to this.
+Right.
+And now if you try to run this command and be experts, ETECSA hyphenation, Cyprus run.
+So what happens is now you don't see that particular warning, the skipping this will start talking
+was not provided.
+Rather, it says that creating a bull number 11 for us and it is now running the test for us.
+So now what happens is basically all your tests are executing within your local machine, but it is
+running along with the policy as well.
+So now you have this particular chromium installed while you are trying to install the pursey.
+Basically, if you just see here, we we had this particular puppeteer installed and we also had this
+particular chromium being downloaded.
+So basically behind the scene, it is running like a two instances of test execution.
+One is within your electron browser and another one is within the Chrome chromium browser for taking
+a snapshots.
+So you can see that currently the test is running and you can see that it is saying that there are some
+test being failed because for the API testing, we actually require our fake design server to be up
+and running just fine.
+We don't really have that yet.
+I have not initiated that.
+But you can see that it is currently executing the other tests for us and it has taken a snapshot for
+us, like taking testing off EPA testing site for a session with Hooke's.
+And I wanted to quickly go to the first Iowa website and see what's really happening.
+So if I go here within our bills, the bill number 11 actually is the one which is currently existing.
+You can see it saying receiving bills.
+And if I go to this particular build, you can see that currently nothing has really happened because
+it is executing the test for us for the first time.
+Right.
+So once it is executing the test for the first time, that it won't be much of a change.
+So here it is, still executing the test for us and it is going to take a snapshot on things.
+So once everything is done, I'll be back.
+And now you can see that it also shows us a message within the Pursey that the name of each snapshot
+must be unique and this name is already exist in the Bird Action File upload demo.
+
+So what happens is, as you can see within the file upload spec Dargis file over here, we have used
+
+this particular person like two times here.
+
+So that's the reason I intentionally made this.
+So if you have this personal snapshot available like two times, it basically has to be with the different
+names.
+So something like it should be like before and then it should be like after something like that.
+So if you specify this like that, then it'll be like two snapshots for you.
+So if you keep on specifying the snapshot without any name, so it's going to take the first name as
+file upload demo.
+As you can see in here, file, upload, demo is taken.
+But the next snapshot is going to be exactly the same, like the IT blog, and it's going to be throwing
+you the error.
+And that's the reason you are seeing this particular error.
+And right now our test has been struck because the file upload actually requires the code to be executed
+with this particular website, which currently something like taken down or something like that.
+And it is not recognizing.
+So I'm just going to stop this particular test.
+And for the sake of our test execution, I'm going to go to this year Abdah Spec Dargis file, which
+is the one I'm very interested in.
+And I'm going to be taking a snapshot like after I'm just going to be mentioning that or here I'm going
+to be executing the same test run.
+But this time I'm going to be executing based on just one spec file, which is going to be this guy.
+Right, the E.A. Abda Spec Dargis file.
+So I'm just going to copy the pad.
+I'm just going to be pasting it over here and then I'm going to be executing this.
+Oops, I forgot to specify a hyphen from here. All right.
+So it's executing only one test right now.
+So now if I go here with an hour as it automation project and you can see that we have this particular
+build build number 14.
+So let's see what's really happening.
+So it has finished the test execution and it has it has been failed for some reason, which is OK.
+And now let's go ahead and let's try to refresh the.
+So you can see that the new snapshot has been created, but nothing has is there to compare with our
+existing bill, so that's fine that that's the exact reason why we're actually using the pursey.
+So as you can see, we have executed in our positives for the first time with our Cyprus.
+And we don't really see any cosmetic change or failure in here for the first time.
+So what I'm going to do is I'm actually going to change our year app right now.
+So I'm going to go to the file manager and he can see that this is my actual application holstered within
+my website.
+So I'm going to go and change the version number two version 3.0 in the abode.
+But actually the version of the app is let's say it is 2.0 or something like that.
+So the developer has missed this particular version and he just changed this to 3.0 or something like
+that.
+And I have to change this particular cosmetic changes.
+And I want to see how it actually recognized by Cyprus with Pursey.
+Right.
+So I'm just going to do this.
+I'm actually going to open a text editor and I'm going to change this to maybe version 3.0 and the 20
+courses available or here the source code available.
+I'm going to change this to 30 or something like that.
+Right.
+I'm going to go to the file manager and upload this particular file.
+And I'm like, OK.
+Upload the file.
+Oops.
+That's kind of crazy here, and let's do this again, go to the views, go to the home.
+I'm going to upload I can upload upload files.
+All right.
+So now it is uploaded.
+And now if I go to the EA Abda Solmi dot com.
+So now the version 2.0 will be changed to 3.0 and more than source code.
+Prendes has been changed to 30.
+You can see that this board has been changed.
+It seems to be very, very minor UI change here, which we cannot actually detect by our eyes very quickly.
+So for that reason, I'm actually going to use the visual testing, by the way.
+So I'm just going to run the exact same test this time.
+And you can see how the test actually is going to compare that for us.
+And it's going to report as the failure in our screenshot or something like that.
+So you can see that the test has been successfully started here and the build has been created by Pawsey
+as well.
+And I'm going to go to the policy website.
+So the number is actually 15 Semenko here and it is still receiving the build.
+So let me open that right.
+So the test has been successfully completed.
+So now if I refresh this build, you can see that we now should have some visual difference, I'd say
+is the processing visual differences.
+So there are like zero of two screenshots being processed and is currently processing things for us.
+There you go.
+Something is shown here as a red dot, and that is exactly what is the changes which is available who
+are here.
+So you can see that that changes, as you can see here, this guy.
+Shows that has been changed, so now if you click this, you can see version three and 30, these two
+things has been changed.
+So this is exactly what Pursey shows us in a visual difference.
+Even that is a very minor changes in the UI.
+That screenshot compares an algorithm of person who will show us that this is what has been changed
+in your applications, cosmetic.
+So these are something which we have never did before with our Cyprus.
+And these kind of services like Pursey are really, really easy to handle with and work with to compare
+the visible changes of UI so that this guy, this how we can perform this will change testing with Cyprus
+and Pursey.
+And once again, thank you very much watching this video.
+And I have a great day.
