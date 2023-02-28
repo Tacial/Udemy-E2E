@@ -9,13 +9,11 @@ of the actual test itself.
 So in order for that to be done, I'm going to come over here and then I'm going to do this import from
 and then I'm going to type the directory, which I was actually creating this particular page files,
 which is going to be a cucumber example, slash pages, slash year login page. Right.
-So this will give me the login page and now I can put the variable login page or here.
-Right.
+So this will give me the login page and now I can put the variable login page or here. Right.
 And I know I can use this guy login page instead of this typing of the the values, I can directly use
 the login page dot and he can see that I can get that from logging operation and then I can pass the
 roll off the user name again, these things we discussed in our previous video.
-So I'm just going to be copy pasting the code instead of actually writing the code over there.
-Right.
+So I'm just going to be copy pasting the code instead of actually writing the code over there. Right.
 And then I'm just going to be wanting this bigger piece of code because it doesn't really require as
 of now and instead of clicking this time.
 Instead of direct traffic, I'm actually going to use the page opposite model login page, dot click
