@@ -1,0 +1,110 @@
+In our last video, we discussed how we can set up all the reporting options and different packages
+that we can install for democracy and reporting.
+And in this video, we are going to be running our test and see what's going to basically happen.
+So in order for running the test and see what's basically going to happen, I'm actually going to go
+and change the code a little bit here.
+I'm actually going to run the test, this time in the Chrome browser.
+So I'm just going to say in Cyprus run, whereas the browser is equal to Chrome and this is exactly
+what we discussed even before in our previous sections of this course.
+So I'm just going to be running that and you can see that it is going to open the Chrome browser for
+me and then it is running the test.
+So you can see that the test is running fine without any problem.
+And what is this particular test has been executed.
+You would have noticed that there is a new folder called Mocca and then this Mocca, you actually have
+this JS on files.
+So you can see that, as I said before in our previous video, this Moka awesome report actually generates
+different jasen files for each and every specification file.
+So this is what is the Cyprus 3.0 has brought to us and it is going to generate different specification
+files for us every time while we run that particular test.
+And it is going to generate the report for us, something like this.
+So I can see it is currently running the test and we know that some other test is going to basically
+fail.
+The reason is because in our fixture, we have used the lambda test user and have not given the right
+password.
+So the test is going to fail, but you can see that it is going to be generating the report for us or
+here, and then it is running the test for us without any problem, which is really, really cool.
+So now I could see that we have this particular mock report being generated.
+So it is coming over here, which is pretty cool.
+And then once the whole report is generated, we can then combine the report and then we can also generate
+a complete Hesterman of file based upon the merge report that we have.
+So we have already installed the Moka as a margin over a previous video.
+So I'm going to quickly run some of the commands and I'm going to see what's going to happen.
+There you go.
+So now you can see that three out of 10 test case failed, which is fine, but we can see that the mock
+report has been generated pretty good over here.
+And now we are going to be running a command for the merging of the complete report so that we can then
+merge the report and we can see how the design file is going to be generated.
+So far doing that, I'm actually going to be creating and directly within my within my cypress over
+here.
+So I'm going to call this, as Mocca reports, and then I'm going to run this particular piece of command.
+So it's going to be Mocca as a merge, reporting directly cyperus, reports Mocca, this guy.
+Right.
+And within that, I'm going to take all the Jasen files and then I'm going to merge into one file,
+which is going to be a reporter.
+Jason File.
+So I have executed that.
+And you can see that there is a report card design file coming in over here.
+Oops, sorry for that.
+It's NPCs Mocha, Merche.
+There you go.
+And now you can see that the whole all the files that we generated before in our execution is now merged
+into one report.
+And the next thing is we need to create the table file, which is nothing but generating the Hesterman
+file.
+And then we can see the report how it's going to be looking like so far that I'm going to use the Marge.
+Marge is nothing but the most awesome generator, and then it's going to take the jasen file and then
+it's going to output the particular files.
+And Mocca reports for us over here.
+And you can see that we have this report that has HTML file.
+I won't reveal this in the folder and I'm going to get this guy.
+There you go.
+We now have a very nice, cool, neat report that we have not discussed so far in this course is coming
+over here as this particular report.
+So this is the one which you guys were expecting so far that we have not discussed.
+And now we have discussed that.
+And you can see that it shows like what is the stuff being executed?
+And it shows the parsing and also shows the failure for the reason of the failures of why it has got
+failed.
+And you can see that the iFrame has got frayed as well, and the EchoStar has got failed because the
+logging in log in was not performed.
+And all those reports coming in over here and you can see there is like Shaw past.
+You can just show the failure alone and you're going to remove all the failures if you want.
+And you can show the pending show, the skip test and all the stuff from here.
+Right.
+So this is how you can see all those kind of all those kind of stuffs from here and also shows the timeline
+of how much time it took to execute this whole test for us.
+So this how we can generate the report using the Mocca awesome Hesterman report and they can also merge
+the report, something like this.
+And the next thing we're going to do within this package, Dardis and File, is instead of running the
+report, something like this, like merging these commands can be even more enhanced within the script
+file, something like this.
+So I can just create a script like combine reports and then I can do a generate report like that, and
+then I can do the exact same thing.
+So basically within this Mocca awesome report, let's say I'm just going to remove all these guys over
+here.
+And now if I just go npm run and I'm going to say combine reports and you can see that, oops, uh,
+let me say this.
+It seems like the file has not been saved.
+So, uh.
+Yo.
+And now if I try to run this once again, you can see that it has created the report that is on file
+for us and it was the combined report has been executed.
+The next thing is the general report.
+So I'm just going to do the NPM run and
+generate a report.
+I'm going to hit enter and I can see that it's going to generate the highest amount of file for me.
+So this is exactly the same thing that we discussed with our command.
+But just that this is going to be sitting within the package, Dages on file as a script so that you
+don't really have to type the command each and every time.
+So this is kind of very, very easy.
+We can also use something like make files to store all these kinds of stuffs.
+And I can make files very, very easy.
+And it is very simpler to execute in the Mac and Linux environment because it is available out of the
+box.
+So we can do that.
+But these are the things that we can do within our Cyprus reporting to generate the report and also
+merge the report.
+In the next video, we'll see how we can work with the J unit multi reporting and how we can generate
+that.
+And also we'll discuss something about the makefile that we can complete our Cyprus reporting.
+Thank you.
