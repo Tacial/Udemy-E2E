@@ -1,0 +1,211 @@
+Hi, guys, my name is Karthik and I'm from Automation Dotcom, and welcome to another video for Cyprus
+Course.
+And today I'm very excited to see Cyprus has released a new version, which is version 3.0, that one,
+a complete Buckfast version of Version 3.0 because 3.0 released like a couple of weeks before.
+And there were a couple of bucks, which was mentioned by the community.
+And Cyprus team heard that.
+And they released this three point three point one version.
+So let's quickly see all the different changes in Cyprus version 3.0 to that one and also see where
+the bug fixes that the team has made and the new feature they have introduced.
+So there are many bug fixes and few features introduced in this version as well.
+And some of the notable features are version 3.0 3.0 instead of three point three one one.
+Are these support for how focus not have focus, be focused and not be focused is a new assertion.
+Libraries, which was introduced in three DOT 3.0 and there are some bugs which was reported by the
+community and it's now fixed.
+It's kind of working right now, which we'll be seeing in this area as well.
+Requests that go through site, visit and site at request are automatically retried under the hood when
+the request fails.
+So this is more closely reflects the chromes default behavior on request, which is something the community
+reported in the bug and it is now fixed.
+So you can see that if their website fails, for some reason, Cyprus quickly throws that or without
+even waiting as if like a Chrome browser does that the default behavior of Chrome by itself.
+Cyprus was just overwriting that and now it's kind of fixed.
+And we will see the demo for this particular stuff as well and then site our visit on site.
+Requests are now now supports a new option to retry on status quo or failure.
+So you can also wait for a status quo failure, for instance, like five hundred or a four four or something
+like that.
+You can wait for that and then you can report the test to fail.
+So you can do that as well.
+A kind of boolean flag, but you can set that to true.
+The default behavior is false.
+And then the type now supports a special kind of sequence, something like an insert page up and down.
+I guess these are something which is not there in many different tools and it is currently supported
+with Cyprus, which is really, really well coming.
+And finally, Cyprus now automatically leads from your systems, has to be proxy, has to be a proxy.
+I know proxy environment variables and proxies to Africa according to Cyprus, based on these values,
+which is also very, very cool.
+So you can also set some Cyprus proxies and all of those stuffs in Cyprus, version 2.0 are zero and
+three and one and some more features which I personally like is something like this.
+You can see that you can download the chromium from the Cyprus runner, which is cool, and then you
+can also see the options, which is nothing but the site, the visit or site at request options within
+your developer console or something like this.
+Sounds like retry on status quo, a failure to set a true.
+You can see that the one which I set is also coming in here.
+And also you can see the proxy's settings within the settings tab of the Cyprus runner, which is also
+pretty cool.
+So this proxy settings shows you that what are the proxy settings that you have made for your execution
+within the Cyprus Dages on file?
+It's going to be displayed within this particular window as well.
+So let's quickly see everything in action and understand how things work so far that I'm not open my
+item terminal.
+Right.
+So now I'm on my Mac operating system and then I'm going to open the item terminal and as usual, I'm
+going to go to the Udemy Cyprus and then I'm going to open the visual studio code.
+All right.
+So this is our business studio card.
+This is the card that we saw in our previous video.
+So which is cool.
+And now within our, let's say, for seeing how the how focused and how not focused assertion works,
+I'm actually going to show you that, as you know, that this is the version 3.0 1.0.
+So if you go to the packages on file, the Cyprus is in very, very older version, which is Cyprus
+3.0, not five, but two or three.
+That one has been released yesterday.
+So we need to see that as well.
+So in order for that to be done, I can quickly show you how the older versions actually are.
+In our previous video, we saw that the Chrome version was not supported.
+The latest version, which is seventy four and also electronic browser, was 58.
+So it was not something updated as well.
+And similarly, all the different problems that we had is currently being addressed within this particular
+version.
+So I can quickly show you the older version problems and how it has been fixed in the newer version.
+So you can see this is the older version of Cyprus.
+You can see there is an update available.
+I can do that bit from here as well.
+Bertran version is 59, which is snagging and the Chrome 74.
+And also if you go to the settings, you can see there is nothing called a proxy settings in this particular
+version.
+Right.
+So I will quickly see all these things in our video by upgrading the Cyprus latest version.
+So I'm just going to do and NPM Cyprus update.
+So this is going to update my Cyprus to the latest version in this particular project.
+I'm going to hit oops, NPM Update Cyprus.
+It's not NPCs in Cyprus update.
+So there you go.
+You can see that it is getting the latest version right now and three point three point one is installed.
+And you can see that the version number has been changed here.
+Pretty cool.
+And now if I try to run the NPCs Cyprus Open, you can see all the different changes that we discussed.
+So you can see this window has been updated as well.
+And you can see that Tron is now 61, which is pretty cool.
+You can see it's currently running, which is awesome.
+So now I'm just going to also like this because settings you can see there is a proxy setting, which
+is a new setting, which was not there before.
+It has come here as well.
+All right.
+And then if I go to the help, you can see that we have this sundowner chromium option.
+So you can choose that.
+And you can see there is a new window being opened here in the browser and you can see the different
+kinds of booths available that you can download and you can try out as well.
+Right.
+So these are the things which is new to this particular Cyprus runner guys.
+So I'm just going to close this one and now I'm going to.
+Yeah.
+About spec here.
+Right.
+And then within this particular app, we can quickly see what are the things that we can do so far in
+the sense if I want to wait for this particular text box to get focused or something like that.
+So let me go to this particular login, which is there within our command, our JS here.
+Right.
+And within this particular command, you can see that we type the site.
+I'd get type of this particular user name and then the password.
+So what if I want to before typing the user name?
+I want to also verify that whether this particular text box has got focused so far doing that, I can
+just do hash username.
+So we did not have this particular section before and now we have it should then we can just do half
+dot focus.
+So if it is focused then you try to type this particular value.
+Right.
+So I'm just going to say this guy right now and the test, which I want to run is this year Abdah spec
+so so year Abduh Specter is is going to open that.
+Let me close.
+And let's see what's going to happen.
+Oops.
+Oh, yeah.
+So this is a problem as well.
+So there is a new problem will happen with the Halloween theme.
+You can see it became white instead of the black color.
+The reason is because the Halloween theme is currently not supported with our new version of Cyprus.
+So we need to probably remove that guy from from the plug in that we have used.
+So if I go to the index, Dargis here, I mean to remove this guy, sadly, this particular Halloween
+theme has to be updated, which is not.
+And that's the reason it is actually fading.
+All right, cool.
+So we're getting this picture error, which is something we know already because we have removed the
+base.
+You are in our previous video.
+So I'm going to go back to my Cyprus start, Jason.
+And if you remember, we removed this particular base, Yoro, from here.
+So it's going to be best Yoro, which is going to be the year app that Somme dot com.
+Come on, I'm going to save this guy.
+Right.
+So now if I go back to my Cyprus here and then if you go to the chaptered Specter Jass, you can see
+it's going to launch the app is Yapper Swami dot com.
+And then you can see that it's performing the operation and you can see that it is just performing an
+assertion here and it expecting it to be focused.
+So the thing is like it is not focused and that's the reason the test has got fail.
+Right.
+So now if I just it's waiting.
+If I put a focus and you can see that it is currently running, so meaning the assertion of how focused
+is actually working in here.
+Right.
+And also, the good thing about the visit this time is if I go to the visit, you can see that it shows
+me the there is all the walls and stuff, but it also shows you if you use any options here and then
+it will show you that option as well.
+So I can quickly show you the option of the visit that we saw in our slide so far.
+Doing that, I need to replicate that particular problem of shutting down our application and see what's
+really happening.
+So far doing that, I'm actually going to go to my year after Salmi dot com and I'm going to shut the
+website down for a few minutes.
+So let me stop the website.
+So I'm doing in my other window, and now if you try to access that year abda dot com within your browser,
+you can see that you are going to get this picture error has GDP four or three forbidden.
+So I have turned off the Ibrahimy dot com globally, so you can't even access that.
+So now I'm just going to say this guy.
+Right.
+And now if I see what's really happening, you can see it's pretty quick.
+Like within 24 second, the test has got paid less than 20, less than one second, I guess.
+But this has got field.
+Right, which was pretty fast because of this for three letter, so in order to overcome this particular
+problem, the team has introduced a new way of failing the particular application which is available
+within the site.
+So if I just put a camera and if I just open up parenthesis here.
+You can see there is something called us retreat on network failure or retreat on status called failure,
+so you can choose any one of them if you want.
+So as of now, let's say, if I want to choose the status quo or failure, I'm all set this to true.
+So the default behavior is false.
+So I'm telling the truth.
+And now you can see that it is currently waiting for the time out period.
+Not like point to for second.
+Rather, it has waited for like six seconds before.
+It says that it has got failed.
+Right.
+So this was not the behavior before.
+And with this particular flag, the property, it is currently supported.
+So I'm just going to turn on our website.
+It's currently being shut down by me.
+It has been restored.
+And now if I tried to run that, you can see that the site actually is up and running.
+So I don't see what's going to happen.
+You can see it has got some responses.
+That's why it is still waiting for the app to be loaded.
+There you go.
+Which is pretty cool.
+And the test is running without any problem.
+Amazing.
+So this is another option which is available, which was introduced in Cyprus throughout throughout
+one, and the final thing is within the console.
+If I just go to the set here, you can see that we now have an option.
+So this option shows you like what are the options that are used within this visit, though?
+The option is like retrade on status quo or failure.
+This is also been shown with the newer developer console, which just amazing.
+So these are the new things which was introduced by Cyprus through the third one.
+And I kind of like all these feature.
+And some of the new features like proxy's are all very, very useful.
+I can show you the demo of proximity in my machine, but if you are working in our office computers
+and if you are behind the firewall and if you want to use a proxy to run a test, you can use the proxy
+settings, which was introduced by Cyprus, which is pretty cool and awesome.
+So you can try that out as well.
+So once again, thank you very much for watching this on new features of Cyprus through and through
+that one.
+Once again, thank you very much for watching this video and thanks for buying the course.
+Have a great day.
