@@ -1,0 +1,48 @@
+In this video, we're going to be talking about the Mockingjay unit reporter, so using the molcajete
+unit reporter, we can actually generate the same kind of reporting that we saw with the awesome report.
+But just that this is going to be like an GAO unit report, which we can use to integrate within any
+one of the continuous integration system.
+So I'm just going to open the safari and I'm going to show you what this molcajete report is going to
+look like.
+So as you can see, this has been updated like six days before with all those fixes that we have mentioned
+before.
+And you can see that it is going to generate the molcajete unit reporter.
+And you can also see there are many different kinds of configurations and parameters that you can pass
+in something like you can pass the Mocca file and you can specify the two console so that you can set
+the Truthy value to be produced as an example file to be logged in the console.
+And then you can also use the full suite title and you can specify the output and you can specify the
+attachment if you want.
+And you can also see there is something called the Jenkins model.
+As I said, this is something for the continuous integration systems as well.
+So you can do all sort of stuff using the J unit reporter pharmaco.
+And we are going to be installing this particular package in this video and we'll see how it works.
+So the first thing, as I said, is going to be installing the molcajete unit reporter.
+So as you can see, it is currently installing and we have this mortgage reporter over here and this
+is the latest and the greatest version to date.
+All right.
+And after that, we're going to go to the reporter option over here.
+And I'm going to set the reporter enabled to have the Mocca GAO unit reporter as well.
+And within this, I'm going to set the molcajete reporters reporter option.
+So, as I said, the options, which I'm going to be specifying this time, is going to be the Mocca
+file and then the two console option.
+So the mobile phone is going to be sitting within the Cyprus reports and the unit folder.
+And then I'm going to specify the two consoles as true so that it is going to also show that for us
+in the console so that you can view that as well.
+And now I'm just going to run this whole test and I will show you how it is going to look like.
+So once I execute this in Big Cypress run off browser called the Chrome, so you should see the browser
+being sponte.
+And we can see if the reporter actually has a new folder called J.
+In it.
+In it.
+There you go.
+Now you can see that there is something called J in it, and it's also creating the report for us in
+here, which is pretty cool.
+So you can see that this is the GeneDx report.
+It shows like what is the test and how it is being executed?
+What is the class name?
+What are the number of failures being happened and what is the time that test is being executed and
+things of that nature.
+So it's going to keep on generating for each and every spec that it is executing the test.
+And the report is going to be coming in here for us for each and every execution that we are doing.
+So this is how we can make use of the GAO unit test reporter within our reporter option over here.
+So this is the molcajete reporter for us, guys.
