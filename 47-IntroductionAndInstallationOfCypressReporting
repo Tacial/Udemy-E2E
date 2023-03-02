@@ -1,0 +1,134 @@
+//Section 10: Cypress reporting
+
+So today, we are going to be discussing about one of the most important topic of our Indian automation
+testing, the Cyprus course, which is nothing but our Cyprus reporting.
+And this is one of the most important topics that we have not discussed, no Cyprus cause.
+And the reason are because there are many problems that we had with the Cyprus reporting.
+But the new update of Democracy six, which happened while I released this course, and now the fix
+has been made and it is available for the public use, which means we can now use the Morcos with our
+Cyprus reporting, which is nothing but the most awesome reporting.
+So we are going to be discussing about Mocca awesome reporting in this whole video.
+Cyprus reporting.
+Cyprus is built on the top of Mocca, as we already know.
+That means any reporter built for Mocca can be used with Cyprus.
+So here is a list of Building McHardy Borders, which is available, something like Spek and then X
+unit and Jasen and Jasen Stream and J Unit and Hesterman Report and etc. So there are many different
+reports available and the one which we are going to be discussing is going to be the more awesome Hesjedal
+reporting and the unit reporting.
+So these are some of the most common reporting system, which is something you can integrate continuous
+integration system, something like Circleville or Jenkins' or Team City and things of that nature.
+So you can keep on working with these kinds of continuous integration systems with these reportings.
+So the Mukasa is a custom reporter for use with the JavaScript testing framework Moka.
+It runs on notice and works in conjunction with Moka ASM Report generator to generate a standalone Hesterman
+Sears's report to help visualize your test runs.
+So basically using this Mocca awesome reporter, you get a very neat Hesterman standalone report and
+you can see how easy it is to read through your report.
+And you can also make use of the McCausland report for many different purposes, something like connecting
+with the continuous integration system and looking at the report from there and some of the features
+the Moccasin reporter has got is something like a simple, clean and modern design, beautiful charts,
+support for test and test suite nesting display before and after Hooke's review dress code in line Statler's
+for failed test.
+And there are many other features which I have not listed here because you can look at the MCG awesome
+reporting GitHub page to understand all of the different feature and report basically provide.
+But we are going to be working on that right now.
+Along with that, starting from Cyprus 2.0, Cyprus exiguous each Speck's in an isolation.
+This leads to Mocca generates a separate test report for each specification file that we actually execute.
+Thus, there is no out of the box solution to generate one.
+Mocca awesome report for all your specification that is available within your test.
+But in order to make all the spec as one file, we need to install one more package, which is called
+Mocca as a merge.
+So basically this Mukasa merge is one more open source package which is used to merge all the jasen
+file, which is generated from the Moka awesome reporter.
+So, as that said, we need to install the following packages today to have our reporting up and running
+without any problem, something like Mocca and Cyperus multi reporter Moka Awesome Morcos emerge and
+make awesome report generator.
+So you can see that the version which is listed in here in the slide or the most latest version to date
+for all these packages, which is available currently.
+But this may change in a few days or maybe in a few months, but I don't think there will be any breaking
+changes for our test to fail or our report not to be generated.
+Finally, the reporting options are something the Moka awesome reporting editor has something like it
+has the report directly where the Mocca report has to be sitting.
+It has something called as quiet.
+All right.
+HESTA a.m. and Jasen Flag, which is used to perform the actions.
+As you can see, the property itself is pretty straightforward and understandable of how it actually
+going to work.
+So let's quickly see everything in action and understand how things work so far that I'm to flip to
+our business studio called Project right now.
+All right.
+So this is our business studio record, and this is a project that we have been working so long in our
+cause.
+And the reporting on we're going to do is I'm just going to change our package to our days on file that
+we have already.
+So as you can see, all the packages on file does not have Mocca or Cybersmart reporter Armacost or
+something like that.
+So I am going to be adding all these packages right now over here as we saw in the slide.
+And then I'm going to be installing all these packages, something like Mocca, Cyprus Multi Reporter,
+Moka, ASRM, Mirch and reporter and editor.
+And once again, you'll understand why the Cyprus multi reporter Suddenlink comes in, whereas we already
+have something called as Moka, OSM or Moco merge.
+Well, Cyprus military border is something it acts as a reporter, which is used to generate the multiple
+jasen file on the fly during the execution.
+So if you go to the Google and then search for the Cyprus Monthly reporter, you'll actually get the
+detail of what that actually means.
+And Cypress Mountain reporter and you can see it says, generates multiple Mocca reports in a single
+mock execution.
+So while you executed a test, it is going to generate something like this.
+You can also see this in your console output if you want, if you specify that in the reporter Cyprus
+multi border.
+So this is how the design file is going to be looking like.
+And this is what is going to be generating.
+And that's exactly the Cyprus Malta report is going to do and have added to that as well.
+Once we have everything in here, instead of installing each and everything, like a dependency I'm
+going to do is I'm going to delete the package Lakhtar design file and I'm going to delete the node
+module over here so that it can install things for me manually.
+And then I'm just going to go and install over here so that it is going to install all the packages
+for me once again in my project.
+There you go, the installation is done right now.
+I know I'm going to change our Cyprus Dages on file as well.
+So as you can see in our previous videos, we created the Cyprus Dages on file to hold our video screenshot
+folders, baserunners and stuff.
+So for this demonstration, I need to add the reporting's where it is going to have the reporting setting
+for our execution that we are doing so far.
+The reporting, the first thing need to do is the report itself.
+So basically, the reporter that I'm going to be using is nothing but the Cyprus multi reporter.
+So this is the reporter, which is not even mentioned in the documentation of Cyprus.
+Rather, there is something called a small committee reporter they try to use.
+But the more common the reporter is not currently supported.
+And if and even if you try to use it, it is going to throw you an error and the issues still exist.
+And that's the reason Cyprus Malta reporter comes in action.
+And this is kind of very, very latest and it has been supported right now.
+So this is what we are going to be using in this demonstration.
+And as that said, we then need to have what is called as a reporter options.
+So within this reporter options, we can specify the options that we need to be executing for our report.
+And once again, the reporting option is something that we saw in our slide while we were discussing
+about that.
+And that's exactly what I'm going to be using for this reporting option as well.
+So instead of holding the reporting option over here to make this particular jasen file even more better
+or even readable, I'm going to hold the config file in a different place.
+I'm going to call this as.
+Reporter options, so this reporter option charges and file is going to be holding all our configurations
+that we're going to be making.
+I'm going to go over this new file creation.
+I'm going to name this as reporter options star Jayson Allerton This Jasen file.
+I'm going to be creating our reporting options.
+So this is where I'm going to be specifying what are the different kinds of reporters that we need to
+be enabling.
+So basically in this video, we are going to be seeing how we can enable the Mocca awesome report.
+So I'm just going to say more awesome.
+And then we need to specify the most awesome reporting options, something like the reporting directories
+and stuff.
+So basically, I'm going to be giving all this stuff over here.
+And in order to farmand this document, I can format something like this.
+And as I've said, as you can see the reporting directly, something like Cyprus Reports and Mocca,
+I'm going to create a folder within the Cyprus.
+I'm going to call this as reports.
+And the Moka folder is going to be created automatically during the execution that we will be doing
+so as of now.
+Don't worry about it.
+I'm just going to leave.
+This is over here, right?
+So once everything is done, the next operation is to add additional configurations in the package DaGian
+file, and then we need to execute this whole test so that we can see how the report is going to look
+like we'll be doing in our next video.
+
