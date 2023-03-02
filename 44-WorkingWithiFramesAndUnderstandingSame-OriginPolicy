@@ -1,0 +1,199 @@
+Hi, guys, my name is Karthik and I am from Misrata, mentioned outcome, and welcome to our next tidbits
+of Entin Automation testing with Cyprus course.
+And this will be talking about understanding same origin policy and working with Ephram's in Cyprus.
+So there have been so many questions from community like you asking what is the same margin policy and
+how to work with iFrame in Cyprus, because it seems like it is not working under the box or there is
+no inbuilt method to support iFrame if you do really want to use that.
+So the same margin policy is something which is there in all the browsers or browsers adhere to a strict
+samisen policy.
+This means that the browser restricts access between the frames when their origin and policy do not
+match.
+So for instance, if your iFrame in your application is something that holds a different website within
+itself, something like you're going to do a Google login authentication or something like that, or
+maybe Azura authentications, those stuffs will not work in Cyprus.
+Another box, and there is a reason for that.
+So because Cyprus works from within the browser, Cyprus must be able to directly communicate with your
+remote application and all the time.
+That's of course, working.
+Unfortunately, browsers naturally tried to prevent Cyprus from doing this.
+That's the problem.
+So to get around these restrictions, Cyprus implements some strategies involving JavaScript called
+the browser internal APIs and the network promising to play by the rule of same margin policy.
+So it's our goal to fully automated the application under test without you needing to modify your applications
+code.
+And we are mostly able to do this.
+That's not exactly Cyprus tells to the user.
+And the problem with the same margin policy and the Cross Origin II frames are something which is really,
+really problematic.
+And this exactly applies to selenium itself.
+So it's not just for Cyprus.
+Even selenium has the same problem, but selenium just bypasses the same margin policy in many cases
+if your iFrame has a different website or something like that.
+But in Cyprus, there is a different way to work around with that, which we will be discussing in our
+upcoming videos.
+But for today, we are going to be working with the crossdressing Ephraim's.
+So if you remember the site of an iFrame that is a cross argin frame, Cyprus will not able to automate
+or communicate with this iframe.
+For example, as I told before, if you're entering a YouTube video or displaying a credit card or displaying
+no login for the odd are showing a commons of skills.
+So all these problems are going to be happening if that is not going to be typing or interacting with
+those controls within that particular iFrame.
+And the reason is because the iFrame is from a different website.
+So it is not from the side that you are automating.
+Rather, the site is going to be from a different domain by itself.
+So for that reason, Cyprus is going to completely suppress that particular option and we are not able
+to automate those options.
+So we are going to be working with the iFrame in this particular video just a little bit.
+You understand how to switch your context to the iFrame while working with it, but not exactly how
+to deal with the YouTube video or credit card information because those are currently not supported
+by Cyprus.
+You cannot able to communicate with that.
+Rather, you should call Zagar to perform this operation.
+So let's quickly see everything in action and understand how things work so far that I'm not flip to
+my item terminal right now.
+All right.
+So you can see that my item terminal has been opened here.
+And as usual, I'm going to be going to the Udemy Cyprus folder and here I'm just going to open my visual
+studio code.
+So as you know, all these videos we were discussing about the different kinds of operation that we
+have discussed until our last video.
+And in today's video, we are going to be working with the EPHRAM'S so far, working with the iFrame
+is what I'm going to basically do is I'm going to quickly create a simple website this time so that
+I can show you how it actually works.
+So I'm going to create a local website and there is a trick as well.
+And so I'm going to show you how to work with the local websites within you or Cyprus, and we really
+think about that as well.
+So the first thing I'm going to do is I'm going to create an iFrame app.
+It's going to be a very, very super simple app, by the way.
+And I'm just going to call this iFrame app Testim.
+So this is an Hestia page and I'm going to add some of the content into that particular page, something
+like this, so you can see that it expects me to pass a Cyprus iFrame.
+All right.
+So we need to have that as well.
+And since I'm creating this outside of the Cyprus, I'm probably going to remove this guy over here.
+All right.
+And then I'm going to have this iFrame that has HTML as well.
+So I'm going to create one more file.
+I'm going to call this as iFrame Doc Westmount and then I'm going to copy paste some of the cards that
+I have already written.
+I'm just going to say, oh this.
+And if you tried to access this particular e-mail file, it's basically going to work again, it's going
+to be a super simple and normal thing.
+So if I just tried random people, guy, it's going to work anyways.
+So I'm just going to save this and then I'm gonna write a test for this particular stuff.
+So if writing the test again, I'm going to write a very, very super simple test this time.
+And the test is going to be something that is going to navigate to the page and that is going to perform
+an operation over there.
+So the first thing I'm going to do is I'm going to go to the integration and examples and here I'm going
+to create a file.
+I'm going to call this iframe dot spec dot J.S. and then I'm going to write the code, something like
+this.
+So it's going to have before each.
+And then I'm going to write an ID block here.
+I'm going to call this as.
+Perform iFrame data entry, and then here I'm going to type some value for the text box, so let's quickly
+see if all the code that I have written so far actually works fine without any problem.
+So I'm just going to save this and then I'm going to open the terminal here and then I'm going to just
+type in Cyprus.
+Open and I'm going to hit the enter, so that's gonna open the Cyprus for us.
+But before that, we also need to make sure that we run this particular NPM install, because I have
+actually and I did that.
+So as of now, it's working, but it may complain some error.
+So make sure that you do npm install before you run this particular stuff.
+All right.
+So now the test has been open here and I'm going to go to the iFrame spikenard not file to run that
+so you can see that there is a new version available in Cyprus.
+We actually need to have that particular version because it's currently pretty new so we can run that
+as well.
+And you can see that some of the versions are not being supported with the older version of the Cyprus.
+So if I run that, you can see that it says that the browser was not launched, the Cyprus test cannot
+run.
+Right.
+So if I just select if I just stop and say if I change this electron and the electron version is also
+59, just kind of old.
+So we actually can update to the latest version to get the electron to sixty one, which is also going
+to be awesome.
+All right.
+So as of now, this is running, but trying to update them is going to be a good idea.
+So you can see that it is currently trying to visit the iFrame.
+Aha.
+So it says that it's failing and it's Abdel-Hamid dot com.
+It's not the one.
+So you can see it fails and the reason is because the abdel-hamid dot com slash iframe and so it takes
+that.
+And the reason is because we have actually given that in our Cyprus Dages and fire for the base you
+are so the base you are specified here, then it is going to take this particular location for running
+that particular file anyways.
+So as of now I'm just going to remove this guy, I'm just going to save this and then I'm just going
+to hit tab.
+And now if I just try to run this particular test, you can see that it will open the page right now
+like this.
+Right.
+So this is just for now.
+So make sure that you reward that particular base.
+You are all back because the other test requires that base you are.
+So you need to have that as well.
+So now you can see that we had a pretty good iFrame.
+So there is a text box here and there's a text within the speaker iFrame.
+So if we try to inspect this guy, you can see that this is an iFrame and it has a frame of it as frame
+like this.
+Right.
+So you can also do a developer tool to see that.
+But since this is going to be like a.
+Uh, Latrun Browsr, it's not that great, but I can still show you that so I can just click this.
+And if I go or here, you can see that this guy is an iFrame, then it's a frame.
+Right.
+So now we have to go into this picture frame to type the value because we cannot directly type the value
+if you don't find this particular iFrame anyways.
+So if doing that, we are going to be writing the code right now.
+So I'm just going to go back.
+So as of now, just bear with me.
+I'm going to be using the older version of electrons, just 59, and then we need to update this particular
+cyperus to three point three point one, which is the latest version released yesterday, so that we
+can have all the different features that we were using before.
+So first thing I'm going to do is like, say, dot gift.
+And within this get I'm going to type the hash to name, just file a text box.
+And then within that I'm going to type of value Cyprus.
+Right.
+But if I want to type a value within an iFrame, how do I do that.
+So for typing a value within an iFrame, the easiest way is to first of all find the iFrame itself.
+So I'm just going to find this iFrame with the same name with inside this frame.
+I was in this frame.
+I'm just going to do this iframe of this guy and here I am.
+Now you should be understanding what I'm trying to do here.
+So I'm just going to get this particular body as data iframe dot.
+I'm going to get all its contents.
+You can see that it is.
+And then this condron I'm going to find its body.
+So if I could able to find its body I will get all the value out from this.
+And with this I can also do one more thing.
+I can also do raap of Dottore.
+So you can see that what I'm trying to do now drop off Dollard body.
+So maybe I can just do this.
+I can create a different line here, which is going to be even more easier to understand.
+Dotter body dot eyes.
+I'm going to store this guy as iframe so now I'm going to store everything into the areas and once store
+that then I can retrieve this particular alias, something like get at iFrame like this and then I can
+find the control out from this particular guy.
+So you know that the control for this particular iFrame is going to be something different.
+All right.
+So let me stop this guy and let me run this again.
+I remember it's actually text box, if I'm not mistaken.
+This guy is a tech name within iFrame, so I can just do that as well to name within frame and then
+I'm going to type a value out into this particular control.
+So that type value time limit I Digance let's say text within iframe.
+There you go.
+So this is the only thing that I have to do to type of value within this particular iFrame and now let's
+see what's really happening.
+There you go.
+You can see that it's currently running as well.
+Once I hit that you can see type the value within the next box and also I type the value within this
+particular iFrame which is pretty cool.
+So that's a guy, this is how we can actually work with an iFrame within Cyprus and this is how we can
+switch the context from the actual body to the Ephram's body, and then we can find the element of that
+and store them within an alias and then we can perform an operation pretty much like how we did for
+the tables and stuff within our Cypress course.
+So once again, thank you very much for watching this video.
+In our next video, we'll get the latest and the greatest changes of Cyprus, three point three point
+one.
+Thank you.
