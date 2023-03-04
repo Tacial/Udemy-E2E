@@ -1,34 +1,32 @@
-Data driven testing with fixtures and read files in Cyprus.
-So today we are going to be working with another couple of mostly useful commands in Cyprus API, which
-is nothing but the fixtures and read files.
-Well, fixers and read files are the two different methods available in Cyprus to read our work with
-external files said they do have a similar behavior with minor differences, but they work very well
+Data driven testing with fixtures and read files in <Cyprus> Cypress.
+So today we are going to be working with another couple of mostly useful commands in <Cyprus> Cypress API,
+which is nothing but the fixtures and read files.
+Well, fixers and read files are the two different methods available in <Cyprus> Cypress to read our work 
+with external files said they do have a similar behavior with minor differences, but they work very well
 in reading the files of many types.
-Cyprus leaves these file types, as you can see here, like jazz on jazz, coffee, e-mail, text,
+<Cyprus> Cypress leaves these file types, as you can see here, like jazz on jazz, coffee, e-mail, text,
 CSB, PMG, JPEG and all these file types.
 But if you specify just the file name, let's say you just specify like user or maybe and password or
 maybe if you specify something like settings, data, but without any extensions, it will read all
 these files in this extension format.
-So let's say if you have passed the file name as admin without passing any extension, then Cyprus will
-go look to the fixture for the file name as amend our JSON admin Dargis.
+So let's say if you have passed the file name as admin without passing any extension, then <Cyprus> Cypress
+will go look to the fixture for the file name as amend our JSON admin Dargis.
 And if the file is actually an admin chargeback, then it will find all the seven combinations on the
 EBOW.
 Then during the eight combination, it finds that OK, it's a Dipak file.
 Then it just figured out that that is a JPEG file that you have passed and it just goes over there.
 So this is how the reading of the file happens with fixture.
-So you can see that by default, if you use the fixture, Cyprus fixer method will read the file from
-the fixtures folder off the Cyprus.
-But reading file or the read file method that you have actually looks from the Cyprus folder, rather,
+So you can see that by default, if you use the fixture, <Cyprus> Cypress fixer method will read the file from
+the fixtures folder off the <Cyprus> Cypress.
+But reading file or the read file method that you have actually looks from the <Cyprus> Cypress folder, rather,
 from the fixtures folder.
 That is one of the major difference.
-But other than that, you cannot see major difference using Cyprus and fixed itself.
+But other than that, you cannot see major difference using <Cyprus> Cypress and fixed itself.
 So for reading the files and fixture, all we have to do is this.
 We have to just pass this side out fixture and then the file name is nothing but the user in our case.
 And then I'm just using an alias to put that all value within any user so that I can then use the Seida
-to get to play around with the user's alias variable.
-Right.
-So let's quickly see everything in action and understand how things work so far that I'm gonna flip
-to.
+to get to play around with the user's alias variable. Right.
+So let's quickly see everything in action and understand how things work so far that I'm gonna flip to.
 This was truly a code idee.
 All right.
 So I'm just going to keep this to it blocks over here, as we discussed in our previous video.
