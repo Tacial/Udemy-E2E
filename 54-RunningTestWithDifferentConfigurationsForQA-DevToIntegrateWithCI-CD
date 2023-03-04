@@ -1,0 +1,91 @@
+And I'm going to flip back to item terminable where I'm just going to run this particular test, so
+for running this test, I'm just going to do this.
+I'm just going to run NPK Cyperus run.
+And then the specification file, the specified that I will run this time is going to be the year after
+spectrographs files.
+I'm just going to copy the relative Pat.
+I'm just going to paste this over here and then I'm just going to pass the EMV.
+Well, the EMV is going to be the one that we have just created within our indexed charges filed here,
+which is going to be the name.
+So I'm just going to use the name is equal to Kuai and maybe I want to set the browser to Chrome just
+to see that visually.
+And now if I try to execute this particular code, basically it should open up the year Abda Salmi dot
+com website and then it should run the test for us.
+And you can see that this time it's just opening the summit outcome, which is going to be pretty much
+exactly the same way, how it basically works.
+Oh my God.
+I don't know whether the application is really running online so I can try to run in Sekine.
+Hmm, seems like the apass down or something for some reason.
+So let me just check this online pretty quickly.
+And you saw me dot com.
+They got working, so maybe I'll try this again.
+Interesting, so it seems like it's not working, or at least this proves the point that it opens the
+summit outcome.
+We'll come back to the problem that we are facing it right now.
+But I can quickly show you what if I paused the environment from name as Kuai to Deve?
+And now if I tried to exclude this, this should open the executed automation dot com website for me.
+And you can see that it shows me that it couldn't be able to locate the extradimensional dot com.
+And there is this undefined and this is the reason that we actually got the error as well.
+Well, the error is happening because there is an undefined coming in and the reason is because we actually
+have this problem.
+So if I if I just try to execute even without any one of these environmental variables and now if I
+just try to run this.
+You can see that it says that we invoked the function exploited by the plug in offering next hour just
+fine, but throw an exception and it says there is no failure directly off, undefined does Dartez on
+file.
+So basically it is trying to look for a jasen file like named as undefined, and then it wouldn't be
+able to find that.
+Well, that's exactly what happened.
+I would try to append as well.
+So basically, if you see there is a there is this configuration 411, but what if there is no environment
+where that we have Positon, but we need to make this as a fallback, as a default file, whereas in
+this particular default file, you can just pass in the best you are all of the so that there should
+be a fallback file to be specified so that you can you can make sure that that particular test on fail
+at all.
+So I'm just going to create a fallback file as the default charges on file.
+And now if I tried to execute without the environment configuration, I need to save this file and I'm
+just going to run this again and again, see that this time it goes to the year after Solmi dot com
+website and then it is working from there.
+So basically it is trying to look for that particular file that we are actually looking for and then
+it should run from there.
+So the next problem of resolving this particular error, the application not being loaded, was mainly
+because of their default being fixed or fixed.
+You know where you are because of this particular line that we have?
+Well, this particular line that we need to be using, mainly if there is no you are a road being set
+at all.
+So if there is no you are it would be said, then you can probably call this.
+If not, you don't even have to call this guy.
+So what if I just try to remove this?
+So I'm just going to I just require the file.
+And basically I'm just trying to make this code even more oversimplified here.
+I'm just going to say, like, if the configuration of EMV name is equal to a smaller dev, which is
+going to be the degradation file, let's call that.
+If it is Q8, then call me the quater doesn't file.
+If if there's nothing, then just call the default address on file.
+So I'm just going to go back here and then I'm just going to run for the for let's assume that I'm open
+for the environment.
+So you should see that it is going to open the browser for us, which is going to be the year after
+Asami dot com.
+And you can see that it is going to open the the app.
+Oops, it's not so oh, OK.
+It's because there is this convict named.
+Someone changes to you.
+Maybe I'm just going to remove this and I'm not OK.
+I'm not even saying I'm not saying this yet, so I can say this and go here, Cinematical or Deaf so
+he can see that if I call it if it is going to call this automation dot com website, not the year Dorsami
+dot com.
+So you can see the different website is being loaded, which is just not correct.
+So I'm just going to stop the test.
+So I've already failed.
+And now if I just change this to Kuai and if I hit enter you should see that it should open the year
+apart Saami dot com website not to exceed automation dot com.
+You can see that it has not opened this year but also dot com.
+It has get to the app and is running that.
+So basically the idea is this.
+So we are actually trying to execute the test based on the environment that we are putting in.
+It can be the Kuai environment or it can be the environment.
+So whatever environment that we are putting in, it is going to configure our it's going to choose the
+file based on that and it's going to run it.
+So that's the idea of working with environments in Cyprus, using different configurations and they
+can integrate the same within the ICDs pipelines.
+Thank you.
