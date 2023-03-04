@@ -1,0 +1,272 @@
+// Section 12: Cypress GitHub Integration
+
+Hey, guys, my name is Karthik and I am from Azerrad Amazon.com, and welcome to another video of our
+Indian automation testing the Cyprus course.
+And today we are going to be talking about GitHub integration with Cypress Dashboard.
+So this is a new feature released a couple of days before from Cypress Steam.
+And they are pretty excited to release this because it has got one of the most requested feature from
+community, like integrating the corps directly with the GitHub and also with the Cyprus dashboard so
+that you can see what's really going on with the core checking of your application and as well as with
+the core that you have written in automated fashion for the app that you are building.
+And also the Cyprus dashboard will help you show like what's happening if you create a pull request,
+if you have configured your Cyprus dashboard along with the secedes pipeline, even if you create a
+PR, it's going to show you like what's really going on with that particular pull request.
+You'd also execute that before you even commit or merge that particular branch within the masterbrand
+or things of that nature.
+So that's really, really cool guy.
+So we are going to be discussing about that in this particular video.
+So for that, I'm going to quickly jump into my Mac operating system and I'm going to be creating an
+all new project this time instead of using our Udemy Cypress project that we have created all these
+days.
+All right.
+So let's get started.
+So now I'm in my Mac operating system and I'm going to open the item terminal and I'm going to create
+a directory here this time as.
+Cyprus, get demo and I'm going to navigate to the Cyprus gift demo and I'm going to open the visual
+studio called here.
+As you can see and over this project, what I'm going to do is I'm going to create the package, start
+JSON file, and in this package is on file, I'm going to create the dev dependency as Cyprus.
+And it can see that it's pretty cool that I can get everything in here.
+So now I'm going to open the terminal and I'm just going to do NPM install.
+And you can notice that the version that I have currently is like three point three point two, which
+is kind of very, very older version.
+And the version that we actually need is the three point four point one, for that matter.
+So even if you go over here, you can see that it shows you the latest version.
+That's three point for that one.
+But for some reason, the ministerial code has brought this particular version so we can actually change
+this version to try it out for that one over here.
+And you can save this.
+And then if you try to do NPM install once again, you can see that it has now installed cypress trees
+out for that one.
+This is the version that we are looking for because this has the GitHub integration with Cypress.
+All right.
+So as I said, I'm not going to do anything or here, rather, I'm just going to call the NPCs Cyperus
+open, because all we want to do is to integrate the code with the Cyprus dashboard and then with the
+GitHub.
+And then we're going to see how it looks like.
+All right.
+So this is a new project and we're getting all these different integration examples so far, deleting
+most of the examples here so that I can produce a lot of time.
+So I'm just going to delete all the code over here.
+I'm just going to have the Action Docs file spectral JS file, and I'm also going to remove some of
+the IT blocks from here so that it looks so simple.
+It's going to save this.
+And what I'm going to do is like I'm just going to add this little code to my automation GitHub repo
+so that you can then start using this guy for the Cyprus dashboard integration.
+So far doing that and I'm going to do is I'm just going to open the Chrome browser and I'm going to
+go to the GitHub Execute Automation website.
+And over here I'm going to create a new repository.
+So I'm gonna call this ASP Cyprus.
+Get demo, and this is going to contain the Cyperus GetUp integration, and I'm going to create this
+repository over here so that it is going to be used for our purpose.
+So I'm just going to copy this particular link.
+And as you can see, this is the thing that we need to do.
+So once you have this guy, you can just do a kit in it or you can add read me or you can commit your
+first Commodore here and all this jazz you can do from here.
+So I'm just going to do a get in it and it can see that the guitar has been initialized here.
+So once I do that, you can see that the good repository has been many active changes on a subset of
+the guitar features will be enabled.
+So I'm just going to say yes.
+And as of now, let's not worry about the guitar.
+And if you can see here, this particular documentation gives us all these important information that
+you're looking for.
+So you're going to do a first commit.
+You can do that over here and then you can do this guy.
+So you can paste that over here and then you can push this to the master branch that you can do as well.
+But once you follow this, you get this kind of errors as well.
+So all you have to do is like you need to somehow specify that you need to add all of these files so
+you can see that, you know, just having all the files now.
+And if you see this kind of error, the reason is because now you can see that they get put it set to
+the upstream Mastrov, upstream of origin as M..
+So all you have to do is you can fix this particular things from the command line or the best way I
+can do is actually because I have messed up the command over here.
+I'm just going to open the git correction because it's kind of very easy if you can use that.
+It's like a GUI interface that you can use.
+So I'm just going to open the repository, which is nothing but the Cyprus demo.
+I'm just going to open that.
+I'm going to say initialize and you can see that it initializes things for me.
+And it also shows me the initial comit that I have made, which is pretty awesome.
+And now I can directly push this guy to master, of course.
+And I'm going to submit this and you can see that it is just pushing all these things for me in the
+Masterbrand this time, and it is successfully pushed.
+And now if I directly go over here and if I refresh this particular repo, you can see that it shows
+me the Cyprus demo here like three seconds ago.
+Right.
+So this is what we require for our initial submission.
+And as we know before that, the Cyprus actually has this particular runner.
+And you can see within this Reller, you actually have what is called a set up, a project to record.
+So this is where things get even more interesting because this is where you're actually going to configure
+your project with an organization.
+So this is where the Cyprus dashboard comes in.
+So I'm just going to name this pretty much like how I'm going to show you this one.
+So I was going to be Cyprus demo and then this is the organization.
+So I'm going to choose the organization and I'm going to choose the demo ARG or here and I'm going to
+make this guy's public.
+I mean, anyone can access it, even you can access it once.
+I want to have this particular video in hand that I'm going to set up this project and I can see that
+this is where the Cyprus run record comes in.
+So you can see that it is also added with our Cyprus charges on file right now or here.
+You can see that.
+And now I can just go to the to the GitHub and see that the Cyprus charges and file right now is kind
+of empty.
+So which means it's all good.
+Now, I can go to the get kerogen, go to the view file changes, and I'm going to stay all the files
+and I'm going to say that added Cyprus Dashboard's support committee.
+And then I'm definitely going to push it because you can see that I'm doing everything in the monster
+branch.
+So it's kind of very, very easy for me now and now.
+I can open the Cyprus over here and instead of running from the from this guy, I'm just going to stop
+the execution.
+And I'm not pasodoble here and I'm running this code.
+So it's the Cyprus run.
+And you can see that the three point four, that one is currently running.
+And it is also creating videos for me, which is pretty good.
+Right.
+So everything is working fine without any problem.
+And it also shows me the dashboard link over here.
+So if I click this guy, the dashboard link, you can see that it brings me up the dashboard link over
+here.
+And it also shows the Cyprus demo and it shows that this particular test has been successfully completed,
+which is pretty awesome.
+So it shows me things over here and also integrates with the dashboard with.
+We have already discussed about it also shows you the commit information, so this is the new thing
+which was not there before, and this is new thing which has been added recently, a couple of days
+before.
+So once I hit this, commit it.
+Now take me to the GitHub page and it shows me like what has been added.
+And that's the reason I just committed it.
+And I'm showing you like how it looks like.
+So he shows me each and every comment and also changes that you can see within the Cyprus dashboard,
+which is pretty awesome.
+And now let's say I'm going to make one more change, for that matter, over here.
+And I just want to make this particular test fail for some reason.
+So let me change this color from orange to maybe read something like that was going to say this.
+And I'm going to go to the get kerogen once again and feel the changes so we can ignore this file.
+So I'm just going to stage this file.
+This one, I'm just going to stay as well, and then I'm going to say change the action spec color and
+commit that and I'm going to push it.
+So once I push it now, once I try to run this particular test once again, for sure, this test is
+going to fail because the red color is not the one which is expected.
+And you can also see the change or the error, which has happened for a particular reason.
+And what is the comet which has made the changes, which is really, really good, because this is what
+we actually, as a tester or developer should look for, like in which comet things are going wrong
+and for what reason.
+So now if I go back to the dashboard over here, you can see that it is currently processing some.
+Maybe by the time I refresh this, you can see that it has got failed over here.
+And I if I select this guy, you can see that it has got in this time and also shows us the failure
+reason over here, which is pretty good.
+And now if I go to the GitHub and if I go to the to the repo and if I go to the comets, you can see
+that it shows me like what has gone wrong over here.
+So you can see this is the things which has got changed and things of that nature.
+But now you may ask, like, I don't see anything over here in the Cypress side, in the GitHub side,
+like what is has gone wrong and things of that nature.
+But as of now, you can see even if a hole or nothing is actually happening here.
+But in the screenshot I showed you something like there was a Cyprus thing coming in.
+So how to enable this integration and this is what it be doing as an integration part.
+So all I'm going to do is this.
+I'm going to go over here to the to the Cyprus demo project.
+And there is something called a settings.
+And in order settings in here, you can see that the things has been a little bit changed before.
+And now you can see now we have a site, GitHub integration.
+It tells you which report that you're going to go with.
+So I'm going to choose the Cyprus GitHub repo or here.
+So I'm just going to type for Cyprus and GitHub so you can see that it is currently not coming over
+here.
+So it's because I don't have the permission for the new report that I just created.
+So I'm just going to manage over here and enter my password.
+And this is the one which I'm looking for, the Cyprus GitHub demo, which is just now created, so
+that's the reason it was not there.
+Now, like 40 reporters are permitted.
+So now if I go back to my projects and I'm going to go to the Cyprus demo.
+Once again, and this time, if I search for Cyprus guitar demo so you can see that second star.
+It's like a new one I recommended.
+So I selected someone to select this could have.
+It says that there is a statistic inhibiters.
+So this statistic is what is going to make a difference.
+Right now, we don't really have any data showing what has gone wrong and things of that nature.
+But right now, once I enable this and I'm going to say like one check per spec, so I'm just going
+to give that as well.
+And then I'm going to say PR comments enabled includes screenshots and all those stuff.
+Now, what will happen eventually is now if you run the test, it is also going to show you the status
+over here, which is also on the cool integration, which sipos team has made.
+So now if I go back here and if I run the test this time.
+Oops.
+It says, We encountered an unexpected error, so let's wait for that.
+Or maybe I'm just going to stop this, because this is a new feature just introduced.
+Maybe for some reason it is slower.
+Oops, it's not.
+Let me try again.
+Maybe for some reason it's not working.
+Let's go to the setting once again and let's see what is the key that we are looking for.
+All right, I guess the key is correct.
+But something is going wrong with Cyprus, I guess.
+So just stop it and a little tired again.
+Oh, yeah.
+There you go.
+So it's running.
+Maybe something is going wrong with the cypress over.
+Let it go.
+Successfully completed.
+Now, if I go back here, so I'm the last time you can see that there was no status, but now there
+is a cross mark here.
+So now if I click this guy, it shows me that all checks have failed.
+And this is the detail for the failure.
+So once I hear the detailed goes back to the dashboard this time and it shows me what is the failure,
+which is really, really cool.
+It also shows you the video, the screen of the failure.
+And this is what we enabled, actually.
+And there is also the output.
+It shows you what has gone wrong, which is pretty cool.
+You can see whatever we saw in the video, Scott, is actually coming in in a much needed fashion.
+And they also have a video showing what has gone wrong during the execution.
+So everything is happening even for a free account, which is pretty cool.
+And the last thing which I want to show you is creating a new brand from the monster branch that I'm
+going to call this as a PR feature of Cyprus.
+And this branch is especially created because I want to show you quickly like how the PR Merge Records
+status is also being displayed, but just that since we don't really have a system integration, it's
+not going to make a lot of sense.
+But I can quickly show you how it looks like.
+So I'm just going to change it to orange and I'll save this.
+And I'm going to go back to the get corrected again before the changes.
+And we have this guy.
+We have this guy.
+So we I don't really have one this file.
+So I just want this one.
+So changed color again, committed and push it back.
+I'm going to push this to the PR feature, by the way, and then I'm going to do as if like a real time
+user.
+So I'm just going to right click and I'm going to say merge the PR feature to the Masterbrand and then
+push it.
+And then I want to create a pull request this time so that I can then request somebody to merge my changes.
+So I'm just going to say that from this brand to Masterbrand, I have changed this color.
+So please create a pull request for me.
+So the political side has been created successfully.
+And if I go back here to the to the get execute animation Tascon and go to the repository and we have
+this git Cyprus demo and we have something called as a pull request this time where it shows me the
+change color again.
+But now I just open this guy.
+But also there is something called US checks.
+So if you go here, you can see that we actually have a Cyprus and App Center.
+So you just ignore both apps.
+And now you can see that there is a Cyprus check as well.
+So if you have your test being configured to secede, you will actually talk with the Cyprus dashboard.
+Also does the ICD and then it will tell you like what this particular PR code has broken in your ICD
+before, you can actually even merge the pull request.
+So it'll also show you that something has gone wrong, not just a conflict, but also there is a test
+failure because of this particular part.
+So do you want to take a decision of merging the speaker upon request, which is pretty cool.
+So we have not did a C integration yet.
+So we'll be talking about Jenkins' integration of our upcoming videos.
+Once we do that, you can see that there will be an message here saying something has gone wrong.
+So now I'm going to just merge the particular pull request and it is successfully done.
+And if I go back to the editor once again and once I run this particular test, what will eventually
+happen is it will run the test for you and it will also show you the status over here.
+For this particular project, for this people commit that it see, you can see that an orange color
+right now, so once it is successfully done, this particular status will actually change.
+So you can see and you can see there is a tegmark this time pretty fast and pretty fluid and say, is
+that successfully completed?
+And you can see the details where I showed you what has gone wrong and how it got successfully completed
+could right in our upcoming videos and also talk about how to configure Cyprus with Jenkins so that
+you can see how you can integrate the Jenkins' with the CIA, also with the CD, and also how you can
+look at within the Cyprus dashboard.
+Once again, thank you very much watching this video and have a great day.
