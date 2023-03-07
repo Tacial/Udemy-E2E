@@ -1,0 +1,76 @@
+// Section 13: Continuos Integration with Jenkins
+
+Hi, guys, my name is Karthik and I am from Misrata, mentioned Dotcom, and welcome to another section
+of our Internet Web automation testing with Cyprus, of course.
+And in this section, we are going to be completely talking about continuous integration with Jenkins'.
+If you remember, in all previous sections of this course, we already discussed about continuous integration
+with Cyprus using what is called as doctor.
+We we tried using Docker to deploy the application and we also tried executing the application from
+Dakar, which was just kind of darker.
+And we also saw in our previous section about integrating the Cyprus with the GitHub repository.
+And we also saw the great feature Cyprus provide with the latest version of three point four point one
+and the how to integrate with GitHub.
+And also we can see how the execution actually happens.
+And in that video, we are also told that you can leverage the full potential of test executions.
+Are the run of the particular test only if you have an integration with continuous integration systems,
+not just with the continuous repository system like GitHub.
+Rather, there should be a continuous integration system like jenkins' or circular table where we can
+actually see the full report and failure execution stuffs everything within the GitHub integration plugin.
+So we are going to be discussing about everything in this section and understand how things work so
+far that let's get started.
+Continuous integration with Jenkins' for Cyprus.
+It is very easy to configure Cyprus with Jenkins'.
+All you need to know are these different pre-record side makes your course learning much easier and
+understandable.
+You need to have a basic understanding of jenkins'.
+I need to have a basic understanding of jenkins' pipeline concept and basics of Cyprus insulation that
+we discussed in our earlier videos of this course.
+And I know that the third point is very, very easy.
+You already know that how to install Cyprus like Cyprus run or Cyprus open all these commands.
+You know that by default those things are going to be very straightforward and easy, but just that
+the jenkins' basic and the jenkins' pipeline concept or not the part of this course.
+So you should probably look at different courses.
+I don't have any choice, guys.
+I cannot tell Jenkins' in this particular course.
+But just for the sake of your comments and your requests, I'm going to be starting the Jenkins' completely
+from the ground up, like from the installation part.
+But I cannot talk.
+Everything about Jenkins' Pipeline are jenkins' freestyle projects and how to configure Nords and what
+is the different stages and what is the pipelines and everything over this course, because there is
+a free course available of jenkins' within Udemy.
+You can subscribe that or you can also learn from YouTube, which is also available for free, so you
+can go ahead and was there.
+If you really need to improve your knowledge on continuous integration with Jenkins' and again, those
+things are completely nothing to do with this particular course.
+So I hope you really understand what I mean.
+But as that said, we are going to be talking about different ways of Cyprus build with Jenkins' in
+this particular section, something like Basic Cyprus with the JENKINS' via Freestyler project and then
+Cyprus with Jenkins via Pipeline and Cyprus with Jenkins' via pipeline plus parallel execution.
+If I remember in our earlier sections of this course we talked about Cyprus with parallel execution's
+support is kind of free right now with the latest version of Cyprus.
+So we can leverage the power of Padel execution.
+If we have multiple machines are not in your machine, you can also leverage that power.
+So we are going to be discussing about that in this particular section as well, which is never discussed
+elsewhere in the Internet, at least in the form of video.
+Well, the Cyprus where pipeline is going to look something like this, as you can see in here, we
+have a Cyprus test execution happening in a pipeline format.
+You can actually execute the whole stuff via pipeline or via official project.
+You can easily do everything if you have already installed all the prerequisite software, which we
+are going to be doing in this particular section as well.
+And the Cyprus execution, which stages are going to look something like this?
+You can see there is a stage where you can see what is really happening, something like a check out
+NPM Install and Cyprus test panel execution on the fly.
+So you can see everything in a stage by stage manner, like how much time it took for a particular stage
+to perform an action and how much time it took for NPM install and how much time it's taking for the
+Cyprus test to execute.
+And Padel.
+So we are going to be discussing everything.
+And finally, we'll also be discussing how Cyprus GitHub integration released in Cyprus, three point
+four point one version in much greater detail, which we actually missed some pieces in our earlier
+video because we did not had this section for Jenkins to discuss about that in our earlier section.
+So as I've said, guys, we are going to be fully talking about jenkins' integration from complete ground
+up, we are going to be doing the installation.
+We're going to be dealing with creating a new project like Freestyle and Pipeline Project.
+We'll see how things work from complete ground up.
+And we leverage the power of continuous integration with Jenkins in this section.
+So let's get started then and understand how things work.
