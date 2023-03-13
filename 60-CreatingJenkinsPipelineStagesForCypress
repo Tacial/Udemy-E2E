@@ -1,0 +1,102 @@
+In this video, we are going to talk about Cyprus pipeline with stages and also we are going to be talking
+about how we can work with our private repository, which is created already with the automation and
+GitHub repo.
+And again, this repository is only accessible by me.
+It is not shared to the outside world.
+So probably you can only use this even if you cannot try running the same port.
+But you need to somehow do it within your own private repository of GitHub and then you can try this
+code out.
+But just that we don't really have to expose this code.
+We have not subscribe to this course.
+So as I've said, I'm going to go over here to the Jenkins' once again and I'm going to create a new
+item this time, which is going to be a Cyprus pipeline.
+But this time it is going to be for coding.
+And I'm going to choose that pipeline project.
+And then I'm like, OK.
+And This Way is going to create a new project for us.
+It's going to pretty much exactly the same thing, like how we did an earlier video.
+So if you go to.
+The Cyprus pipeline, and if you can figure we can even copy some of this code from here and then we
+can pass it here so that we can reuse that, but just at this time, we are going to be using a different
+repository, as I told you before.
+So what I'm going to do is I'm going to go over here to the Cyprus reporting.
+I'm a copy of this particular repository and then I'm not pasted over here.
+And then I'm going to do the exact same thing.
+I'm going to do NPM install, and then I'm going to run this particular code using in Cyprus run.
+So this way it is going to run the code for us.
+But does that this time as a change?
+I'm going to be doing what is called a stage where I'm going to tell explicitly to Jenkins that these
+are the states that I really need to execute the court.
+So I'm going to say that it is going to do a good check out here.
+Then I'm going to say I'm going to do a stage NPM package restor stage of Cyprus test run.
+So this way, it creates a lot of stages for us and it brings us a cool view for us to show you that
+how the code is going to be executed.
+So this is going to be exactly the same thing that we saw earlier as well.
+So I'm just going to say this, and I'm going to run this and I will show you what difference does it
+make.
+But this is not the big deal, guys.
+This is exactly like how we did in our earlier videos.
+Like except that there is a stage being added, as you can see in here.
+But we are going to leverage even further with this staging concept and we are going to make use of
+what is called as our Cyprus dashboards and stuff.
+And we'll see how the test can be even further executed.
+So if you remember in our earlier videos we discussed about what is called as a Cyprus dashboard, so
+I can quickly tell you that Cyprus dashboard log in and you can see that this is a Cyprus dashboard
+I showed you earlier.
+And you can see I already have the projects like these and it also has all the integrations with GitHub
+repository for all the different reports that I have got.
+And the users that I have got is only one.
+We already discussed about that in our earlier sections.
+Guys, please watch those videos before you really make use of these things that I'm really talking
+about in here.
+But just that the only thing that you need to make sure this time is you already have this set up done
+in your project, in our earlier videos, because we are going to leverage the power of this in our
+this video, as well as in our next video in our this video, as well as in our next video.
+So I hope the test is already running behind the scene.
+So if I just go to this one.
+And go to the console output, you can see that it is still running at.
+And it's going to take some time to actually restore the packages, because there are so many packages
+that we have used, at least for this project, and once everything is done, I'll be back.
+And you can see that this time it is running our our tests that we were executing in our earlier videos,
+I know there are some failures in our test, but we just have to see if all our tests are actually executed
+without any problem.
+And you can see that the test has got failed, which is fine, and you can see that the reason for this
+long, big failure is because we need to somehow execute the jasen software, which is responsible for
+running the fake API server.
+So I'm just going to open that and we need to run that as well.
+So for that, I'm just going to type NPCs JS server, uh, then I'm hit the enter.
+It's going to be Debe Chazen, so that way is going to start the court for us.
+All right.
+Pretty cool.
+So now it is executing as well.
+And next time while we execute this particular court, it is going to go without any problem.
+But this proves the point that we could be able to run the Cyprus pipeline reporting as well.
+And it does exactly the same thing.
+It's taking the kids out into stores, the packages, and it runs that test for us, which is pretty
+cool.
+But we need to talk about the Cyprus dashboard as well.
+So far, that's what I'm going to do, is I'm going to go to the source code of this particular project,
+which is sitting in my GitHub repo, and then I'm not open this in the Explorer.
+And I'm going to open this in this studio cord, and you can see that while we open the NPCs Cyprus
+open, you can see that we have an option called as Arun's.
+And in this run, it will show you all the different runs.
+The code has been configured.
+So this runs I'm actually getting because I have already logged in within my Cyprus dashboard within
+this particular project.
+And since I have logged in, I could be able to go to the settings and then I can grab the card key
+over here.
+So this recording is actually coming based on the configuration that I have made.
+And once again, guys, these details I have already discussed in our earlier video.
+So please go ahead.
+And was there were these informations are already available, right.
+So what I'm going to do is I'm going to run this particular code in the Uttam is available in our demo
+project, this one.
+And this is where I'm actually going to execute our code and I'm going to make use of these things so
+you can see that these are the decisions I have already made.
+And these are and they are ran and they ran three hours ago.
+But now, if I tried to execute this code right now, it is going to update this particular timeline
+and then it is going to run without any problem.
+So these details we are going to be discussing in our next video.
+So make sure that you have all these set up in place so that you can follow along with this course with
+our next video.
+Thank you.
