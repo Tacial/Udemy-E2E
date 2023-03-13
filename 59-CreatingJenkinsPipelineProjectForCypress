@@ -1,0 +1,104 @@
+In this video, we are going to be creating our first job for Jenkins and we'll see how we can execute
+the court, so I'm just going to log in as admin for my jenkins' and then over here I'm going to enter
+the name of the job.
+So the name of the job can be anything you can set any name that you want.
+The one which I'm going to be doing here is going to be something like jinking Cyprus Pipeline, and
+then I'm going to choose the pipeline project here.
+So as I said before, I'm going to be choosing the pipeline for the basic.
+And also I'm going to show you how you can work with the pipeline, with the advance option, something
+like parallel executions and stuff.
+So I'm just going to choose the pipeline.
+I'm not going to hit.
+OK, and then you can see that brings up our new template or here that you can work with.
+And once again, guys, I'm not going to show you how you can work with the pipeline and what is pipelines
+and stuff.
+But I'm going to show you very quickly how you can get to work with Pipeline.
+So basically, while working in the pipeline, you need to configure a couple of things, like if I
+just go to the Jenkins' homepage, maybe you can see that we have something called as Manager Jenkins.
+And within in here, you can see that there are something called us managed nodes within manage node.
+You can see that I have a node called Master and this is nothing but the default installation that I
+have within my machine.
+So basically this master is responsible for executing my code right now or here.
+So I'm just going to choose the master for now.
+And then I will show you how you can run the test with the scripts.
+So the first thing I'm going to do is I'm going to set the the nard here as master because we know that
+we have no master.
+And then over here within the script, I'm going to do a couple of things.
+So since I'm going to work with a kid with a basic repository, which is the repository that we already
+saw the Kit Cyprus demo in our earlier videos for the Kitab integration, which is nothing but the previous
+section that we were discussing about in the Cyprus three or four, that one version, the feature.
+So I'm going to use the same repository.
+So I'm just going to copy or clone this particular wrapper so far that I'm just going to go over here.
+So if you don't know the syntax of the pipeline, then probably you can click this to pipeline syntax.
+And over here you can search for what is called a skit, and then you can put the repository.
+You are in here and the brand is going to be master.
+There is no credential.
+And if I generate the pipeline script, it's going to generate a pipeline script for me.
+So this way you can see that it reduces so much of remembrance that you need to have while working with
+the pipelines if you are pretty new, something like that.
+So you can use this pipeline syntax tool, which is very, very handy with working with.
+So I'm just going to pass this guy over here to get off this particular YORO for cloning the GitHub
+code.
+And then I'm going to run the code.
+And once again, guys, as we already know for executing this particular code, all we're going to do
+is in Cyprus a run.
+And that way it's going to execute the code for us.
+So for doing that, all I'm going to do is I'm just going to go over here once again as we know that
+we are going to be executing a batch command here in Windows, or if you're going to use maybe Mac operating
+system or Linux operating system, you should be running that using shell scripting.
+So you can see that we have something called us, S.H., which is for the shell scripting.
+And because I'm using my Windows operating system this time, I need to use what is called as a badge
+or Windows badge scripting.
+So I'm going to choose this guy and then I'm going to paste the command that I need to execute basically.
+So the command that I'm interested in this time is going to be npm install.
+So that's the first thing that we need to do.
+Once you read the script, I'm just going to copy this and then I'm not Pasodoble here, so I'm going
+to give a label here.
+So I'm going to call this as install NPM package.
+And then since we already have this command, I can just start typing it.
+So I'm just going to say I'm gonna run the basic test.
+All right.
+So run the test and the script is going to be NPCs Cyperus run so this way and execute the code for
+us.
+So if you remember in our previous videos, all our earlier videos, we were using the speaker command
+to execute a Cyprus code.
+So I'm just going to use this for this command, for performing an operation.
+So that's it, guy.
+This is the only thing that we need to do for the pipeline.
+And you can see that it's pretty straightforward and simple.
+So I'm just going to say this and this way it's going to create a new pipeline for me.
+And it says that.
+There is no data available, the pipeline has not yet run.
+So now if you try to build this particular job, you can see that it creates a first job for us.
+And if I go to the speaker's job and if I go to the console output, you can see that it is now trying
+to clone this particular repository.
+And that's what we told initially.
+And it also doing an NPM install.
+That's the second command that we actually told to Jenkins' to do things for us.
+And you can see that it has installed the Cyprus radar for that one.
+And also it says some vulnerabilities and stuff that's fine and also says zero vulnerability is just
+fine.
+And then you can see that it is now doing in Cyprus run.
+So basically, this is where things are going to be very, very interesting because this is where it
+is going to execute our actual test code that we used to execute from this whole studio code.
+And now it is going to run in the headless mode and it can see that it is currently starting in the
+headless mode.
+And it says that it found one spec failures, nothing but the action spectre just failed and it is executing
+the code.
+So if you go to the repo, if you go to Cyprus and if you go all the way to the examples, there is
+only one spec file which is being checked in for this particular repository.
+And that's the code it is currently executing in here.
+And you can see that the test also got successfully completed, which is pretty cool.
+And if I go back to my project, you can see that the test is in blue color, which means it is working
+fine without any problems.
+So everything is working fine without any problem.
+So this is how we can see that we can actually run a Cyprus test using Jenkins using continuous integration,
+which is pretty awesome.
+In our next video, we'll see how we can even extend this particular option to work with our private
+repository that I have already created, which is nothing but Cyprus reporting repository, which is
+the same source code that I have downloaded from our earlier video so that I can show you how you can
+run all our code that we're executing.
+And also there are some failures, which is fine just to showcase you how the failure to actually look
+like as well so that you can understand how things work.
+So meet you in our next video.
+Thank you.
