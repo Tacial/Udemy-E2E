@@ -1,0 +1,63 @@
+As discussed in our previous video, we already have the configuration within this particular project
+to connect with this particular Cyprus dashboard.
+So I'm going to do is this I'm just going to run this particular card within my jenkins', and then
+I will show you how we can link the reporting options working within the Cyprus dashboard as well.
+So I'm going to make use of the same pipeline project that we did in our earlier video over here, which
+was not executing pretty well.
+So I'm just going to go and I'm going to hit the configure option.
+But just at this time, I'm just going to grab the details from the car key over here.
+And you can see that we have in the car key something like this, which is something responsible for
+us to send the data to the dashboard.
+Right.
+So I'm just going to copy these details and then I'm gonna go over here to the pipeline.
+And this one is going to be like this.
+So you can see that I have changed our existing card from Cyprus run to Cyprus, an offer, a card,
+and there is this key.
+So I'm just going to save this.
+And now if I try to build this particular card, you can see that it is going to start executing the
+code for us.
+So let me also go to the.
+Up job over here and go to the console output and hopefully this time we have our Jasen, so we're running
+as well.
+But we're here, so we don't have a lot of errors as well.
+And you can see that now I just executing this particular command to start communicating with our Cyprus
+dashboard, and now you can see that we also have a run.
+You are all coming in and it says that it is actually communicating with this project and the run its
+affiliate.
+So something is happening behind the scene like communication.
+And if you are little, you can see that it takes me up over here.
+You can see that it is executing the code and the first test has got past just pretty awesome.
+And now if I see the video, it also shows me the video of the execution just happened on the Cyprus
+side.
+You can see that it is visiting the animation.
+You saw me dot com with the link and does the username and password clicking the login button.
+And that's why the test has got passed.
+So it is executing the code for us behind the scene and even the API test is executed.
+So now if I go back, you can see that the operation was called and the courthouse got executed.
+So is executing all the court for us behind the scenes and we can see in real time like how the execution
+is happening.
+So if I go to the speaker project right now, you can see that this is executing two hours before and
+also shows me the branch is anything but the master branch.
+And also it shows a message like pull request of zero two from extradimensional code change for demo.
+Again, guys, these are something I made intentionally within my private report so that you can see
+those detail.
+We are going to be making those changes in our next video and I will show you how to leverage those
+detailed power.
+But you can see that we now can see our court execution happening from Jenkins directly in the.
+Cyprus dashboard, and you can see the continuous execution is actually happening behind the scenes.
+So now if I go back to the Jenkins' maybe or here for the execution run and if I go to this particular.
+Console log.
+You can see that it is currently executing on the court for us, I think it is pretty close to complete
+and often it's going to be completed just pretty cool.
+So this way we can see that we can leverage the power of Cyprus with a pipeline of Jenkins' and with
+Cyprus dashboard.
+We could able to run the test.
+And also we can see the failures and the positive test cases on real time with videos and screenshots
+of the failures and stuff, which is pretty awesome.
+So these details are very, very handy while working with the continuous integration, because these
+are the things which are very much important while we work with the continuous integration system in
+our test execution.
+You know, next video, we'll discuss how we can leverage the power of GitHub integration along with
+the Cyprus dashboard and with the Jenkins'.
+And we'll see how the whole workflow works in much greater detail.
+Thank you.
