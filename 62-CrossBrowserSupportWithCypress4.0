@@ -1,0 +1,168 @@
+Hi, guys, my name is Karthik and I am from the Dotcom, and welcome to another video of Internet automation
+testing of Cyprus course.
+And in this video, we are going to talk about the Kasparov's the testing with Cyprus.
+So Kasparov's the testing.
+It's finally there.
+The highly anticipated support for Firefox and the new Microsoft Edge browser in Cyprus 4.0 is added.
+And this capability is added in such a way that it can run Cyprus test in Firefox, Microsoft Chrome
+browser in any editions that you are looking for.
+So Cyprus 4.0 marks a significant milestone in the development of Cyprus and sets a stage for an exciting
+pipeline of capabilities that will continue to elevate the testing experience for everyone.
+And again, I just copied this text from the Cyprus website, from the release page, and it's really
+worth it because I don't really want to replicate the different wordings for this.
+I could see that Cyprus is one of the most significant milestone for the Cyprus itself, because we
+have been talking about Cyprus inability for the crossroads agisting, except that it only supports
+the chrom as well as the electron browser, which was kind of pain because people were thinking that
+they cannot do any Kasparov's the testing support all these days.
+But right now they can do the browser testing as well.
+Recently, a couple of days before I spoke about Cyprus in the Cyprus workshop, and I could see that
+people were kind of getting frustrated without the support of cross-border testing.
+But right now, this feature is going to add the ability to run the test, not just in one browser,
+which is chrome or electron, rather, we can now run our test in Firefox.
+Any additions like developer additions that night, Liburd or the full version of Firefox?
+Or we could also run the test on its browser with different editions as well.
+Similarly, so running the test with different browsers in Cyprus.
+Is Verita easier than how you do it with the electron or the Chrome browser earlier?
+If you're going to run the test in the Cyprus dashboard, it's going to look something like this.
+As you can see, that is this chrome and edge displayed over here.
+You can see that at the edge, different versions like Edge 81, and that is Edge SEVENTY-NINE, which
+is the full version and similar against electron and the chromium.
+But you can see that I don't really see the Firefox for some reason in the Windows machine that I have
+right now.
+I'm not very sure about it.
+Maybe this is a new edition, or maybe I still have to do some sort of configuration for making the
+Firefox to be available.
+But if I do the same thing in Mac operating system, I can see Firefox browser, but not the browser,
+which is kind of crazy.
+But I could see that the support is already there in Cyprus and I could run the test on these different
+browser.
+But for some reason, maybe my configuration is wrong, or maybe we should wait for some more time for
+the Cyprus to be solidifying why the browser is not displayed in all the different machines.
+Cross my finger.
+It will surely support all the browsers and not run the different browsers in different scripting versions.
+You can do something like this so you can just do a cycle and run on chrome to run the Chrome browser.
+And similarly for the Firefox browser, you can specify something like that.
+So basically the cycle and run column Firefox is more like a tag to initiate the actual command that
+you have written on the right hand side.
+And then if you want to run the browser just from the command line, like one browser, you can do something
+like this.
+And this is the one that we have been talking about in this course.
+And yes, this is how you can actually run the browser like Edge browser much, much simpler.
+So instead of Mauceri, let's get started and action and understand how things work and see how Cyprus
+runs the test in cross browser platforms.
+All right, let's get started.
+All right.
+So this is the Udemy Cyperus project that we have been talking all these days in this course.
+And you can see that we have the cross browser support being added for the Cyprus 4.0.
+And you can see that we are currently using the Cyprus throughout a doctrine here, but the latest version
+is 4.0.
+So if I just just remove this guy and put it up, of course I need control space.
+You can see that Microsoft Beatles record is fetching the latest version of package, which is 4.0.
+So I can just use this and save it.
+And, you know, we can do and npm update for doing that.
+So I can just do an update which will update the Cyprus to the latest version, which is nothing but
+from thirty eight to 4.0 all the way.
+Right.
+So it is updated right now.
+And now if I go back to my node modules and if I go all the way to the Cyprus and there is this package
+that is on file, if it says it is Cyprus 4.0, which means it is the latest version that we have already
+installed within our project.
+All right.
+Now, everything is already here.
+So I'm gonna do is I'm going to run the existing test, which we have already done in this course,
+which is very, very simple.
+US opening the application and we're going to see that and you can see that we have used the areas to
+store the user name and password from the fixture, this one.
+And then it is going to perform appears Snapshot, which is going to be for the visual testing, and
+then it's going to perform the clicking of the employee, which is nothing but profound or there.
+And then it's going to perform a verification and then it's going to closed up.
+Here's a snapshot from there.
+That's it.
+This is the only operation that is going to do and we'll see how the test is going to execute in multiple
+browsers.
+Very, very super simple demo.
+This time I'm going to do this.
+I'm just going to do an NPCs Cyprus Open.
+So this way we can run the Cyprus dashboard and we'll see how we can list all the browsers which are
+currently available within my machine.
+All right.
+So now you can see that there is a browser and you can see that it by default, it attracted the edge
+sound design.
+This time all these days, you might have seen only the Chrome browser being selected, but this time
+this is Edge browser guys, which is pretty interesting for some reason.
+I don't know why I couldn't see the Firefox.
+You can see that I have the Firefox and developer edition stuff, but still it is not displayed in my
+machine.
+I'm not sure about that.
+But yes, you can actually see the Firefox additions and Mac operating system if you have a Mac machine,
+but the browser is currently not shown in my machine, as I told you earlier.
+So I'm just going to run the test in the Chrome browser this time just to make sure our existing tests
+are running in the Chrome browser without any problem.
+So you can see that it has open and you can see that logo is currently a Chrome logo there.
+All right, you can see that the application has been loaded and it is performing the intended operation
+there.
+And it's running the Piercey check, and that's the reason it's taking a little bit time there.
+And again, it's taking the snapshot and they're descending to the Piercey, that's it.
+So you can see that it performed all the operation for us in the Chrome browser, which is pretty much
+expected.
+We know how it works.
+So which is pretty cool.
+So I'm just going to close the Chrome browser, this time on for the first time in the course.
+And at least in the Cypress, we are going to run the test in the Edge browser.
+So if I run the same test on the Edge browser, so I'm just going to run the app to respect our jazz.
+And you can see that this time the logo is actually of the Microsoft Edge browser.
+So it's not Chrome anymore.
+Guys, you can see it is actually Microsoft Edge.
+So this is going to run the test on the Microsoft Edge browser this time.
+And you can see that it is currently visiting the website, pretty much like how it did for the Chrome
+browser.
+And the same behavior just pretty awesome.
+Very interesting, you can see that Cyprus is now supporting two engines all together, so we know already
+that Microsoft Chrome is actually acromion project.
+So basically it is at a core, it's a chromium rendering engine.
+So Chrome and Microsoft's Chrome are both same.
+That's fine.
+But Firefox is a completely different engine and it is also being supported by Cyprus.
+And Cyprus team has also mentioned that they will be supporting the Safari and Internet Explorer and
+pretty soon they have that in the roadmap.
+But currently those two browsers are not supported.
+But these are the browsers currently being supported, like Firefox and then Chrome and electronic,
+just pretty cool.
+So now that we can run the test from the Cyprus dashboard.
+So I'm just going to close this guy.
+And now if I want to run them in a command line fashion, so what I'm going to do is I'm just going
+to do in Cyprus run of hyphen hyphen browser, and then I'm just going to run the browser.
+So if I just type the edge and if I hit enter, you can see that it is going to open the browser again
+and then it is going to run the test for us.
+There you go.
+You can see that it is again running the test on the edge browser for us, and you can see that it's
+currently running the test on the S9 browser for running all those tests, which is pretty awesome.
+And similarly, it also runs the test on the Firefox and the Chrome browser, if you have.
+But if I just let me just stop this.
+As of now, I'm not running the test.
+So it's currently running our test in the headless model.
+So I'm just going to terminate it.
+So let's say if I want to run this in the Firefox browser, which is currently not detected by the Cyprus
+inside in my machine.
+So let's see what error that we get.
+So it says that the browser Firefox was not found in your system and it only says that the available
+browsers are like chrome edge, an electron.
+So for some reason, the Firefox is not found.
+But yes, Cyprus does support Firefox, as I already told you.
+So this is how we can actually run the browser testing with Cyprus.
+And this is the one that the team has mentioned here, like introducing the support for Cyprus forward.
+Oh, with Crossroads testing.
+And that is the crossroads, the testing guide, which is kind of very informative.
+And it says some important stuff, like whatever that we have discussed here is already there.
+But also they have insisted a lot about CIAs scheduling against protection for Firefox.
+So they now always say that there is a workflow along with how you specify the browsers and also you
+can specify the browser with the parallel option as well.
+So if you come all the way down here, you can see that it is currently in execution mode.
+And also the parallelism is two.
+And the panel execution is also supported by the Firefox and the Chrome and the Chrome with Cyperus
+in the CD pipeline.
+So if you're talking about the panel execution stuff in the CD pipeline in our upcoming videos, but
+as of now, this is how we can execute the cross browser testing with Cyprus, with Cyprus for our own.
+Pretty exciting.
+And I hope you'll really enjoy the latest flavor of Cyprus with the cross browser testing support.
+So, once again, thank you very much for watching this video and have a great day.
