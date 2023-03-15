@@ -1,0 +1,156 @@
+So we have been discussing about this Cyprus institution in GitHub actions and published report of Ankita
+pages from our last video and in our last video.
+We actually created the complete source code.
+We also executed at the core.
+And we saw how we can generate the Marcos and report.
+So everything is all good right now.
+So all you're going to do in this video is we are going to check in the code in the GitHub repo, and
+then we going to create and have actions, workflow.
+And then we can see how we can publish the report on the GetUp pages.
+And we'll see how they get her actions.
+Workflow is going to come into actions to perform a CCD operation for us.
+So for that, I'm just gonna go to the kid up over here and then I'm just gonna create a new repository
+and I'm gonna call this as a Cyprus report, something like that.
+And then I'm going to say Cyprus report with GitHub actions, workflow and publish a report in GetUp!
+Pages.
+And I'm going to add the ignore for the Norge module, and I'm gonna create a repository here.
+So this is going to be the repository which I'm gonna be creating.
+And this is where I'm actually going to be cloning my card.
+So I'm just gonna open this with the kid up desktop and over here I'm just gonna copy paste all the
+code and then I'm going to checking the code, which is gonna be just like a flash of second.
+I'll be back once it is done.
+You can see that the code is available for us.
+The next step is we need to create the actions of workflow, which is nothing but the GitHub actions,
+workflow.
+And we have already discussed about giddap actions, workflow in my earlier video where in order to
+set up the workflow, you need to choose a decade of workflow.
+So the one which I'm going to be choosing this time is going to be this one.
+But I'm just gonna delete almost everything which is sitting over here because I need to actually generate
+or create an altogether a new workflow here.
+So I'm not really gonna be using any one of these, as you can see in here.
+I'm just gonna be deleting all of them and I'm actually gonna be creating a new workflow altogether.
+So the first one is I need to generate the Cyprus report.
+I'm gonna get it from this particular branch.
+So that's the first thing which I need to be doing for my code to be executed.
+And then I need to create the jobs.
+I'm from this job.
+I need to be actually getting the container from these hypers browsers.
+So if you can't see in the dock or there is something called a Cypress Prosser's for this particular
+Cyprus, as you can go over here and the Docker hub, you can see that different versions of Cyprus
+browsers available like Chrome.
+Sixty nine.
+But if you go to the tags, you can see there are many different new versions of the Cyprus Chrome available
+over here.
+So I'm just gonna be using the most latest version, which is 83 and Firefox 77.
+So I'm just gonna use that as well.
+And then I'm gonna execute the same command, which I said I told you before to run the test and then
+generate the report and merge the report, which is D.
+So you can see this is the jobs there.
+I'm just gonna be executing or running.
+I'm gonna run on the chrome.
+No Chrome 83 on the Ubuntu operating system.
+And this is the Cypress browser with the version.
+The latest version.
+I see.
+I told you I'm gonna check out the code and then I'm going to perform the installation, which is gonna
+be the Cypress Verify.
+And then I'm gonna do the Cypress Test execution on the chrome, as you can see.
+This is the command, the NPM run test chrome, which we just did on our studio code.
+And I'm gonna be exactly doing the same thing to actually copy the videos into the public folder.
+And the reason why we just doing all these things on the public folder is because we are actually going
+to use the actions of the GitHub pages.
+So we are gonna be basically using and workflow, which is gonna be from this one, that kid Hupp actions.
+So as you can see, based on the author's information, you need to publish this particular page to
+a directory.
+And this is gonna be the public directly.
+So this is as an example, you can create your own directory of your choice.
+But I'm just gonna be sticking with the author, what they have mentioned.
+And again, this is very, very interesting.
+This is what I have read in the articles from the original author, and he mentioned the same thing
+as well.
+So I'm just gonna be exactly doing the same thing.
+And that's why we just copy pasting all the video files under the public folder.
+And then we're gonna be doing the merch test reports and then we're gonna be generating the test report.
+That's it.
+And then finally, we need to be deploying that report.
+So far, deploying the report.
+This is the stuff that we need to be executing this one.
+So deploy a report base to the get up page.
+So that's it.
+You can see this guy is actually coming from this one, which I just showed you.
+So once this is done, we are pretty good to go.
+I can then start the commit to create new Cypress report.
+But this is not gonna basically work.
+But despite that point of time, there is one thing between to still do is to go to the settings.
+And then if you go to the options, if you come all the way down here, there is something called us
+GitHub pages.
+So basically, this particular GetUp pages is disabled.
+You need to select a GitHub source over here to actually showcase where you're going to be doing it
+so you can select the branch which you're going to be working with like.
+Or you can also create your own branch if you want.
+So once you select this, basically your site will be ready and it'll be published on this particular
+location.
+Is it automation and GitHub that I will of Cyprus report?
+So if I go at this moment, you can see that nothing is actually happening because that test execution
+might have triggered already.
+If I go to the card and if I go to the workflow here, it seems like it has been past page burned,
+completed.
+And there you go.
+So let's see if we have this particular changes that we have made.
+Yes, I think everything's all good.
+So now if I just try to maybe just do a small application here and it's to commit changes.
+And then if I go to the actions, you can see that now the execution has triggered and he can see that
+the first execution has happened here, which is nothing but run on Chrome version number 83.
+So this is the first step that we were actually executing.
+And again, can see that it is setting up the job.
+It is initializing the container for us.
+And once the initialization is done, it is then going to check out the code and then it's going to
+install the same president to verify around the Cyprus test and copy that test.
+Execution videos and screenshots merged to test report, generate the estimate report, deploy the report
+to make it up page and then it's going to stop the container.
+So it's going to do all sorts of workflow operation for us once the execution is complete.
+So let's wait for the execution to fully complete.
+Whoops.
+It seems like there is a failure here because the test actually expects a screenshot folder to be available
+because that doesn't really exist at this particular point of time.
+Within our report, we actually need to add it at least a file so that it will actually show us our
+copy paste these screenshots, because there is no permission for it, because we already have a videos
+folder and not the screenshots folder.
+You're just gonna be creating a problem for us.
+Probably.
+I can create a new file here.
+I'm just going to say folder to hold these screenshots, commit the new file.
+And if you go to the actions right now, you can see that the test execution has started.
+And you can see that this time the report has been generated.
+And it's also merged and it is also performing the check out and everything is done just pretty cool.
+Now, if I tried to go directly to the settings, as you know.
+Over here, as you can see, that we have this because you are up for the Cyprus report.
+And as I told you before, we have to choose the GitHub pages where the report is going to be published.
+So if I open this particular you are allowed.
+You can see that I could see that particular report is coming in.
+Pretty cool.
+And also, once they expand the particular step, I actually see the video of the execution as well.
+And that's the reason why we have actually changed the name of the particular file to this particular
+name.
+Right.
+And now you may be wondering where these particular fires are actually being published and Verity's
+sitting.
+So, as you can see, there is something called as a jihad hyphen page branch.
+So I sent it to the Masterbrand.
+But while the list is actually executing, I realized that the Masterbrand is not the one which we should
+be choosing.
+We should be choosing the Jihad page branch because it is nothing but the GetUp pages branch.
+This is where you are actual pages should be sitting.
+So if you want to see the GetUp pages branch, you can actually see this.
+Let's say if I just go to the automation of the Cyprus reports of three G Hatch pages.
+So if I go there, you can see that you can actually see the assets off my report and also the videos
+of my report.
+And also, it shows me the locations because there is no screen charts being generated because there
+was no failure in that, as the screenshots folder does not really exist.
+But if there is any failure in our test, we can also see that particular report coming in.
+That's it.
+So this is how we can actually work with GitHub actions and we can generate a report and we can publish
+the report in the GitHub pages with Cyprus.
+So did guys.
+Once again, thank you.
+But I was watching this video and you have a great day.
