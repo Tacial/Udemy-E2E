@@ -1,0 +1,51 @@
+All right, so now that we have set everything on our project and the last thing is we need to add the
+test on the ABDA to start our TSX file so we could probably start doing it over here.
+So all I'm going to do is this time I'm just going to comment this particular piece of code, probably
+because we don't really require this code anymore.
+Or maybe we can just comment this particular piece of code and we don't even require this code because
+we're not going to be using them at all.
+Rather, we are actually going to be using the Cyprus.
+So I'm just going to say from, um, at Cyprus or react.
+So this is what I really require.
+And over in this particular.
+Package, we actually have what is called Assman.
+So this is what I really, really require because this is what I'm actually going to be using to perform
+the operation.
+So over here, I'm just going to say it so probably I can even use the same cord from here, but rather,
+I'm just going to be using the earplug.
+You can see that it's completely different.
+And over here, I'm saying test application in component level.
+So I'm not going to be using it to describe something like that, so I'm just going to leave it as it
+is on this blog, I'm actually going to say mount the application, which we can do using the mount.
+And the command is going to be exactly the same, like how the render has actually used.
+I'm just going to use the exact same thing over here like this.
+That's it.
+So if you do that, the application would be mounted for us.
+And then I can just do say dart get.
+And then I can perform any operation that I'm really looking for.
+So, for example, if I wanted to click the learn react because it says that get by text, learn, react.
+So I can just do that as well.
+So I can probably just do this or probably I know that this is a hyperlink, then I can just do a click
+operation on that particular hyperlinks.
+I just saved it now.
+Now I'm just going to run this will see how it actually works so I can use that terminal which we already
+have over here.
+So I can just do NPLEX Cyprus open seat so you can see that this is the first time we are actually using
+a new command called Open Hyphen Qty.
+So instead of the open command, which we usually do, we are going to be using the open hyphen CWD
+Command, which is nothing but for the controller.
+And you will see that this time it is going to be launching a new test runner, which we have never
+seen before.
+So this is the test under which actually going to run the component test for us.
+So once I click this particular app to start this file, you will see that it is going to be talking
+to the application for us and then it is loading the application for us and you will see that it has
+actually clicked this particular learn react for us over here and can see that it has opened a new page
+and a new tab and it has a really did that for us.
+So once I do this using the time machine, I can actually see what's really happening over here.
+So it has really clicked it and that's when we actually see a new type opened.
+So this is how we could actually write super, super simple cypress components using the new Cyprus
+component.
+But in the next lecture, we'll see how we can enhance our application a bit and then run the same thing
+with our Cyprus testing.
+And I will show you how the developer actually does that and how the same thing can leverage us while
+working with it, while working with the component testing.
