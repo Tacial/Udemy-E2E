@@ -1,131 +1,68 @@
-//
+// Section 19: Cypress 6.4.0 - Network Stubbing
 
 Hi, guys, welcome to another section of our intend to start a mission with Cyprus course, and in
-
 this section we are going to talk about marking and stabbing networkers with Cyprus.
-
 So we have been talking about Cyprus a lot in all these sections, but we have not really talked about
-
 the marking and stabbing a lot in our cause.
-
 And because there are so many questions asked by students asking how to work with the network, STUBING
-
 and mocking in Cyprus, this section is now covered with all those questions for you.
-
 So what is mocking and stube?
-
 Well, a metal stub or simply stub in software development is a piece of code used to stand in for some
-
 other programming functionality.
-
 A step may stimulate the behavior of existing code, such as procedure on a remote machine or a method
-
 are often called as marks or be a temporary substitute for yet to be developed code.
-
 So this is what is marking and this is how things are going to happen.
-
 I mean, you might have seen the situation while working with an organization where the UI might be
-
 developed, but the API might not be developed or the wise words.
-
 It can also happen like API will be there, but you may not be there.
-
 And there are situations where in a very vulnerable product, the UI will be developed with wire frames
-
 and the UI work starts pretty quickly.
-
 But because the developers in the app Edem, with some backhands not being developed, they may be delayed
-
 and you might need to somehow mock the API response so that the UAE can behave perfectly.
-
 So these are the things that you can actually do.
-
 So this is the behavior which is not actually mocking, but this is called as Stubing, because you
-
 are expecting some sort of data coming out from an API or an exit jar for you are UI so that the US
-
 can render it clearly.
-
 And that's what we are going to be doing in Cyprus, using what is called a stabbing.
-
 So in Cyprus, it is very easy to set up a network, responds by intercepting the API or exegetical
-
 and inject data or see data in it.
-
 This will be helpful to test applications, even if the feature or the API is not ready for you to consume
-
 within that particular UI.
-
 And this can be done in many different ways in Cyprus.
-
 And there was a very prevalent way of doing it, using what is called as the side Dart Road and Seida
-
 server earlier before Cyprus six.
-
 But now after the Cyprus six, there is something called a side dot intercept, which is very, very
-
 handy.
-
 And it is a next generation successor to Seida Trout because it's going to offer you more flexibility
-
 and Grandal control over handling of the network layers.
-
 So you will now have out of the box support for intercepting Fritsche calls, page loads and resource
-
 alerts in addition to the pre-existing support, for example, has to request, which is really, really
-
 cool.
-
 I mean, these were not a thing in Seida drought onesided SOHR commands before, but now it is already
-
 there with fetch call itself, which was something not supported before in Cyprus and now Cyprus disappointed
-
 with Ciotat intercept, which is pretty cool.
-
 And there is a very, very minor difference in terms of the syntax.
-
 If you already are using Seida drought and or over and if you are trying to migrate to the site intercept,
-
 then the syntax is going to look something like this.
-
 I mean, at the moment, if you use Seida server and Seida drought, you would probably see a obsolete
-
 error on the idee because those are not something recommended by the Cyprus team.
-
 Rather, you should be using what is called a Sadaat intercept, something like this.
-
 And as you can see here, the syntax looks pretty exactly the same, which is mentioned on the site
-
 at Trout.
-
 Just that you can also specify an additional optional get as a first parameter for the intercept.
-
 You can also specify paused if you want to.
-
 So you already have some control over that.
-
 So that is really, really cool while you do this to intercept.
-
 And other than that, the fixture is now like a parameter.
-
 You can specify that and even intercept.
-
 You have many different ways to work with it.
-
 So that changes in terms of the whole intercept itself is going to be like this.
-
 You have more control over the request and response assertions and you can also filter the network request
-
 even with a header level matching, which is really good.
-
 I mean, these things are really possible because of the powerful round matcher and root handler option
-
 available within the intercept.
-
 And this is exactly what we'll be discussing in this particular section where we will be actually doing
-
 the same operation using the interceptions in Cyprus.
-
 So this intercept option is going to be something like this, as you can see here, for example.
 You can do a user interception, something like this, or you can also specify the full blown you are
 all of the network or if a charge that you'll be intercepting and then you can inject the data from
@@ -145,4 +82,3 @@ So these are some things which you can do in Cyprus and it is very, very easy us
 command, which is recently introduced in Cyprus six.
 So quickly see everything in action and understand how things work.
 So stay tuned for our next lecture.
-
