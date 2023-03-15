@@ -1,0 +1,112 @@
+All right, so within our cause, if you have seen in Section five, we already discussed about XIKAR
+like how to work with exercise and how you can do assertions with Xstrata using the Seida server and
+Sadaat Roud.
+I mean, those are the things I've passed right now because of the breaking changes and stuff.
+And Sirat intercept is the new way of working with it.
+I mean, even in this particular discussion, we actually talked about the LAMDA test, where the actual
+Xstrata data was something which we couldn't able to intercept.
+The reason being, it was actually deployed on a public server, which is lamplighters, of course,
+that's a different company altogether.
+And we couldn't able to do any changes on that data.
+Even if we do that, it won't reflect due to the cross origin policy, our SOLARES.
+So all these things were something we didn't discussed before, and at least for the Sirat intercept,
+we could actually talk about that in this particular section and we'll see how we can actually work
+with it.
+So for doing it, we are going to start everything from scratch and I will show you how we actually
+can do all these things.
+So first of all, I already have an application over here.
+As you can see, it actually shows all the contact list.
+And if you inspect the element over here and if you go to the network and if you try to refresh this
+page, probably you will see that it shows a users, which is coming from the Jasen Placeholder dart
+type called dot com website users, because all the data, something like this, and you can probably
+copy this particular you are as well if you want to, and you can just navigate to this particular site.
+It is basically the fake design server site, which actually has all the data, something like this.
+Probably if you go to the post something like this, it'll show all the post information over here.
+And if you just do one, it'll just show up first or something like that.
+So you can do everything from this particular jasen fake server.
+And that's exactly what these details are being coming from as well.
+And because this application is currently deployed within our own machine, like within my own server,
+I could be able to actually change that data as well if I want to, and then I can see how it actually
+works.
+So the whole idea, the whole scenario over here is to see how we can actually stub their data or see
+the data and show that on the UI, assuming that this particular real production API is currently not
+even been developed.
+So those things we can actually do over here.
+So for doing that, I'm actually going to go all the way over here and I'm actually going to create
+a directory called this as cyperus inter or except just navigate there.
+And I'm going to open the studio called.
+And I'm going to create a file and I'll call this package Dot Jasen file, and I'm going to add the
+dependencies that I'm actually going to add Cyprus and I'm going to be adding the latest and the greatest,
+Cyprus, just six to eight for that one while I'm recording this particular video.
+And I'm going to do an NPM install, which is going to install in Cyprus for me.
+That's it.
+So this way, we are pretty much ready to go right now.
+And then I'm actually going to do the NPCs Cyprus open to set up all those basic political sites set
+up for us on the Cyprus so that we can start working with it.
+So you can see that the Cyprus is currently open for us.
+Just all good right now.
+And now in this particular integration folder, I'm going to create a new file.
+I'm going to call this as Mark darts back Dargis, which is going to be the code that we are going to
+be working with.
+So, as usual, we are going to be adding the reference for the Cyprus and then we are going to create
+the described block, which is going to be something like performing Stubing of real local application
+in our here.
+I'm going to write an ID block, but I'm going to say tubbing the user API and this is where things
+are going to be spicy.
+We are going to start accessing this particular euro, which is going to be Seida visit.
+And over here I'm just going to give DP Callon localhost of three thousand.
+And probably I just wanted to do a simple assertion that I am going to see if I could able to see the
+heading of that particular side, something like that.
+So Seida, get off.
+Which one?
+Uh, probably should be should be visible or something like that.
+That's it.
+So this is the only thing which I'm going to probably do and I'm gonna see if that really works.
+So I'm just going to do is in Cyprus cut open once again.
+And I go to the marked Specter just file and you can see that the contact list is coming up over here
+and it's working fine.
+So if I just do an inspect over here once again, you should see that on the network.
+If I try to reload that and if I just filled it out with just XIKAR, the user is coming over here.
+Yeah.
+So everything is working fine as expected.
+The next thing which we need to do is to actually see how we can intercept with the stubbled data or
+the C data that we have.
+And we can get only that particular response on the UI instead of getting all the the list of contacts
+that you are getting it from the fake Jizan server Web site.
+So for doing that, I'm just going to do an interception.
+So I'm just going to do the CI dot intercept where I'm actually going to say you need to intercept the
+you are told, which I'm probably going look for, which is going to be this particular.
+You are.
+Yeah.
+Uh, so I think it's the users euro, so I'm just going to copy that and I'm going to paste it over
+here and I need a fixture data so that I can actually inject that particular data on this particular
+place.
+So far doing that, I'm going to go to the example, start JS on file and I'm just going to copy these
+data over here probably.
+And because this is an array of data as I'm just going to put an array, something like this.
+And instead of the name as La Ingraham, I'm just going to say Karthick, K.K and user name is going
+to be Karthick and this guy is going to be they've got to keep that code in and probably going street
+is going to be Bayview and City is Auckland five, six, six.
+It's all good.
+And I'm probably going to give you some random phone number there, something like that or whatever
+it is.
+And then I'm going to give another user name, which is going to be probably Prashanth and user name
+is Prashanth as well.
+So you can see that I got all the data right now.
+So I'm just going to say this and I'm going to use this example later on this particular mocked server,
+which I'm actually going to be using.
+So if you could see over here, we're getting thereas from here.
+So now if I just change this particular fixture value of something like fixture of.
+Example, Dr. Jason, and you know that while we use this picture, it is going to read the data from
+this fixer's folder.
+So I'm just going to save this.
+And once I do that, Cyprus will magically offload only these streator.
+So basically what we have right now is we have stubbed the server data with our data.
+So this is what is going to happen in real time as well if you have any UI, which is already.
+But and if you don't have your API, which has the data to be injected on the UI, so probably you can
+actually do the STUBING, something like this and then you can verify and see how it actually can be
+shown on the particular UI.
+So this is the power of Cyprus Seida intercept to do things for you.
+In our next lecture, we'll talk and see how we can actually perform a throttling and also how we can
+show a different data on the body, something like that.
+Those things we can discuss about in our next lecture.
