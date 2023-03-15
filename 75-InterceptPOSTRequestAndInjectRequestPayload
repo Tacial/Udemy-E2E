@@ -1,0 +1,149 @@
+All right, so now we understood the real world application of Cyprus and we're going to start marking
+the transaction or intercepting the transaction and we'll see how the system is going to behave based
+on the data that we are actually inserting in.
+So in order to do that, I'm actually going to go to our court over here and will probably write one
+more scenario here, which is going to be the Cyprus real world or something like that.
+Now, dart spec, dot chase.
+And this is the one which we'll be using for our testing purposes over here.
+So what I'm going to do is I'm just going to go to the mark again and I'm going to probably copy these
+things.
+I'm going to pass them all over here like this.
+And I think I also need to do the NPM install because I have just removed the Cyprus and all the node
+modules.
+So I think it's all pretty good right now.
+And now I'm just going to do something like performing, uh, interception and I'm going to say intercepting
+post request and form a response back, something like that.
+So in order to do that, the first thing which I'm going to do is I'm just going to do a one more operation.
+If you remember, we talked about the Cyprus studio, which performs the record operation.
+So I'm going to use that one to perform a record operation this time instead of me writing a lot of
+chords because I don't really have any control over there.
+So I'm just going to set the experiment as true and I'm going to do an Cyprus open.
+And if I just go to the Cyprus real world, Specter Jazz, you can see that it's actually opening up
+things for me.
+And there is no command here.
+Of course, I have not done anything over there, but I'm just going to add the command to the test.
+And it's asking me for the euro, which is going to be the wall that we were, uh, we need to possibly
+do something about this guy.
+So I'm just going to copy paste this guy over here.
+I'm going to go.
+So it's going to start recording me on that particular site right now and I need to enter the username
+so the user name is going to be at my pace, this guy here.
+And the password was this one copy pasted over here on a sign in.
+Here you go.
+And you can see that currently the balance is thousand two hundred.
+So I'm just going to probably.
+Remember this, and then I need record it anyways, so I'm just going to pay this guy, so let's say
+I'm going to pay like a hundred dollars, uh, payment made from Kansas to pay.
+And once I do the pay, you can see that the amount is reducing.
+So probably going to click this one.
+So the balance is coming up so that I can get the balance for the calculation purpose later.
+And that's it.
+So this is the recording which I wanted to do.
+So I'm just going to save this command and you can see that currently it's going to fail.
+That's all right, because the moment we need to enter the username and password.
+So if I go to that test right now, you can see that the recording operation is done.
+The reason for it is because we don't really have the username and password correctly in here.
+So I'm just going to copy the password and I'm going to post it over here for the password and for the
+username.
+I think the username was this one.
+Copy this and I'm going to paste it over here.
+There you go.
+So this is done.
+I think now it should work fine behind the scene.
+Let it go.
+It's working fine, which is cool.
+So if I just try to run this again, recorded code is working fine.
+And every time it does, it's producing using from my account, which is quite bad.
+So I'm just running out of money pretty quickly.
+And this is what I want to I want to test this time.
+So I'm just going to go back to my code here and then I'm going to verify this data or probably get
+this particular text.
+And I want to see how much the value is coming up.
+So I'm just going to probably do an invoke operation, if you remember where I can actually get the
+text.
+And so what is the idea for doing this?
+Doing this testing is that I'm going to be for scrap capturing this particular text from here, like
+one, two, four, eight.
+And then once I do the payment, I need to see what is the value coming through.
+So that is like actual and expected behavior.
+So before and after behavior as well.
+So in order to do that, I'm just going to do a 10 where I'm going to say text probably, which is going
+to have because I'm going to be storing this value.
+I'm just going to let it for the data, something like that.
+And so I'm just going to do it in a very, very normal way so that we can really understand what I'm
+trying to do, because the whole idea is here not to worry about how I'm actually dealing with the details,
+things of that nature.
+I'm going to cut this and I want to capture this before I make the payment.
+And once I make the payment, I need to grab the same thing.
+But just that I want to get that particular data and then I need to compare.
+So here I'm just going to compare with then expect that the text which is coming up is equal to do.
+I want to do a deep equal to the before data.
+That's it.
+So now if I just do that, if I save and run this, you could see that it is going to grab the details
+and you can see that this has got past.
+So the actual versus expected is getting past, which is quite good.
+So now we are going to come up to the actual quest of doing the interception on the post operation.
+So in order to do that, the first thing is I'm just going to go over here and I'm just going to do
+Seida intercept, which is to do that.
+And we're going to do a post operation where I'm just going to say, hey, transaction's so there was
+eight transactions and Fajar call where I'm going to send the request in such a way that I need to,
+uh, change its body to the body, which I'm trying to do or insert in.
+So I'll tell you what I really mean.
+So if I just go over here, let me just enable the network for this guy.
+And if I go to the transactions, you can see that this transaction is trying to post this data.
+Right.
+This is the payload which is trying to do something to copy this payload.
+Probably tell what I'm going to basically do, not pass this.
+I don't think this is going to.
+Grab all the details and paste it here.
+So what is happening is we're trying to insert 100 dollars.
+So this is the this is the request payload, which has been sent on the post operation.
+And it is calling the Brigalow server and it is trying to change this value over here.
+Right.
+So this is the post operations body that is being sent as a payload for the server, which is going
+to perform this operation.
+And what I'm going to do is instead of 100 dollars this time, I'm just going to do it like a 200 dollar.
+Right.
+And once I do that, you will see that.
+So now it is like two thousand one hundred forty eight.
+So now you should see that instead of a reduction, you should start using like two hundred dollars
+every time.
+So I'm just going to say this guy, let's see what's going to happen.
+So from 2001 48, you can see that it reduced to hundred dollars this time.
+And if you go to the transactions this time and if you go to the response, as I preview the response,
+let me make this a bit over here.
+And you can see that we have made I don't know, for some reason, it's always showing you two thousand.
+But actually the transaction that we are doing is for the two thousand two hundred.
+So just remember this.
+We have like nine hundred forty eight or six seven this time.
+And now if I just run this because earlier it was like 100.
+That's what we are trying to insert here.
+Like we are typing like underwater.
+But what we are trying to do is we are trying to intercept the actual post operation in such a way that
+we actually don't perform underwater transaction.
+Rather, we are doing a two hundred dollar transaction here, which is hijacking the actual UAE operation.
+So if it is hundred dollar, it should be eight forty eight, but you will see that it is going to be
+seven 48 as a result if I had to run the second time.
+So if I try to run this guy once again.
+You will see that it is going to be 748 instead of Eight Forty-Eight, which means it is actually not
+reducing.
+It is trying to reduce 200 daughter because that's what we're trying to do it here.
+So if I want to do it like like seven four dead in the hole, I'm just going to put this whole value.
+And I say this and we will see what's going to happen.
+Because I'm injecting seven, four, six, seven completely, you can see that it's all gone this time.
+So which means we are actually trying to do a post operation with an interception on the post for the
+transaction.
+And we're trying to do that.
+But somehow this particular thing is not correct.
+I mean, you should be getting in such a way that you get the text and you should write the logic here
+to tell that, OK, you should always reduce like a hundred dollar instead of like two hundred dollars.
+You should not be reducing beyond hundred dollar if it is beyond hundred dollar direction than probably
+the test should fail.
+And if since we have did an interception of like seven forty six, seven forty eight, then probably
+you should tell that this is wrong logic on the business, something like that, so you can do all those
+things on the court over here.
+But the whole idea is to just explain this concept, not about this particular logic, but you got what
+I really mean.
+So this is how we can actually do the interception on the post transaction.
+And I really love the application because we can do a lot of things like real world testing on this
+real world app.
