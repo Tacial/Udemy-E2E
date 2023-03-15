@@ -1,0 +1,41 @@
+All right, so now that we have installed Cyprus, we pack those over as well as the Cyprus react bundler,
+and the next thing we need to do is actually to make our Cyprus Dages on file to actually tell that
+this is the location that our tests are actually sitting, so that this is the way that we can actually
+tell our component destroyer that you need to find where our tests are actually sitting.
+So basically, if you see within our source file over here, we just modified this particular Abdah
+file earlier to add this dimension, react abnormal, but we didn't really actually did anything on
+the Abdah test file.
+But if you just take a close view of this particular Abdah SRT file, so probably I'm going to change
+this font size a bit, you will see that it actually performs a testing of the particular text, something
+like screen dart, get by text using the land, react over here.
+And then there's also an expect coming in from the just to perform the expected or a assertion operation
+for us.
+But these are the tests which we are not actually going to be using for our testing purposes because
+we will be using Cyprus in our case.
+So in order for Cyprus to know what we're trying to do, we need to modify the Cyprus charges to tell
+that we are going to be using the components test to identify the components sitting as a test files
+on the components for there is nothing but this source folder over here.
+So this is the place where we actually tell that this is where our tests are actually sitting.
+So now that we have told that this is our test file that we are going to be actually looking for over
+here, and once we have this Cyprus charges on file with all the details that we can tell Cyprus to
+test under our Cyprus component, based on that, this is where you need to be looking for the components,
+then we also need to actually add or inject a dev server, which is something we can actually do on
+the Cyprus folder, on the plugins of the index.
+Start a jazz file over here so I could probably get rid of all this code.
+And here I can just write something like a dose over where we can tell require at Cyprus slash react
+slash plugins of react scripts.
+And then over here we're going to do the module dot exports, which is where we can actually do the
+explosion of exportation of all the details, which is going to be used in our Cyprus test project,
+which is exactly the same idea that we already discussed.
+And I'm just going to do this config where we're telling that that the server has to pass the same configurations
+and then return the config.
+So this is the way that you can actually do it for us.
+And this is what you should be doing to tell or enable the components over to start components to start
+using this particular plugin.
+All right.
+So I'm probably going to remove this country.
+I don't know how it is being added here.
+Just kind of stay with this and it's looking pretty good.
+And the next step is actually adding the Cyprus test.
+And I think this is the configuration part of it.
+And those changes will be doing our next lecture.
