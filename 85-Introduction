@@ -1,0 +1,58 @@
+// Section 22: Cypress 9.x - Cypress Origin dor Multi-Domain Automation - oAuth Authentication
+
+In this section, we're going to talk about Multi-domain workflow automation using Cypress and 9.6.
+This is one of the most exciting release of Cyprus because this is one of the most important feature
+which is not available in any automation testing tool.
+And Cyprus has finally managed to have this as a first tool in the market.
+So what is this?
+Multi-domain workflow automation is all about.
+If you have seen many time or applications using an in-house authentication system or an external authentication
+like Google Authentication or GitHub authentication on Microsoft ID, and if you wanted to do those
+authentication using Cyprus before version 9.6, we always have problems.
+And this scenario will probably explain to you what I really mean.
+As you can see that I have a website called a Lambda Test and I wanted to do an authentication using
+GitHub authorization.
+And if I wanted to do it, you will see that GitHub authorization is going to take me to a GitHub dot
+com slash art or something like that page.
+And it is going to have an authorization that you need to authorize and then you enter the username
+and password.
+And then once you do that, it is then going to redirect you back to Lambda Test website.
+This is the multi domain workflow itself.
+In order to achieve that.
+If you are using the older version of Cyprus, you will get an error called us cause error or otherwise
+called as the cross origin resource scripting error.
+And if this happens, which means the automation testing tools think that this is like hijacking your
+website and you can't really use and hijacking operation using the automation testing tool and Cyprus
+will block it.
+And that's exactly going to be true for selenium or any of the testing tool that you would take it.
+But in order to handle this Multi-domain workflow, we can do that in Cyprus right now, using this
+operation, which I am talking about, we could able to do a third party authentication as well.
+That is great.
+And how that happens?
+Well, we have an experimental feature to be enabled within our Cyprus NA JSON file, which is nothing
+but the experimental session and origin.
+If remember in our earlier sections, we talked about this session, which is something available in
+Cyprus and now there is a combination of session and origin with Cyprus.
+So this way we could be able to achieve what we are going to be doing right now using the multi domain
+authentication.
+And the court is going to be super simple.
+All we have to do is we just used a new method called as an origin method.
+So CIDR origin is a method which is going to do things for us.
+So over here we are going to give a new origin, just something about the GitHub origin, which is going
+to hold our authentication operation, which is nothing but entering the username and password and clicking
+that button.
+And that's something we could able to wrap in into this particular callback and then we could able to
+perform the rest of the operation.
+So the whole code of the Lambda Authentication is going to look something like this.
+As you can see, it has the code, but it is going to perform the land at the sort of operation over
+here, the first two lines and the last three lines.
+But this one, the cited origin, is the one which is going to be performing the authentication operation
+inside the GitHub dot com page and you can see that it is wrapped in or he has a callback and here we
+are entering the username and password using their login and password operation and then we're clicking
+the login button and that's it.
+So this is one domain, this is another domain and this is another domain.
+I mean, sorry, these two are same domain, but this is another domain.
+So there are two domains over here.
+That is the multi-domain authentication itself, and that's multi-domain operation is what we are going
+to be doing in this particular section.
+I will see how we will be able to achieve it.
