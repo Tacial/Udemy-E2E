@@ -1,0 +1,116 @@
+So in order to achieve the martyrdom and authentication, I have already created the simpler skeleton
+code or here with Cyprus at the latest version, which is the Cyprus version 9.7.
+So from version 9.6, the feature that we're talking about is available and I'm going to be using the
+latest version with the 9.7 and soon Cyprus ten is going to be releasing.
+So we'll have some exciting features as well pretty soon.
+But yeah, this is the version which I'm currently using and you can see that we have a Cyprus star
+Jason file.
+It's currently empty.
+So over here we are going to be calling our Experimental Session and Origin Astrue.
+So I'm going to be doing that and I'm going to making this as true over here.
+That's it.
+That's about the JSON file turned upside.
+So not to start, I need the code.
+I'm actually going to be populating some of the code that I have already written so that I don't really
+have to keep writing it again.
+So I'm going to say it log in multi domain and verify preferences, something like this.
+And I'm just going to write a callback.
+That's it.
+And over here, I'm going to be calling the clicking of the Google authentication operation over here.
+And once I click the Google Authentication over here, I then have to perform the silent auditing,
+which I'm talking about.
+So I'm just going to show you how the application is going to look like in real time.
+So I'm just going to go to the application, which is nothing but the Lambda test and you will see that
+we have a login button there.
+So I'm going to click this login and you will see that that is going to be an entry of the username
+and password over here.
+Or you can also log in with the GitHub.
+This is the one which we are going to doing will be just clicking this log in with the GitHub and it's
+going to take us to the GitHub authentication.
+And because I already have the GitHub ID, it is trying to log me in there directly.
+So let me go to the private window and then if I just go back and I'll show you the flow, which I'm
+really talking about, someone to click this log in, hit this, log in with the GitHub, you will see
+that it's going to take me to the GitHub authentication and here is where I need to enter the username
+and password.
+It's going to be quite straightforward if you just inspect the element over here in this particular
+page, you can see that they have already asked the login field.
+They have a name as a log in, quite straightforward, very automation friendly.
+So I have also copied those identifier so that I could able to use that to do Cyprus.
+So once we perform those operation, I'm going to be just going to the profile over here and then I'm
+going to verify if I have an email ascot in card at gmail.com, something like that.
+This is what I wanted to verify.
+So let's see this workflow, how we could able to achieve it.
+So as I told you, in order to perform the entry of the authentication in the GitHub authentication,
+we are going to be using this new origin method, this guy.
+So this artisan method is the one which is going to be responsible for us to do the authentication to
+other domains.
+So you'll see that it's text, the URL or the domain and this is like enable you the chained operation
+and you can see that there is going to be a new domain altogether.
+So I'm going to enter the GitHub authentication operation.
+So what I'm going to do is I'm just going to copy the code, paste it here.
+You will see that this the get up dot com where it has the login ID that's going to type the username,
+which is going to be this one and this is the password over here.
+So I'm going to change this username and password once this recording has been done.
+But for now I'm just going to show this is my password, really.
+So yeah.
+So this is about the origin for the GitHub and the ones they have for the GitHub over here.
+I then have to verify if I could able to see the email address itself.
+So it's just the if I could able to copy paste this code as well.
+You see that I'm going to go to the profile by clicking that particular link and then I'm going to let
+that dropdown value, which is going to take me to the profile and then I'm going to verify if it contains
+the court data.
+So I'm going to call this as a verified username instead of the preferences.
+So I'm going to stay with this particular code and let's see if this particular code runs or not.
+So I'm going to just open it up and type in Cyprus open.
+That should open the Cyprus for us.
+And then we run the first test, which is the login with Auth Dargis, which is the one that we just
+wrote over here.
+So as you can see that it is starting to load the test for us and it is running the lambda test for
+us and it should click the login button.
+Also click the login with GitHub where you will see that it is actually going to give us an error saying
+there is a reference error of the get cookie not defined.
+It also tells you that the following from your application code, not from in Cyprus, which is the
+get cookie is not defined.
+And this is happening because it seems like every time we try running the experimental option of the
+sessions, this is the error, which is something that you are going to be end up getting in.
+So in order to avoid this particular problem, all you have to do is you need to add an additional uncovered
+exception handler within the Cyprus indexed Dargis file and that one we are going to do over here.
+So I'm just going to go to the index tags file over here.
+And this is the place where I was talking about.
+So just add this little line which is nothing but the Cyprus dot on an exception error and if you get
+it just return the false and stuff true which is currently happening.
+So if I just save it this time, you will see that the code will start running.
+So this is something which is happening.
+I guess it's because of the extra mental issues that we have in Cyprus and how you can see that it is
+actually working fine.
+So it is entering the username, which is the user user.
+It uses the Kottayam of outlook.com and then it just enters every details and you can see that now it
+has logged in to the Lambda test this time.
+So the Multi-domain has actually happened already and it is going to the profile and then it's going
+to verify if the card in card is over there or not.
+So you can see that the expected output has been successfully completed as well.
+Just cool.
+So that's the way that we could able to do a multi domain authentication without any problem with Cyprus.
+Just great.
+And I can do the exact same thing by adding one more test over here and you will see that you could
+able to run two tests very, very simply.
+So I'm just going to go at it here.
+So this time it is going to go to the preference panel and that is going to verify if it contains that
+email or something like that.
+So these are the two test we have.
+So if I save that, you'll see that it has a verified user name on test and that is also verify the
+preference test.
+So that are basically to test this time and they both are going to do the same login operation, but
+the test itself is actually a bit different.
+They're going to verify just the email address in one place and in another.
+One test is going to go on to the preference and then it's going to verify that email notification text
+already exists.
+Alright, so these are two different test which is actually happening, but you can see that basically
+we could able to achieve this whole operation using multi-domain authentication in Cyprus much, much
+easier.
+In our next video, we will go even a bit further to see how we could able to enhance this test even
+more better way by using the custom command of Cyprus and also speed up this test execution operation
+much, much faster.
+You can see that currently this whole test execution is actually taking around 58.04.
+Second, we are going to improve this test in a way that it is going to reduce the test at least half
+of it.
