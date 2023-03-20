@@ -7,7 +7,6 @@ describe("Test LambdaTest cookies", () => {
     })
 
     it("Test LambdaTest cookies", () => {
-
         cy. fixture("lambdaUser").as("lambdauser");
 
         cy.get("@lambdauser").then((lambdauser) => {
