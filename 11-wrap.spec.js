@@ -27,6 +27,5 @@ describe("Testing of EA App", () => {
         cy.get('.table').find('tr > td').then(($td) => {
             cy.wrap($td).contains("John").invoke("wrap").parent().contains("Benefits").click();
         })
-        
     })
 })
