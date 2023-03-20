@@ -7,7 +7,6 @@ describe("Test LambdaTest Website XHR", () => {
     })
 
     it("Perform Login and verify XHR", () => {
-
         //Start the server
         cy.server();
 
