@@ -2,6 +2,7 @@
 
 describe("Testing of EA App", () => {
 //section 2 - 14
+    
     beforeEach("Call for a particular it block", () => {
         cy.visit("/");
         cy.fixture("eauser").as('user')
