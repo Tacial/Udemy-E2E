@@ -21,7 +21,6 @@ context("Test API from the Fake JSON Server", () => {
 })
 
 /* npm install -g json-server
-
 {
     "posts": [
         { "id": 1, "title": "json-server", "author": "typicode" }
@@ -31,5 +30,4 @@ context("Test API from the Fake JSON Server", () => {
     ],
     "profile": { "name": "typicode" }
 }
-
 json-server --watch db.json  */
