@@ -15,7 +15,6 @@ describe("Testing of EA App", () => {
     it.only("Login application", () => {
         //visiting website
         cy.visit("http://www.executeautomation.com/site");
-
         cy.get("[aria-label='jump to slide 2'",{timeout:60000}).should(($x) => {
             expect($x).to.not.be.null;
         })
